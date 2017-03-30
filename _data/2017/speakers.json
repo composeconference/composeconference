@@ -1,0 +1,152 @@
+{
+  "speakers": [
+    {
+      "name": "Joachim	Breitner",
+      "title": "Lock-step simulation is child’s play",
+        "abstract":
+"Implementing multi-player networked games by broadcasting the player’s input and letting each client calculate the game state -- a scheme known as lock-step simulation – is an established technique. However, ensuring that every client in this scheme obtains a consistent state is infamously hard and in general requires great discipline from the game programmer. The thesis of this pearl is that in the realm of functional programming – in particular with Haskell's purity and static pointers – this hard problem becomes almost trivially easy.
+<br><br>
+We support this thesis by implementing lock-step simulation under very adverse conditions. We extended the educational programming environment CodeWorld, which is used to teach math and programming to middle school students, with the ability to create and run interactive, networked multi-user games. Despite providing a very abstract and high-level interface, and without requiring any discipline from the programmer, we can provide consistent lock-step simulation with client prediction."
+    },
+    {
+      "name": "Michael	Chavinda",
+      "title": "Android programming in Froid",
+        "abstract": "This talk will introduce Froid, a library for writing Android applications in Frege, a pure, lazy, functional language in the spirit of Haskell. The initial part will be an introduction to Frege - similarities to and differences from Haskell, and Java FFI. The second part of the talk will explore the design philosophy of Froid in building an object-functional library. Finally, the last talk will demonstrate how to write Android applications using Froid."
+
+    },
+    {
+      "name": "Barry Burd",
+      "title": "Teaching Haskell",
+      "abstract":
+        "So far, we've failed to impress most imperative programmers with the beauty of functional programming. We write articles and do presentations, but developers resist. Can we do a better job of describing and promoting functional thinking?
+<br><br>
+
+As a professor of Computer Science, I had a special opportunity to study this question. In the spring of 2017, I taught Haskell to a class of 15 undergraduates at Drew University. Most of the students were comfortable with Python and Java, but they had no experience with functional programming (not even with lambdas in Java 8). During this semester-long course, I explored the hurdles students faced, discovered which topics they learned easily and which topics gave them the most trouble. I found ways to reach past their imperative prejudices and get them to think functionally. Some of my conclusions about teaching Haskell were no-brainers, but some others were surprises.
+<br><br>
+
+In this talk, I describe my experiences teaching pure functional programming (and, yes, even monads) to college students. When you hear about my efforts, you'll find new ways to explain functional programming to your peers."
+    },
+    {
+        "name": "Yaron Minsky",
+        "title": "Data Driven UIs, Incrementally",
+        "abstract": "Trading in financial markets is a data-driven affair, and as such, it requires applications that can efficiently filter, transform and present data to users in real time.
+<br><br>
+
+But there's a difficult problem at the heart of building such applications: finding a way of expressing the necessary transformations of the data in a way that is simultaneously easy to understand and efficient to execute over large streams of data.
+<br><br>
+
+This talk will show how we've approached this problem using Incremental, an OCaml library for constructing dynamic computations that update efficiently in response to changing data. We'll show how Incremental can be used throughout the application, from the servers providing the data to be visualized, to the JavaScript code that generates DOM nodes in the browser. We'll also discuss how these applications have driven us to develop ways of using efficiently diffable data structures to bridge the worlds of functional and incremental computing.
+"
+    },
+    {
+        "name": "Stephen	Compall",
+        "title": "Working with Monads in OCaml",
+        "abstract": "As a Haskeller steeped in the adage “ML doesn’t support higher kinds”, learning OCaml, I was surprised to discover that monad-generic programming in OCaml can indeed be done with 100% safety, via modules and functors, and moreover is supported directly by the popular ‘Core’ library.
+<br><br>
+
+In this talk, I will show how to define monad instances and write monad-generic functions using the ‘Monad’ modules, and dig into how this works at all. Attendees should get a more concrete feel for the power of the ML module system, as well as a vision of how their Haskell programs might look in ML.
+"
+    },
+    {
+        "name": "Nikhil	Barthwal",
+        "title": "Implementing an Event-Driven Microservices Architecture in F#: A case study of Jet.com",
+        "abstract": ""
+    },
+    {
+        "name": "David	Rhodes",
+        "title": "Learning F#: Case study with branch and bound",
+        "abstract": "We use the branch and bound algorithm as a realistic, non-trivial example of a functional programming challenge. This talk ports the core algoritmfrom imperative style to functional form in F#. This creates some interesting choices and also opens opportunities for parallel processing. Unit and property-based testing is also included. Much of the material is elaborated at: http://www.opcoast.com/demos/fsharp/index.html
+"
+    },
+    {
+        "name": "Sebastien	Mondet"	,
+        "title": "Typed-Tagless Final Bioinformatics",
+        "abstract": "At Compose 2015, we quickly mentioned an experiment of a high-level well-typed EDSL to describe complex bioinformatics pipelines. It is a component of the [Biokepi](https://github.com/hammerlab/biokepi) library. Its first implementation had grown to be our default API to describe workflows;
+it was based on a long GADT declaration that would get compiled to our workflow
+engine's “lower-level” API. This worked quite well but we hit a
+couple of fundamental issues: i) the compiler code grew to become difficult to
+manage (huge “match” statements, and type errors unwelcoming to beginners), ii)
+more importantly, the EDSL could not be extended by *users* of the library
+(although there were a few “hooks” to achieve some tasks).
+<br><br>
+
+Enter “Typed Tagless Final Interpreters”... In July 2015, Oleg Kiselov introduced the [Quel](https://bitbucket.org/knih/quel) project to the OCaml mailing-list. The idea is to use OCaml's module system, to provide typed EDSLs as module types and write
+compilers as modules matching the signature; “programs” and program
+transformations are then functors taking such an implementation as argument.
+The approach ensures that the EDSL is extensible.
+<br><br>
+
+We reimplemented our EDSL based on this approch, to significant success. The talk will walk through our implementation of Biokepi's EDSL while trying to
+be an introductory tutorial on typed-tagless approaches."
+    },
+    {
+        "name": "Jennifer Paykin, Kenneth Foner, Antal Spector-Zabusky",
+        "title": "`choose` Your Own Derivative",
+        "abstract": "In event-driven programming, an event is a computation that will eventually produce a value. Selective choice is a mechanism that takes in a list of events, runs them all concurrently, and returns the value of the first event to terminate. This primitive appears throughout systems and concurrent programming, ranging from Unix system calls (`select`) to asynchronous programming libraries in Haskell and in OCaml Core. Despite their ubiquity, these primitives are typically restricted to taking a list of events that all produce values of the same type. In this talk, we describe a natural type-directed generalization of selective choice to arbitrary data structures, including those containing events of different types.
+<br><br>
+The crucial observation we make is that selecting one event out of a data structure is reminiscent of *zipping* into that data structure. Conor McBride defines zippers into arbitrary “regular” algebraic data types by means of a type-level operation that acts like the partial derivative from calculus. We extend this notion of derivative to support data types containing events, and show how to use these derivatives to give a type to our generalization of selective choice. We implement these ideas in Haskell using GHC’s support for dependent types and generic programming, and demonstrate the use of generalized selective choice with a variety of examples. "
+    },
+    {
+        "name": "Hongbo	Zhang",
+        "title": "BuckleScript: Making functional programming accessible to JavaScript developers
+",
+        "abstract": "JavaScript is one of the most popular programming languages and it has an extensive ecosystem of support. However, it can become very hard to maintain for large scale applications. There are already [hundreds of JS transpilers] (https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS); however, BuckleScript, the OCaml to readable JS compiler, is different in many aspects, including:
+<br><br>
+1. Unlike GHCJS, Scala.js or JSOO, BuckleScript is focused on integration with the existing JS ecosystem. One OCaml module is transpiled to one ES6 module without name mangling. Calling OCaml from JS is a no-op, which is essential for the internal migration from existing JS apps to OCaml. BuckleScript also reuses NPM as the official package manager.
+<br><br>
+2. Unlike TypeScript or PureScript, it is not a new language, which means the existing OCaml ecosystem can be reused. For example, the BuckleScript compiler itself can either be compiled into native code for bare metal performance or JS in the browser for reach.
+<br><br>
+3. The BuckleScript compiler is well-engineered. In general, it only takes 10~80ms to compile a single file in a cold start, which is faster than any other known transpiler. However, it also produces well-optimized JS code and works well with existing JS module bundlers, like Rollup and webpack.
+<br><br>
+The BuckleScript compiler was open-sourced by Bloomberg in 2016. Given its complexity, it will take time to reach maturity; however, it already has gained some significant adoption in the broader JS community. For example, in a presentation at React Conference 2017, Facebook revealed that OCaml generated using BuckleScript powers 25% of messenger.com. It is also used by Google’s V8 team to cross-compile a WebAssembly interpreter into a JS library."
+
+    },
+    {
+        "name": "Martín	Ceresa, Gustavo Grieco",
+        "title": "QuickFuzz Testing for Fun and Profit",
+        "abstract": "Fuzzing is a technique that involves testing programs using invalid or erroneous inputs. There are two ways of producing invalid inputs: mutational fuzzing involves taking valid inputs and altering them through randomization, producing erroneous or invalid inputs that are fed into the program; generational fuzzing (sometimes also known as grammar-based fuzzing) involves generating invalid inputs from a specification or model of a file format. Unfortunately for generational fuzzing, to write specifications for generational fuzzers is the most expensive part of the process because it requires a deep knowledge of the specific file-format or protocol.
+<br><br>
+In this talk, we present QuickFuzz, an open source tool for automatically generating inputs and fuzzing programs parsing several common types of files. It is the first fuzzer to use QuickCheck, a highly effective technique developed in the functional programming field to perform automatic testing. Additionally we integrated it with fuzzers like Radamsa, Honggfuzz and other bug-finding tools such as Valgrind and Address Sanitizer to focus our tool for vulnerability discovery.
+<br><br>
+Our tool relies on existing Haskell implementations of file-format-handling libraries found on Hackage and was effective in discovering issues in real-world implementations of browsers, image processing utilities and file compressors among others.
+"
+    },
+    {
+        "name": "Hezekiah	Carty and Chris Donaher",
+        "title": "Distrest - REST access to distributed services",
+        "abstract": "Distrest (distributed REST) is a lightweight toolkit for distributed services with a core written in OCaml. Distrest provides a simple proxy and group of service libraries supporting data-agnostic, scalable services with minimal code and configuration boilerplate. It allows developers to focus on their domain by automating the distribution of RESTful calls across suites of potentially replicated services. We use Distrest in our malware processing pipeline to ingest, extract information from and store a growing training software corpus. The services support malware analysis and generate training data for software classification machine learning models. Distrest is useful across several problem domains including basic database CRUD and bulk binary data processing. Due to its general utility, we are open sourcing Distrest.
+<br><br>
+Our talk will cover the requirements that led to Distrest’s development, how Distrest works internally, and a few demonstrations of Distrest’s functionality.
+"
+    },
+    {
+        "name": "Nikita	Volkov",
+        "title": "New Hasql - a simpler, safer and faster Postgres client",
+        "abstract": "This talk will present the upcoming release of Hasql with a renovated and polished API, which makes mapping simpler and provides for more safety by introducing such features as compile-time checking of SQL. Hasql is already known as the fastest driver around, and it keeps getting optimised further. In this talk I will present. In that talk I'll give a detailed introduction to the library, core ideas behind it and a tutorial on how to use it.
+"
+    },
+    {
+        "name": "Edmund	Cape",
+        "title": "Multiplying by 1 - an important form of computation and how it reveals distinctions between kleislis",
+        "abstract": "This talk will explore the meaning of information and how the type signatures provide an effective way to assess where our design and design layers encode and generate new information. How quickly we can identify isomorphisms, the same information in a different shape, is clearly a source for simplifying our code, improved encapsulation and exploiting the benefits of our libraries. How products (components, factors, and), coproducts (examples of, lists, or), exponentials, the identity and constant functors can quickly be shuffled around to reveal isomorphisms, core idioms including when and where we can expect to have access to the constructor (e.g., functor does not have access to constructors a nor b; nor does f have access to that of the functor) and/or are essentially multiplying by 1 (e.g, 3 vs 3 * 1; same information, different shape).
+<br><br>
+Category theory and the isomorphic algebras explain what to expect working through the type system. Exploiting the benefits of clearly delineated computations that generate side-effects requires understanding how, if ever, the values in our multi-layered constructs depend on each other. A review of adjoints and how they relate to monads and functors (and functor's twin brothers applicative) will highlight distinctions between data structuring, computation and the kleisli's that can be manufactured with composition (f :: a -> b and the monad's unit (return)). Not until we identify kleislis that cannot pass through b are we actually relying on the interaction between the layers of our constructs to generate a unique feature that requires and impacts both m b simultaneously. Thinking through this distinction may be particularly useful in how to consider 'functions as values' (e.g., a fixed value as a function that points to the head of a list; or a value that depends on State)."
+    },
+    {
+        "name": "Enzo	Alda, Monica	Figuera, Juan Andrés	Escalante, Richard	Lares Mejías",
+        "title": "Reactive Sheets: an intuitive approach to functional‑reactive computing",
+        "abstract": "As the world experiences an exponential growth in the amount of generated real-time data, it is not surprising that reactive computing services, like AWS Lambda, as well as stream processing frameworks, like Apache Storm and Apache Kafka, are becoming increasingly popular. The IT world has been consistently shifting from a request-response paradigm to one of continuous data processing pipelines. Moreover, data rates, volumes, and latency requirements keep getting more stringent, as vendors compete to deliver a better consumer experience.
+<br><br>
+This talk will first provide some general insights about the theoretical foundations of functional programming, stream processing, and reactive computing. Then, after briefly mentioning some enabling technologies and popular technology stacks, which make possible to build advanced event processing pipelines, the talk will introduce a simple, yet powerful, approach for modeling reactive computations.
+<br><br>
+The presentation will conclude with a live demonstration of a Web-enabled functional reactive system, showcasing the use of higher order functions to perform real-time calculations and screen rendering transformations over high rate data streams. "
+    },
+    {
+        "name": "Stuart	Popejoy",
+        "title": "Smart Contracts and Formal Verification with Z3 with Pact
+",
+        "abstract": "We present Pact, a new open-source language for authoring smart contracts, built in Haskell. Smart contract languages like Ethereum’s Solidity have taken a maximalist approach to functionality, in no small part because the slow execution speed of public blockchains emphasizes “feature-rich” transactions that compose multiple invariants into a single transaction. Resulting logic is complex, brittle, and often incorrect. With Pact, a high-performance blockchain ensures that transactions can closely model business invariants, and “fail fast” on invalid cases or retry scenarios. Logic is constrained to Turing-incomplete (terminating) execution and single-assignment (immutable) variables. We discuss the unique hybrid of strict OLTP workload and limited key-value querying needed for blockchain applications, and how this informs Pact’s database model. We also discuss the influence of Bitcoin scripts on Pact’s design as well as its integration of public-key authorization schemes. We demonstrate various Pact smart contracts running both in a standalone interpreter as well as in the ScalableBFT blockchain. Finally, we give a demo of static analysis and verification using the Z3 theorem prover, and show the new development environment with a sample application.
+"
+    }
+  ]
+}
