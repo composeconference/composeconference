@@ -53,6 +53,23 @@ In this talk, I will show how to define monad instances and write monad-generic 
         "abstract": ""
     },
     {
+        "name": "Tikhon	Jelvis",
+        "title": "The Probability Monad",
+        "abstract": "Probability distributions form a monad, giving us a lightweight, surprisingly simple probabilistic language embedded in Haskell. We can write stochastic models as normal Haskell programs and then interpret them either exhaustively or by random sampling. 
+<br><br>
+I'll give an in-depth explanation of how a simple discrete probability distribution monad works, along with real-world examples from my work on supply chain optimization at Target. This simple probability monad has been a great fit for the stochastic optimization problems we're facing at Target, where different solution methods require random sampling (simulation-based optimization) or the entire distribution (policy iteration, linear programming). As a bonus, this'll give you a brief primer on supply chain optimization. 
+<br><br>
+I'll also talk about the very real performance shortcomings of this approach—which we've mostly managed to dodge at Target. 
+<br><br>
+Finally, I'll introduce some recent research that defines a free-monad based distribution type that can take advantage of cutting-edge research on probabilistic programming. This approach lets us work with continuous distributions and Bayesian conditioning, and lets us deploy modern sampling and probabilistic inference algorithms with performance comparable to dedicated probabilistic programming languages like Anglican. 
+<br><br>
+This talk primarily draws on two papers: 
+<br><br>
+- "Probabilistic Functional Programming in Haskell" by Martin Erwig and Steve Kollmansberger which describes the discrete probability monad 
+- "Practical Probabilistic Programming with Monads" by Adam Scibior, Zoubin Ghahramani and Andrew D. Gordon which describes how to extend the basic monadic approach with modern probabilistic programming techniques 
+"
+    },
+        {
         "name": "David	Rhodes",
         "title": "Learning F#: Case study with branch and bound",
         "abstract": "We use the branch and bound algorithm as a realistic, non-trivial example of a functional programming challenge. This talk ports the core algoritmfrom imperative style to functional form in F#. This creates some interesting choices and also opens opportunities for parallel processing. Unit and property-based testing is also included. Much of the material is elaborated at: http://www.opcoast.com/demos/fsharp/index.html
