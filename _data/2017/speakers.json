@@ -65,8 +65,8 @@ Finally, I'll introduce some recent research that defines a free-monad based dis
 <br><br>
 This talk primarily draws on two papers: 
 <br><br>
-- "Probabilistic Functional Programming in Haskell" by Martin Erwig and Steve Kollmansberger which describes the discrete probability monad 
-- "Practical Probabilistic Programming with Monads" by Adam Scibior, Zoubin Ghahramani and Andrew D. Gordon which describes how to extend the basic monadic approach with modern probabilistic programming techniques 
+- 'Probabilistic Functional Programming in Haskell' by Martin Erwig and Steve Kollmansberger which describes the discrete probability monad 
+- 'Practical Probabilistic Programming with Monads' by Adam Scibior, Zoubin Ghahramani and Andrew D. Gordon which describes how to extend the basic monadic approach with modern probabilistic programming techniques 
 "
     },
         {
