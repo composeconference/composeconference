@@ -4,9 +4,25 @@
       "name": "Joachim	Breitner",
       "title": "Lock-step simulation is child’s play",
         "abstract":
-"Implementing multi-player networked games by broadcasting the player’s input and letting each client calculate the game state -- a scheme known as lock-step simulation – is an established technique. However, ensuring that every client in this scheme obtains a consistent state is infamously hard and in general requires great discipline from the game programmer. The thesis of this pearl is that in the realm of functional programming – in particular with Haskell's purity and static pointers – this hard problem becomes almost trivially easy.
+"When implementing a multi-player network game, programmers often choose
+to implement “lock step simulation with client prediction”, where each
+client independently calculates the global state of the game, and
+integrate the other player’s actions as soon as he learns about them,
+rewinding the state to when the action actually happened. This approach
+to networking is infamously hard to get right and in general requires
+great discipline from the game programmer to avoid the clients getting
+out of sync.
 <br><br>
-We support this thesis by implementing lock-step simulation under very adverse conditions. We extended the educational programming environment CodeWorld, which is used to teach math and programming to middle school students, with the ability to create and run interactive, networked multi-user games. Despite providing a very abstract and high-level interface, and without requiring any discipline from the programmer, we can provide consistent lock-step simulation with client prediction."
+Not so with strongly typed pure functional programming
+<br><br>
+On the programming learning platform CodeWorld, even middle school
+create multi-player games, without having spend a single thought on
+these issues, and no matter what code they write, they end up with a
+working networked game.
+<br><br>
+In this talk I will explain the interface that CodeWorld provides for
+this purpose, and show how it pulls this off under the hood.
+"
     },
     {
       "name": "Michael	Chavinda",
@@ -58,19 +74,19 @@ This talk describes how Jet.com implemented their Event-Driven Microservices usi
     {
         "name": "Tikhon	Jelvis",
         "title": "The Probability Monad",
-        "abstract": "Probability distributions form a monad, giving us a lightweight, surprisingly simple probabilistic language embedded in Haskell. We can write stochastic models as normal Haskell programs and then interpret them either exhaustively or by random sampling. 
+        "abstract": "Probability distributions form a monad, giving us a lightweight, surprisingly simple probabilistic language embedded in Haskell. We can write stochastic models as normal Haskell programs and then interpret them either exhaustively or by random sampling.
 <br><br>
-I'll give an in-depth explanation of how a simple discrete probability distribution monad works, along with real-world examples from my work on supply chain optimization at Target. This simple probability monad has been a great fit for the stochastic optimization problems we're facing at Target, where different solution methods require random sampling (simulation-based optimization) or the entire distribution (policy iteration, linear programming). As a bonus, this'll give you a brief primer on supply chain optimization. 
+I'll give an in-depth explanation of how a simple discrete probability distribution monad works, along with real-world examples from my work on supply chain optimization at Target. This simple probability monad has been a great fit for the stochastic optimization problems we're facing at Target, where different solution methods require random sampling (simulation-based optimization) or the entire distribution (policy iteration, linear programming). As a bonus, this'll give you a brief primer on supply chain optimization.
 <br><br>
-I'll also talk about the very real performance shortcomings of this approach—which we've mostly managed to dodge at Target. 
+I'll also talk about the very real performance shortcomings of this approach—which we've mostly managed to dodge at Target.
 <br><br>
-Finally, I'll introduce some recent research that defines a free-monad based distribution type that can take advantage of cutting-edge research on probabilistic programming. This approach lets us work with continuous distributions and Bayesian conditioning, and lets us deploy modern sampling and probabilistic inference algorithms with performance comparable to dedicated probabilistic programming languages like Anglican. 
+Finally, I'll introduce some recent research that defines a free-monad based distribution type that can take advantage of cutting-edge research on probabilistic programming. This approach lets us work with continuous distributions and Bayesian conditioning, and lets us deploy modern sampling and probabilistic inference algorithms with performance comparable to dedicated probabilistic programming languages like Anglican.
 <br><br>
-This talk primarily draws on two papers: 
+This talk primarily draws on two papers:
 <br><br>
-- 'Probabilistic Functional Programming in Haskell' by Martin Erwig and Steve Kollmansberger which describes the discrete probability monad 
+- 'Probabilistic Functional Programming in Haskell' by Martin Erwig and Steve Kollmansberger which describes the discrete probability monad
 <br>
-- 'Practical Probabilistic Programming with Monads' by Adam Scibior, Zoubin Ghahramani and Andrew D. Gordon which describes how to extend the basic monadic approach with modern probabilistic programming techniques 
+- 'Practical Probabilistic Programming with Monads' by Adam Scibior, Zoubin Ghahramani and Andrew D. Gordon which describes how to extend the basic monadic approach with modern probabilistic programming techniques
 "
     },
         {
