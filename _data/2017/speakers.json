@@ -50,7 +50,10 @@ In this talk, I will show how to define monad instances and write monad-generic 
     {
         "name": "Nikhil	Barthwal",
         "title": "Implementing an Event-Driven Microservices Architecture in F#: A case study of Jet.com",
-        "abstract": ""
+        "abstract": "Web services are typically stateless entities, that need to operate at scale at large. Functional paradigm can be used to model these web services work and offer several benefits like scalability, productivity, and correctness.
+<br><br>
+This talk describes how Jet.com implemented their Event-Driven Microservices using F#. It covers topics like their Microservices, Event-Sourcing, Kafka, Build & Deployment pipeline. The objective of the talk is show how to create a scalable & highly distributed web service in F#, and demonstrate how various characteristics of functional paradigm capture the behavior of such services architecture very naturally.
+"
     },
     {
         "name": "David	Rhodes",
