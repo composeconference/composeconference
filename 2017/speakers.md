@@ -13,7 +13,7 @@ Register for C◦mp◦se :: Conference 2017 tickets at [composeconference.eventb
   <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
     <h2>Dr. Emily Riehl</h2>
-    <h3><small>[KEYNOTE]</small>A categorical view of computational effects</h3>
+    <h3><small>[KEYNOTE]</small> A categorical view of computational effects</h3>
     <p>
     Monads have famously been used to model computational effects, although, curiously, the computer science literature presents them in a form that is scarcely recognizable to a category theorist — I’d say instead that a monad is just a monoid in the category of endofunctors, what’s the problem? ;) To a categorical eye, computational effects are modeled using the Kleisli category of a monad, a perspective which suggests another categorical tool that might be used to reason about computation. The Kleisli category is closely related to another device for categorical universal algebra called a Lawvere theory, which may be a more natural framework to model computation (an idea suggested by Gibbons, Hinze, Hyland, Plotkin, Power and certainly others). This talk will survey monads, Lawvere theories, and the relationships between them and illustrate the advantages and disadvantages of each framework through a variety of examples: lists, exceptions, side effects, input-output, probabilistic non-determinism, and continuations.
     </p>
