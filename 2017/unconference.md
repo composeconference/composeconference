@@ -37,3 +37,4 @@ The `#composeconference` channel is available on IRC for discussion. Wifi will b
 
 ---
 
+## Location
