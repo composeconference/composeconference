@@ -16,22 +16,18 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
   </div>
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
-          <div class="panel-heading"></div>
+          <div class="panel-heading">Jet</div>
           <div class="panel-body centered">
-          </div>
-      </div>
-      <p></p>
-  </div>
-  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-      <div class="panel panel-default">
-          <div class="panel-heading"></div>
-          <div class="panel-body centered">
+              <a href="https://www.jet.com/">
+              <img src="/assets/img/logos/jet.png" class="img-responsive" alt="Jet">
+                  <br>
+              </a>
           </div>
       </div>
       <p></p>
   </div>
 </div>
-
+<!--
 <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
   <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -65,7 +61,7 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
       <p></p>
   </div>
 </div>
-
+-->
 <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
 
 <div class="row">
@@ -75,16 +71,24 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
           <div class="panel-heading">Bank of America (Conference Venue)</div>
+<!--
           <div class="panel-body centered">
           </div>
+-->
       </div>
       <p></p>
   </div>
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
-          <div class="panel-heading">(Unconference Venue)</div>
+          <div class="panel-heading">Jet (Unconference Venue)</div>
+<!--
           <div class="panel-body centered">
+              <a href="https://www.jet.com/">
+              <img src="/assets/img/logos/jet.png" class="img-responsive" alt="Jet">
+                  <br>
+              </a>
           </div>
+-->
       </div>
       <p></p>
   </div>
@@ -98,8 +102,12 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
   </div>
   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
-          <div class="panel-heading"></div>
+          <div class="panel-heading">Awake Networks</div>
           <div class="panel-body centered">
+              <a href="http://www.awakenetworks.com/">
+              <img src="/assets/img/logos/awake-logo.svg" class="img-responsive" alt="Awake Networks">
+                  <br>
+              </a>
           </div>
       </div>
       <p></p>
