@@ -127,8 +127,8 @@ The approach ensures that the EDSL is extensible.
 <br><br>
 
 We reimplemented our EDSL based on this approch, to significant success. The talk will walk through our implementation of Biokepi's EDSL while trying to be an introductory tutorial on typed-tagless approaches.",
-      "start_time": "2017-05-19 16:15:00",
-      "end_time": "2017-05-19 16:45:00"
+      "start_time": "2017-05-18 13:00:00",
+      "end_time": "2017-05-18 13:45:00"
     },
     {
         "name": "Jennifer Paykin, Kenneth Foner, Antal Spector-Zabusky",
@@ -136,8 +136,8 @@ We reimplemented our EDSL based on this approch, to significant success. The tal
         "abstract": "In event-driven programming, an event is a computation that will eventually produce a value. Selective choice is a mechanism that takes in a list of events, runs them all concurrently, and returns the value of the first event to terminate. This primitive appears throughout systems and concurrent programming, ranging from Unix system calls (`select`) to asynchronous programming libraries in Haskell and in OCaml Core. Despite their ubiquity, these primitives are typically restricted to taking a list of events that all produce values of the same type. In this talk, we describe a natural type-directed generalization of selective choice to arbitrary data structures, including those containing events of different types.
 <br><br>
 The crucial observation we make is that selecting one event out of a data structure is reminiscent of *zipping* into that data structure. Conor McBride defines zippers into arbitrary “regular” algebraic data types by means of a type-level operation that acts like the partial derivative from calculus. We extend this notion of derivative to support data types containing events, and show how to use these derivatives to give a type to our generalization of selective choice. We implement these ideas in Haskell using GHC’s support for dependent types and generic programming, and demonstrate the use of generalized selective choice with a variety of examples. ",
-      "start_time": "2017-05-18 10:45:00",
-      "end_time": "2017-05-18 11:30:00"
+      "start_time": "2017-05-18 10:30:00",
+      "end_time": "2017-05-18 11:15:00"
     },
     {
         "name": "Hongbo	Zhang",
@@ -191,7 +191,7 @@ Our talk will cover the requirements that led to Distrest’s development, how D
 <br><br>
 Category theory and the isomorphic algebras explain what to expect working through the type system. Exploiting the benefits of clearly delineated computations that generate side-effects requires understanding how, if ever, the values in our multi-layered constructs depend on each other. A review of adjoints and how they relate to monads and functors (and functor's twin brothers applicative) will highlight distinctions between data structuring, computation and the kleisli's that can be manufactured with composition (f :: a -> b and the monad's unit (return)). Not until we identify kleislis that cannot pass through b are we actually relying on the interaction between the layers of our constructs to generate a unique feature that requires and impacts both m b simultaneously. Thinking through this distinction may be particularly useful in how to consider 'functions as values' (e.g., a fixed value as a function that points to the head of a list; or a value that depends on State).",
       "start_time": "2017-05-19 14:00:00",
-      "end_time": "2017-05-19 16:45:00"
+      "end_time": "2017-05-19 14:45:00"
     },
     {
         "name": "Enzo	Alda, Monica	Figuera, Juan Andrés	Escalante, Richard	Lares Mejías",
@@ -201,8 +201,8 @@ Category theory and the isomorphic algebras explain what to expect working throu
 This talk will first provide some general insights about the theoretical foundations of functional programming, stream processing, and reactive computing. Then, after briefly mentioning some enabling technologies and popular technology stacks, which make possible to build advanced event processing pipelines, the talk will introduce a simple, yet powerful, approach for modeling reactive computations.
 <br><br>
 The presentation will conclude with a live demonstration of a Web-enabled functional reactive system, showcasing the use of higher order functions to perform real-time calculations and screen rendering transformations over high rate data streams. ",
-      "start_time": "2017-05-18 11:30:00",
-      "end_time": "2017-05-18 12:00:00"
+      "start_time": "2017-05-18 11:15:00",
+      "end_time": "2017-05-18 11:45:00"
     },
     {
         "name": "Stuart	Popejoy",
@@ -210,8 +210,8 @@ The presentation will conclude with a live demonstration of a Web-enabled functi
 ",
         "abstract": "We present Pact, a new open-source language for authoring smart contracts, built in Haskell. Smart contract languages like Ethereum’s Solidity have taken a maximalist approach to functionality, in no small part because the slow execution speed of public blockchains emphasizes “feature-rich” transactions that compose multiple invariants into a single transaction. Resulting logic is complex, brittle, and often incorrect. With Pact, a high-performance blockchain ensures that transactions can closely model business invariants, and “fail fast” on invalid cases or retry scenarios. Logic is constrained to Turing-incomplete (terminating) execution and single-assignment (immutable) variables. We discuss the unique hybrid of strict OLTP workload and limited key-value querying needed for blockchain applications, and how this informs Pact’s database model. We also discuss the influence of Bitcoin scripts on Pact’s design as well as its integration of public-key authorization schemes. We demonstrate various Pact smart contracts running both in a standalone interpreter as well as in the ScalableBFT blockchain. Finally, we give a demo of static analysis and verification using the Z3 theorem prover, and show the new development environment with a sample application.
 ",
-      "start_time": "2017-05-18 14:00:00",
-      "end_time": "2017-05-18 14:30:00"
+      "start_time": "2017-05-18 14:30:00",
+      "end_time": "2017-05-18 15:00:00"
     }
   ]
 }

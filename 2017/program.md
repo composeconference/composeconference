@@ -15,7 +15,7 @@ Register for C◦mp◦se :: Conference 2017 tickets at [composeconference.eventb
     <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
     <tr>
     <tr><td>8:30am - 9:00am</td><td>Registration</td></tr>
-    <td>9:00am - 9:45am</td>
+    <td>9:00am - 10:15am</td>
     <td>
         <p class="lead">
           <b>KEYNOTE: A categorical view of computational effects</b> <br/>
@@ -54,9 +54,10 @@ Monads have famously been used to model computational effects, although, curious
 <!-- Friday's schedule -->
 ## Thursday, May 19, 2017
 
+{% assign sorted = (site.data.2017.speakers.speakers | sort: 'start_time') %}
+
 <table class="table table-bordered" style="background: #fff">
     <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
-
 
 {% for speaker in sorted %}
   {% if speaker.start_time >= '2017-05-18 18:00:00 -0500' %}
