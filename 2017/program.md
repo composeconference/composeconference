@@ -8,11 +8,15 @@ Register for C◦mp◦se :: Conference 2017 tickets at [composeconference.eventb
 
 ---
 
-## Accepted Talks
+<!-- Thursday's schedule -->
+## Thursday, May 18, 2017
 
 <table class="table table-bordered" style="background: #fff">
-    <tr class="active"><th>Talk</th></tr>
-    <tr><td>
+    <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
+    <tr>
+    <tr><td>8:30am - 9:00am</td><td>Registration</td></tr>
+    <td>9:00am - 9:45am</td>
+    <td>
         <p class="lead">
           <b>KEYNOTE: A categorical view of computational effects</b> <br/>
             <small>
@@ -24,11 +28,39 @@ Monads have famously been used to model computational effects, although, curious
 </blockquote>
 </td></tr>
 
-{% assign sorted = (site.data.2017.speakers.speakers | sort: 'name') %}
+{% assign sorted = (site.data.2017.speakers.speakers | sort: 'start_time') %}
 
 {% for speaker in sorted %}
-
+  {% if speaker.start_time <= '2017-05-18 18:00:00 -0500' %}
     <tr id="{{speaker.name}}">
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
+      <td>
+        <p class="lead">
+          <b>{{ speaker.title }}</b> <br/>
+            <small>
+                {{ speaker.name }}
+            </small>
+        </p>
+        <blockquote class="abstract">
+            {{ speaker.abstract | markdownify }}
+        </blockquote>
+      </td>
+    </tr>
+{% endfor %}
+</table>
+
+
+<!-- Friday's schedule -->
+## Thursday, May 19, 2017
+
+<table class="table table-bordered" style="background: #fff">
+    <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
+
+
+{% for speaker in sorted %}
+  {% if speaker.start_time >= '2017-05-18 18:00:00 -0500' %}
+    <tr id="{{speaker.name}}">
+      <td>{{ speaker.start_time | date: '%I:%M%P' }} - {{ speaker.end_time | date: '%I:%M%P' }}</td>
       <td>
         <p class="lead">
           <b>{{ speaker.title }}</b> <br/>
