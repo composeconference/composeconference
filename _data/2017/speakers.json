@@ -45,8 +45,8 @@ As a professor of Computer Science, I had a special opportunity to study this qu
 <br><br>
 
 In this talk, I describe my experiences teaching pure functional programming (and, yes, even monads) to college students. When you hear about my efforts, you'll find new ways to explain functional programming to your peers.",
-      "start_time": "2017-05-19 9:00:00",
-      "end_time": "2017-05-19 9:30:00"
+      "start_time": "2017-05-19 09:00:00",
+      "end_time": "2017-05-19 09:30:00"
 
     },
     {
@@ -173,7 +173,7 @@ Our tool relies on existing Haskell implementations of file-format-handling libr
 <br><br>
 Our talk will cover the requirements that led to Distrest’s development, how Distrest works internally, and a few demonstrations of Distrest’s functionality.
 ",
-      "start_time": "2017-05-19 9:30:00",
+      "start_time": "2017-05-19 09:30:00",
       "end_time": "2017-05-19 10:15:00"
     },
     {
