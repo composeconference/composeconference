@@ -46,6 +46,7 @@ Monads have famously been used to model computational effects, although, curious
         </blockquote>
       </td>
     </tr>
+  {% endif %}
 {% endfor %}
 </table>
 
@@ -73,6 +74,7 @@ Monads have famously been used to model computational effects, although, curious
         </blockquote>
       </td>
     </tr>
+ {% endif %}
 {% endfor %}
 </table>
 
