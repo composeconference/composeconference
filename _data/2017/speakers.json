@@ -23,8 +23,8 @@ working networked game.
 In this talk I will explain the interface that CodeWorld provides for
 this purpose, and show how it pulls this off under the hood.
 ",
-      "start_time": "2017-05-19 15:00:00",
-      "end_time": "2017-05-19 15:30:00"
+      "start_time": "2017-05-18 14:30:00",
+      "end_time": "2017-05-18 15:00:00"
     },
     {
       "name": "Michael	Chavinda",
@@ -210,8 +210,8 @@ The presentation will conclude with a live demonstration of a Web-enabled functi
 ",
         "abstract": "We present Pact, a new open-source language for authoring smart contracts, built in Haskell. Smart contract languages like Ethereum’s Solidity have taken a maximalist approach to functionality, in no small part because the slow execution speed of public blockchains emphasizes “feature-rich” transactions that compose multiple invariants into a single transaction. Resulting logic is complex, brittle, and often incorrect. With Pact, a high-performance blockchain ensures that transactions can closely model business invariants, and “fail fast” on invalid cases or retry scenarios. Logic is constrained to Turing-incomplete (terminating) execution and single-assignment (immutable) variables. We discuss the unique hybrid of strict OLTP workload and limited key-value querying needed for blockchain applications, and how this informs Pact’s database model. We also discuss the influence of Bitcoin scripts on Pact’s design as well as its integration of public-key authorization schemes. We demonstrate various Pact smart contracts running both in a standalone interpreter as well as in the ScalableBFT blockchain. Finally, we give a demo of static analysis and verification using the Z3 theorem prover, and show the new development environment with a sample application.
 ",
-      "start_time": "2017-05-18 14:30:00",
-      "end_time": "2017-05-18 15:00:00"
+      "start_time": "2017-05-19 15:00:00",
+      "end_time": "2017-05-19 15:30:00"
     }
   ]
 }

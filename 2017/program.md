@@ -52,7 +52,7 @@ Monads have famously been used to model computational effects, although, curious
 
 
 <!-- Friday's schedule -->
-## Thursday, May 19, 2017
+## Friday, May 19, 2017
 
 {% assign sorted = (site.data.2017.speakers.speakers | sort: 'start_time') %}
 
