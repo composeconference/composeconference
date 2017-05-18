@@ -65,6 +65,18 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
       </div>
       <p></p>
   </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div class="panel panel-default">
+          <div class="panel-heading">Jane Street</div>
+          <div class="panel-body centered">
+              <a href="https://www.janestreet.com/">
+              <img src="/assets/img/logos/jane_st.jpeg" class="img-responsive" alt="Jane Street">
+                  <br>
+              </a>
+          </div>
+      </div>
+      <p></p>
+  </div>
 </div>
 
 <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
