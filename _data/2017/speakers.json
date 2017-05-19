@@ -179,7 +179,7 @@ Our talk will cover the requirements that led to Distrest’s development, how D
     {
         "name": "Nikita	Volkov",
         "title": "New Hasql - a simpler, safer and faster Postgres client",
-        "abstract": "This talk will present the upcoming release of Hasql with a renovated and polished API, which makes mapping simpler and provides for more safety by introducing such features as compile-time checking of SQL. Hasql is already known as the fastest driver around, and it keeps getting optimised further. In this talk I will present. In that talk I'll give a detailed introduction to the library, core ideas behind it and a tutorial on how to use it.
+        "abstract": "This talk will present the upcoming release of Hasql with a renovated and polished API, which makes mapping simpler and provides for more safety by introducing such features as compile-time checking of SQL. Hasql is already known as the fastest driver around, and it keeps getting optimised further. In this talk I will present a detailed introduction to the library, core ideas behind it and a tutorial on how to use it.
 ",
       "start_time": "2017-05-19 15:30:00",
       "end_time": "2017-05-10 16:15:00"
