@@ -28,6 +28,7 @@ TODO:
       <div class="col-lg-10 col-md-10 col-sm-10">
 
         <h1>Call for Presentations 2017</h1>
+        <h2>Now EXTENDED to Monday 10th July</h2>
         <br />
 
         <p>
@@ -81,7 +82,7 @@ TODO:
         <ul>
           <li>CFP Launch Party - 15th May</li>
           <li>CFP Opens - 15th May</li>
-          <li>CFP Closes - June 30th</li>
+          <li>CFP Closes - EXTENDED - 10th July</li>
           <li>Notify Presenters - July 15th</li>
           <li>Conference Day 1: Presentations - Monday, 28-Aug-2017</li>
           <li>Conference Day 2: Unconference - Tuesday, 29-Aug-2017</li>
