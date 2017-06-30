@@ -1,5 +1,5 @@
 ---
-layout: 2016-melbourne/melbourne
+layout: 2017-melbourne/melbourne
 title: Call for Proposals
 ---
 
