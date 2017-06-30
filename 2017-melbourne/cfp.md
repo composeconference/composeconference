@@ -1,5 +1,5 @@
 ---
-layout: 2016-melbourne/melbourne
+layout: 2017-melbourne/melbourne
 title: Call for Proposals
 ---
 
@@ -20,7 +20,7 @@ TODO:
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
 
-      {% include languages-2016-melbourne.html %}
+      {% include 2017-melbourne/languages.html %}
 
     </div>
 
@@ -32,7 +32,7 @@ TODO:
         <br />
 
         <p>
-          <a href="http://www.composeconference.org/2017-melbourne">Compose::Conference Melbourne</a>
+          <a href="/">Compose::Conference Melbourne</a>
           is pleased to announce its 2017 call-for-presentations.
         </p>
 
@@ -42,8 +42,7 @@ TODO:
           audience. It is a 2-day event being held in Melbourne, Australia on the
           28th and 29th of August 2017. The first day features a single track of
           presentations followed by a second day of workshops and an unconference.
-          It is the new sister-conference of the NY based
-          <a href="http://www.composeconference.org/">Compose Conference</a>.
+          It is the new sister-conference of the NY based Compose Conference.
         </p>
 
         <p>
