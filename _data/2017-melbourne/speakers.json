@@ -1,0 +1,17 @@
+{ "times": [
+
+	{ "name": "Andrew Sorensen", 
+    "id": "t-0930", 
+    "title": "Keynote",
+		"img": "/assets/img/2017-melbourne/andrew_sorensen.jpg",
+		"bio": "
+      <p> 
+      Andrew Sorensen is an artist, a programmer, and a computer scientist. His interests are diverse, but unify under a common theme 
+      - the programming language as an interface for real-time dialogue between human, machine, and environment. In exploring these 
+      ideas Andrew is as likely to be found hacking code in nightclubs as steering scientific codes on distributed high performance 
+      computing clusters.  Andrew is well known for creating the programming languages that he uses in live performance to generate 
+      audiovisual theatre. He is the author of the Extempore programming language - a systems programming language designed for 
+      high-performance 'live' programming.</p>
+			"
+	}
+]}
