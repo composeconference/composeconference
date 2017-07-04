@@ -1,6 +1,6 @@
 ---
 layout: 2017-melbourne/melbourne
-title: "Frequently Asked Questions"
+title: "Day One Program"
 ---
 
 <style type="text/css">
@@ -19,17 +19,13 @@ title: "Frequently Asked Questions"
 
 <br />
 
+<!--
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
         <h1 class="text-center">Day One - Speakers and Presentations</h1>
-
         <br />
 
-
-        On Day 1, talks will be held all day in the main auditorium - speaker details coming soon!
-
-<!--
         <table class="agenda">
           {% for t in site.data.2017-melbourne.speakers.times %}
             {% unless t.hide %}
@@ -45,15 +41,13 @@ title: "Frequently Asked Questions"
             {% endunless %}
           {% endfor %}
         </table>
--->
 
         <br />
 
     </div>
   </div>
 </div>
-
-<!-- 
+-->
 
 {% for t in site.data.2017-melbourne.speakers.times %}
 {% unless t.hide %}
@@ -90,4 +84,3 @@ title: "Frequently Asked Questions"
 {% endunless %}
 {% endfor %}
 
--->

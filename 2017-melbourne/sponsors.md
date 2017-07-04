@@ -1,6 +1,6 @@
 ---
 layout: 2017-melbourne/melbourne
-title: "C◦mp◦se :: Melbourne - 2017 Sponsors"
+title: "C&#9702;mp&#9702;se :: Melbourne - 2017 Sponsors"
 ---
 
 <!--
@@ -28,9 +28,9 @@ TODO:
   <div class="row">
     <div class="col-sm-offset-2 col-sm-8">
       <p>
-        C◦mp◦se :: Melbourne sponsorship directly benefits the functional programming community as
+        C&#9702;mp&#9702;se :: Melbourne sponsorship directly benefits the functional programming community as
         proceeds go towards operating costs that includes speaker travel expenses,
-        diversity efforts, and provisioning sustenance at the event. As a sponsor, your
+        diversity efforts, and providing refreshments at the event. As a sponsor, your
         company will be positioned for high-visibility in the Melbourne community.
       </p>
       <p>
@@ -39,6 +39,7 @@ TODO:
         for information. If you would like additional information on sponsorship,
         please contact us at: <a href="mailto:composemel-admin@googlegroups.com">composemel-admin@googlegroups.com</a>.
       </p>
+      <h3> More details coming soon... </h3>
     </div>
   </div>
   <div class="row">
