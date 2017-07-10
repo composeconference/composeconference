@@ -27,14 +27,9 @@ TODO:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
 
-        <h1>Call for Presentations 2017</h1>
-        <h2>Now EXTENDED to Monday 10th July</h2>
+        <h1>Call for Presentations 2017 (closed) </h1>
+        <h3>Note: The Melbourne 2017 CFP is now closed!</h3>
         <br />
-
-        <p>
-          <a href="/">Compose::Conference Melbourne</a>
-          is pleased to announce its 2017 call-for-presentations.
-        </p>
 
         <p>
           Compose Melbourne is a new functional programming conference focused on
@@ -45,9 +40,6 @@ TODO:
           It is the new sister-conference of the NY based Compose Conference.
         </p>
 
-        <p>
-          Submit your <a href="https://easychair.org/conferences/?conf=cmc20170">presentation proposal here</a>.
-        </p>
       </div>
     </div>
   </div>
