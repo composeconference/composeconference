@@ -19,7 +19,6 @@ title: "Day One Program"
 
 <br />
 
-<!--
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
@@ -47,7 +46,6 @@ title: "Day One Program"
     </div>
   </div>
 </div>
--->
 
 {% for t in site.data.2017-melbourne.speakers.times %}
 {% unless t.hide %}
