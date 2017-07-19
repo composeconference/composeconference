@@ -1,17 +1,291 @@
 { "times": [
+  { "time": "8:30am" , "name": "<hr />" , "id": "t-8300", "title": "Registration", "break": true},
 
-	{ "name": "Andrew Sorensen", 
-    "id": "t-0930", 
-    "title": "Keynote",
-		"img": "/assets/img/2017-melbourne/andrew_sorensen.jpg",
-		"bio": "
-      <p> 
-      Andrew Sorensen is an artist, a programmer, and a computer scientist. His interests are diverse, but unify under a common theme 
-      - the programming language as an interface for real-time dialogue between human, machine, and environment. In exploring these 
-      ideas Andrew is as likely to be found hacking code in nightclubs as steering scientific codes on distributed high performance 
-      computing clusters.  Andrew is well known for creating the programming languages that he uses in live performance to generate 
-      audiovisual theatre. He is the author of the Extempore programming language - a systems programming language designed for 
-      high-performance 'live' programming.</p>
-			"
-	}
+  { "time": "9:00am" ,
+    "name": "Lyndon Maydwell" ,
+    "id": "t-0900",
+    "title": "Introduction by the Committee",
+    "details": "Welcome to Compose :: Melbourne!",
+    "committee": true},
+
+  { "time": "9:30am" ,
+    "name": "Andrew Sorensen" ,
+    "id": "t-0930",
+    "title": "Keynote - Sound Synthesis in the Computational Crucible",
+    "level": "beginner",
+    "img": "/assets/img/2017-melbourne/andrew_sorensen.jpg",
+    "details": "
+    <p>A crucible allows base metals to be mixed together at high temperatures to form alloys.
+    Medieval alchemists used crucibles to mix an astonishing variety of substances together
+    in the search for new materials. While Alchemy is often derided for its informal approach,
+    early Alchemists paved the wave for modern chemistry, and included Newton and
+    Boyle among their number.</p>
+    <p>Just as the crucible encouraged an experimental and experiential approach to
+    understanding the world, so too the computer can provide a computational crucible.
+    Code can be mixed and brought to great temperature in the search for greater
+    understanding and new discovery.</p>
+    <p>Using his own Extempore programming language Andrew will provide a 'live' introduction
+    to sound synthesis, building up the core components of a real-time digital synthesizer
+    on-the-fly 'in the computational crucible'.</p>
+    ",
+    "bio": "
+    <p>
+    Andrew Sorensen is an artist, a programmer, and a computer scientist. His interests are diverse, but unify under a common theme
+    - the programming language as an interface for real-time dialogue between human, machine, and environment. In exploring these
+    ideas Andrew is as likely to be found hacking code in nightclubs as steering scientific codes on distributed high performance
+    computing clusters.  Andrew is well known for creating the programming languages that he uses in live performance to generate
+    audiovisual theatre. He is the author of the Extempore programming language - a systems programming language designed for
+    high-performance 'live' programming.</p>
+    "
+  },
+  {"time": "10:15am",
+    "title": "Break",
+    "name": "<hr />",
+    "break": true},
+  {"time": "10:30",
+    "name": "Andrew McCluskey",
+    "id": "t-1030",
+    "title": "Your first Haskell app",
+    "level": "beginner",
+    "details": ""},
+  {"time": "11am",
+    "name": "Rahul Trikha",
+    "id": "t-1100",
+    "title": "From JavaScript to PureScript",
+    "level": "beginner",
+    "details": ""},
+  {"time": "11:30am",
+    "name": "TBA",
+    "title": "TBA",
+    "id": "t-1130",
+    "details": ""},
+  {"time": "12pm",
+    "title": "Lunch",
+    "id": "t-1200",
+    "name": "<hr />",
+    "break": true},
+  {"time": "1pm",
+    "name": "Justin Bedo",
+    "id": "t-1300",
+    "title": "BioShake: a Haskell EDSL for bioinformatics pipelines",
+    "level": "intermediate",
+    "details": ""},
+  {"time": "1:30pm",
+    "name": "Tony Morris",
+    "id": "t-1330",
+    "img": "/assets/img/2017-melbourne/tony_morris.jpg",
+    "title": "FP in Aviation",
+    "level": "intermediate",
+    "bio": "
+    <p>Tony Morris is a software engineer for the <a href='http://qfpl.io'>Queensland Functional Programming Lab</a>,
+    under Data61/CSIRO, located in Brisbane, Australia. Tony has been deploying functional
+    programming solutions for over 10 years, using the Haskell and Scala programming
+    languages primarily. Tony teaches functional programming at the tertiary level and
+    for professional programmers with a view toward producing a viable commercial result.</p>
+
+    <p>Tony takes a fastidious, principled approach to functional programming both when
+    deployed in practice and when in a learning environment to ensure maximum yield
+    from the effort. Tony believes that exploring principles and the following
+    consequences provides a rewarding experience for all involved.</p>
+    ",
+    "details": "
+    <p>In this talk & demo, we have a look at some of the low-hanging problems in general
+    aviation and how functional programming can be applied to provide significant
+    improvements in efficiency and air safety. The current solutions to problems
+    such as navigation, traffic/terrain collision avoidance and weight/balance
+    calculations will be demonstrated to the audience, mostly for amusement. More
+    seriously, we will have a look at the legacy that has led to the way things are,
+    and how to improve by applying our programming skills.</p>
+
+    <p>We will look at:
+    <ul>
+    <li>how aviation safety is regulated.</li>
+    <li>how aeronautical services are provided to flight operators.</li>
+    <li>how aeronautical navigation is conducted and regulated.</li>
+    <li>how the weight and balance for a flight is conducted.</li>
+    <li>the methods by which aircraft and ground coordinate between each other.</li>
+    </ul></p>
+
+   <p>We will see:
+    <ul>
+    <li>some real (and basic) data management problems in aviation, that very
+    obviously threaten safety, then solve them, using programming.</li>
+    <li>we will see a live demonstration of aeronautical navigation methods,
+    investigate incident reports where lives were lost as a result, and consider
+    how our programming skills can yield improvements, possibly even save lives.</li>
+    <li>we will conduct a real weight&balance calculation for a flight, then once
+    hilarity inevitably ensues, we will look at the problems that arise by this
+    method, then solve them using data structures and functional programming. Some
+    of these practical problems are obvious, even to a non-aviator, and the
+    predictable incident reports are the end result.</li>
+    <li>finally, we will have a look at a live demonstration of a software defined
+    radio (SDR), receiving ADS-B transmissions from aircraft (live), an AHRS
+    implementation and GNSS receiver using off-the-shelf, low-cost parts. We will
+    look at why these instruments are helpful to aircraft pilots and interact with
+    that device using the Haskell programming language.</li>
+    </ul>
+    </p>
+    "
+  },
+  {"time": "2pm",
+    "name": "Ronen Narkis",
+    "id": "t-1400",
+    "title": "Re-ops, a Functional Live-Infrastructure as Code",
+    "img": "/assets/img/2017-melbourne/ronen_narkis.jpg",
+    "level": "intermediate",
+    "bio": "
+    <p>Ronen Narkis has been a pro coder for more than 12 years across a variety of projects
+    ranging from Devops to Bigdata, using Clojure since 2008 to solve real world problems.</p>
+
+    <p>He enjoys expanding his knowledge about security, operating systems, programming
+    languages and any other cool tech he can lay his hands on.</p>
+    ",
+    "details": "
+    <p>The history of live coding environments isn’t new, still most of the current tools we use
+    are static in nature and require long cycles of build/compilation/restart both in
+    development and production, the REPL is one the the most productive environments to
+    get instant feedback and have become the standard for contemporary functional
+    languages.</p>
+
+    <p>In this talk we will go through Re-ops, a Clojure based live environment that aims to
+    speed up remote server management, from ad hoc remote operations to metrics
+    collection/reporting up to managing clusters of virtual machines.</p>
+
+    <p>Current configuration management tools such as Puppet/Chef/Ansible are custom
+    environments running on top of Ruby/Python that don’t interact (for the most part) with
+    the hosting platform, Re-ops on the other hand is native Clojure and can use any library
+    and language facility.</p>
+
+    <p>Using function composition, protocols and data structures with a dash of macros we
+    create our own core abstractions, matching the lisp philosophy of extending the
+    language to match our needs while keeping it simple to extend and use.</p>
+
+    <p>Re-ops is composed from a number of components:</p>
+
+    <ul>
+    <li>Re-core: VM management and tracking (AWS, Digital Ocean, KVM), using async
+    job execution.</li>
+    <li>Re-mote, remote operations on systems using SSH and ZeroMQ including data
+    collection, aggregation, dashboarding and scheduling.</li>
+    <li>Re-gent, remote agent that uses ZeroMQ and connects back to Re-mote, used
+    for high throughput low latency operations (as an alternative to SSH).</li>
+    </ul>
+    </p>
+
+    <p>Each can be used separately or combined.</p>
+
+    <p>In summary Re-ops show a different methodology of creating infrastructure as code one
+    in which we can react quickly to a fast changing environment.</p>
+
+
+    <p>Goals:
+
+    <ul>
+    <li>To expose listeners to a different way of thinking with regards to operations
+    (Devops).</li>
+    <li>To showcase how to design a system that works well as a live environment both
+    in Clojure (the reload workflow) and the general case.</li>
+    <li>Explore protocols, functional composition and pipelines as a base for rapidly
+    changing system.</li>
+    <li>How to design the system for explorability</li>
+    <li>Cover some interesting libraries used within Re-ops</li>
+    <li>Compare Puppet/Chef and show how using Clojure really simplify some
+    problems.</li>
+    </ul>
+    </p>
+    "
+  },
+  {"time": "2:30pm",
+    "title": "Break",
+    "name": "<hr />",
+    "id": "t-1430",
+    "break": true},
+  {"time": "3pm",
+    "name": "Luke Stephenson",
+    "id": "t-1500",
+    "img": "/assets/img/2017-melbourne/luke_stephenson.jpg",
+    "title": "Reactive Streams for REA feeders",
+    "level": "intermediate",
+    "bio": "
+    Luke Stephenson works as a Lead Developer at REA Group building Scala services
+    to power the consumer facing website.  After many years as a Java developer,
+    Luke has enjoyed the transition to Scala and becoming a better dev through many FP learnings.
+    ",
+    "details": "
+    <p>This talk introduces Reactive Streams, specifically the Monix implementation and
+    how at REA Group we have used it to solve real problems.</p>
+
+    <p>At REA we have many 'feeders' which extract from one data source, perform some
+    processing and transformations before loading into a target system.</p>
+
+    <p>Historically these feeders have been built using Java / Scala concurrency primitives
+    (e.g. Future / ExecutionContext).  The typical feeder has a very sequential execution
+    model like: <br/>
+    <ol>
+    <li>Read a batch in parallel from the source system. The reading is done in as a parallel batch because the source system may be slow, e.g. an S3 bucket).</li>
+    <li>Transform the batch</li>
+    <li>Write the batch in parallel to the target system</li>
+    </ol> </p>
+
+    And repeat the above until all data is processed.
+
+    <p>The very sequential nature means the feeds are not as performant as they could be.
+    The source and target systems were never accessed in parallel.  Writing to the
+    target required waiting for the source to read another batch.  And the feeder
+    would not read another batch from the source until the target completed.</p>
+
+    <p>Also being based on lower level concurrency primitives, the data pipeline
+    is not as easy to visualise from reading the codebase.</p>
+
+    <p>Reactive streams allow us to model asynchronous processing pipelines as a data
+    type which can then be executed.  The APIs are declarative, as opposed to the
+    legacy solution working with Scala Future and ExecutionContext which resulted
+    in immediate evaluation.</p>
+
+    <p>The talk will cover:
+    <ul>
+    <li>Background into our feeders and legacy implementation</li>
+    <li>How the latency involved in that implementation cumulates to affect performance</li>
+    <li>Intro to the Monix reactive streams implementation covering the key APIs that we have used</li>
+    <li>Demonstrating how the APIs are just data types and that nothing is executed until the observable is consumed and run.</li>
+    <li>Code examples for a basic feeder structure</li>
+    <li>How the end solution is more performant, but more importantly that the code is more expressive and easy to reason about.</li>
+    </ul>
+    </p>
+
+    <p>Attendees should leave with a basic understanding of Reactive Streams, and specifically
+    how to get started with the Monix implementation of reactive streams.  I'll share a
+    working basic project (not REA production code) which provides a basic 'feeder'
+    structure for attendees to reference and extend upon if they wish.</p>
+    "
+  },
+  {"time": "3:30pm",
+    "name": "Huw Campbell",
+    "id": "t-1530",
+    "title": "Grenade - Dependently Typed Neural Networks in Haskell",
+    "level": "advanced",
+  },
+  {"time": "4pm",
+    "title": "Break",
+    "name": "<hr />",
+    "id": "t-1600",
+    "break": true},
+  {"time": "4:15pm",
+    "name": "TBA",
+    "id": "t-1615",
+    "title": "TBA"},
+  {"time": "4:45pm",
+    "name": "TBA",
+    "id": "t-1645",
+    "title": "TBA"},
+  {"time": "5:15pm",
+    "name": "TBA",
+    "id": "t-1715",
+    "title": "TBA"},
+  {"time": "5:45pm",
+    "id": "t-1745",
+    "title": "Closing comment",
+    "committee": true}
+
 ]}
+

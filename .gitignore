@@ -3,3 +3,4 @@ _site
 # ignores local gems
 .bundle
 .vendor
+.idea
