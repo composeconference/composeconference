@@ -30,7 +30,7 @@ title: "Day One Program"
             {% unless t.hide %}
               <tr>
                 <td>{{t.time}}</td>
-                <td>{{t.name}} {% unless t.committee or t.break or (t.bio and t.img) %} * {% endunless %}</td>
+                <td>{{t.name}}</td>
                 <td>
                   <a href="#{{t.id}}">{{t.title}}</a>
                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
