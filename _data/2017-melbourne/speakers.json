@@ -321,8 +321,35 @@
   {"time": "3:30pm",
     "name": "Huw Campbell",
     "id": "huw_campbell",
+    "img": "/assets/img/2017-melbourne/huw_campbell.jpg",
     "title": "Grenade - Dependently Typed Neural Networks in Haskell",
     "level": 3, 
+    "bio": "
+      <p>Huw Campbell is a physicist, data scientist, and functional programmer,
+        currently working at Ambiata in Sydney. Coming from an academic
+	background with a PhD in experimental physics, Huw started working
+	as an applied researcher in machine learning in 2014. With Ambiata's
+	broad Haskell experience and mentorship, and a strong interest in
+	functional programming and type systems, Huw decided to apply these
+	principles to machine learning - bringing together these diverse fields.</p>
+    ",
+    "details": "
+	<p>Deep learning and deep neural networks are currently fields of great
+	interest and excitement, due to their impressive results in supervised
+	and unsupervised machine learning tasks across a broad range of fields
+	including computer vision, speech recognition, and games such as Go.</p>
+
+	<p>In this talk, I'll talk about my recent explorations in using type
+	level and purely functional programming techniques applied to deep
+	learning and neural networks.  We'll run over deep neural networks
+	theory, their common architectures, and their various use cases to
+	obtain an appreciation for the depth of the field. I'll then show
+	how the use of modern Haskell programming allows for these networks
+	to be expressed at the type level, providing not only extreme
+	concision, but also compile time safety, functional reasoning and
+	composition, as well as pretty good runtime performance with a high
+	degree of confidence in their correctness.</p>
+    "
   },
   {"time": "4pm",
     "title": "Break",
