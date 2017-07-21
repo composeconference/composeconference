@@ -87,9 +87,39 @@
   {"time": "11am",
     "name": "Rahul Trikha",
     "id": "rahul_trikha",
+    "img": "/assets/img/2017-melbourne/rahul_trikha.jpg",
     "title": "From JavaScript to PureScript",
     "level": 1, 
-    "details": ""},
+    "bio": "
+      <p>Rahul works as a Technical Lead at REA Group building micro services to power their backend systems. 
+         He uses Ruby by day and Haskell/PureScript by night. He enjoys learning more about functional patterns
+         and becoming a better dev through applying them in his everyday code.</p>
+    ",
+    "details": "
+      <p>Functional programming techniques have been making appearances in JavaScript for some time now. However, 
+         functional programming in JavaScript has some disadvantages: JavaScript is verbose, untyped, and lacks 
+         powerful forms of abstraction. Unrestricted JavaScript code also makes equational reasoning very difficult. 
+         A functional JavaScript programmer must stay sharp at all times to create pure functions that avoid side effects. 
+         However, this puts too much cognitive load on the programmer.</p>
+
+      <p>PureScript, on the other hand, is a Haskell-inspired statically typed language which aims to address these issues. 
+         It features lightweight syntax, which allows developers to write very expressive code which is still clear and readable. 
+         It uses a rich type system to support powerful abstractions. It also generates fast, understandable JavaScript code, 
+         which is important when interoperating with other JavaScript libraries. PureScript strikes a very practical balance 
+         between the theoretical power of purely functional programming and the fast-and-loose programming style of JavaScript. </p>
+
+      <p>The idea behind this talk is to encourage developers to build real-world applications using PureScript. 
+         I hope to take you through a journey of applying functional patterns to everyday problems so that you 
+         can appreciate the simplicity and ideas behind these patterns:</p>
+	<ul>
+	<li>Algebraic data types and pattern matching</li>
+	<li>Row polymorphism and extensible records</li>
+	<li>Higher kinded types</li>
+	<li>Type classes with functional dependencies</li>
+	<li>Higher-rank polymorphism</li> 
+	</ul>
+    "
+  },
   {"time": "11:30am",
     "name": "George Wilson",
     "id": "george_wilson",
@@ -357,9 +387,10 @@
     "id": "break3",
     "break": true},
   {"time": "4:15pm",
-    "name": "TBA",
-    "id": "t-1615",
-    "title": "TBA"},
+    "name": "Jurriaan Hage",
+    "id": "jurriaan-hage",
+    "level": 3,
+    "title": "Domain-Specific Type Error Diagnosis in GHC"},
   {"time": "4:45pm",
     "name": "TBA",
     "id": "t-1645",
