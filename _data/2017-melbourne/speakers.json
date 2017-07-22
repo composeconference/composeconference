@@ -389,8 +389,39 @@
   {"time": "4:15pm",
     "name": "Jurriaan Hage",
     "id": "jurriaan-hage",
+    "img": "/assets/img/2017-melbourne/jurriaan_hage.jpg",
     "level": 3,
-    "title": "Domain-Specific Type Error Diagnosis in GHC"},
+    "title": "Domain-Specific Type Error Diagnosis in GHC",
+    "bio": "
+      <p>Jurriaan Hage is assistant professor at Utrecht University. His work in programming technology is largely focused 
+        on two aspects: the optimisation of functional languages by means of type and effect systems, and type error 
+        diagnosis for strongly typed functional languages. He is currently the lead maintainer of the Helium compiler 
+        for learning Haskell. You can also talk to him about soft typing dynamic languages, program plagiarism 
+        detection and switching classes.</p>
+    ",
+    "details": "
+      <p>With its advanced type system, the purely functional language Haskell is extremely well-suited for 
+         developing applications based on embedded domain specific languages (EDSL) for domains where the 
+         quality of software is critical to success (e.g., the financial sector). To the compiler an EDSL 
+         is no different from any other library written in Haskell; to the user of the EDSL, it is a library 
+         that allows her to express her solution to a problem in her domain in a syntax (fluency) reminiscent 
+         of that of the domain. But one problem continues to plague the end users of EDSLs: whenever a type 
+         error occurs, the encoding of the domain inside the host language Haskell leaks out in those error message. 
+         And this encoding is exactly what the EDSL developers were trying to hide! In this talk we demonstrate how 
+         type error diagnosis can be made domain-specific by type level programming. We have implemented this in the 
+         Glasgow Haskell Compiler, the industrial-strength compiler for Haskell. With relatively small modifications 
+         to the compiler, we can show huge gains in terms of domain-aware type error messages, and 
+         suggestions on how to fix a given type error. Our solution has more advantages: existing EDSLs can be 
+         easily wrapped with specialized error diagnosis, the wrapping is invisible to the end user, and the 
+         soundness of the type system is guaranteed by the compiler. The abstractions provided by type-level 
+         programming allow us to describe and reuse common patterns in type error diagnosis, 
+         lowering the entry barrier for DSL authors.</p> 
+
+
+      <p>The talk will consist of an explanation and demonstration of what our technology, as implemented 
+         in our branch of GHC, allows EDSL developers to do.</p> 
+    "
+  },
   {"time": "4:45pm",
     "name": "TBA",
     "id": "t-1645",
