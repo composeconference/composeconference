@@ -13,6 +13,10 @@ title: "Day One Program"
   .agenda td {
     vertical-align: top;
   }
+  .key td {
+    vertical-align: top;
+    padding-width: 5px;
+  }
 </style>
 
 <div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
@@ -25,6 +29,17 @@ title: "Day One Program"
         <h1 class="text-center">Day One - Speakers and Presentations</h1>
         <br />
 
+        <div class="keybox">
+	<table class="key agenda">
+	<tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
+	<tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr>
+	<tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
+	</table>
+        </div>
+ 
+         <br/>
+
+
         <table class="agenda">
           {% for t in site.data.2017-melbourne.speakers.times %}
             {% unless t.hide %}
@@ -36,6 +51,13 @@ title: "Day One Program"
                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
                   {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
                   </td>
+                 <td>
+                   <nobr>
+                   {% if t.level >= 1 %} &#x1f535; {% endif %} 
+                   {% if t.level >= 2 %} &#x1f535; {% endif %} 
+                   {% if t.level >= 3 %} &#x1f535; {% endif %} 
+                   </nobr>
+                 </td>
               </tr>
             {% endunless %}
           {% endfor %}
