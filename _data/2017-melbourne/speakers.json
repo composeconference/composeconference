@@ -169,11 +169,18 @@
     "name": "<hr />",
     "break": true},
   {"time": "1pm",
-    "name": "Justin Bedo",
+    "name": "Justin Bed&#337;",
     "id": "justin_bedo",
+    "img": "/assets/img/2017-melbourne/justin_bedo.jpg",
     "title": "BioShake: a Haskell EDSL for bioinformatics pipelines",
-    "level": 2, 
-    "details": ""},
+    "level": 2,
+    "details": "
+      Dr Justin Bed&#337; is a researcher at the Walter and Eliza Hall institute.
+      His interests span machine learning, bioinformatics, privacy, and
+      computer science. Justin has researched at several labs and companies:
+      NICTA, IBISC (le laboratoire Informatique, Biologie Intégrative et
+      Systèmes Complexes), and IBM Research Australia.
+    "},
   {"time": "1:30pm",
     "name": "Tony Morris",
     "id": "tony_morris",
