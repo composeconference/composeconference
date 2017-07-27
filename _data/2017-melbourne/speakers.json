@@ -175,10 +175,37 @@
     "title": "BioShake: a Haskell EDSL for bioinformatics pipelines",
     "level": 2,
     "details": "
+      <p>
+      Recently there have been great advances in the field of biology arising
+      from rapid technological progress, notably in certain areas such as
+      genomics. These technologies have drastically increased the use of
+      computing as part of data processing and analysis. It is now common to
+      use many hours of compute to process biological data in what is known as
+      a *bioinformatics pipeline*.
+      </p>
+      <p>
+      These bioinformatics pipelines are typically composed of numerous
+      programs and stages coupled together loosely using intermediate files.
+      These pipelines tend to be quite complex and require substantial
+      computational time, hence a good pipeline must be able to manage
+      intermediate files, guarantee rentrability &mdash; the ability to re-enter and
+      continue a partially run pipeline &mdash; and also provide clear syntax to
+      easily describe and understand pipelines.
+      </p>
+      <p>
+      This is a problem that resembles the problem of building software
+      artefacts that is common in computer science. Some notable tools are the
+      ubiquitous tool *make*, and more recently *Shake*, a robust build tool
+      implemented as an embedded domain specific language (EDSL) in Haskell.
+      However, bioinformatic pipelines have some unique properties that do not
+      fit well into current build tools...
+      </p>
+    ",
+    "bio": "
       Dr Justin Bed&#337; is a researcher at the Walter and Eliza Hall institute.
       His interests span machine learning, bioinformatics, privacy, and
       computer science. Justin has researched at several labs and companies:
-      NICTA, IBISC (le laboratoire Informatique, Biologie Intégrative et
+      NICTA, IBISC (le laboratoire Informatique, Biologie Int&eacute;grative et
       Systèmes Complexes), and IBM Research Australia.
     "},
   {"time": "1:30pm",
