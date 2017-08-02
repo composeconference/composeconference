@@ -243,26 +243,26 @@
 
     <p>We will look at:
     <ul>
-    <li>how aviation safety is regulated.</li>
-    <li>how aeronautical services are provided to flight operators.</li>
-    <li>how aeronautical navigation is conducted and regulated.</li>
-    <li>how the weight and balance for a flight is conducted.</li>
-    <li>the methods by which aircraft and ground coordinate between each other.</li>
+    <li>How aviation safety is regulated.</li>
+    <li>How aeronautical services are provided to flight operators.</li>
+    <li>How aeronautical navigation is conducted and regulated.</li>
+    <li>How the weight and balance for a flight is conducted.</li>
+    <li>The methods by which aircraft and ground coordinate between each other.</li>
     </ul></p>
 
    <p>We will see:
     <ul>
-    <li>some real (and basic) data management problems in aviation, that very
+    <li>Some real (and basic) data management problems in aviation, that very
     obviously threaten safety, then solve them, using programming.</li>
-    <li>we will see a live demonstration of aeronautical navigation methods,
+    <li>We will see a live demonstration of aeronautical navigation methods,
     investigate incident reports where lives were lost as a result, and consider
     how our programming skills can yield improvements, possibly even save lives.</li>
-    <li>we will conduct a real weight&balance calculation for a flight, then once
+    <li>We will conduct a real weight&balance calculation for a flight, then once
     hilarity inevitably ensues, we will look at the problems that arise by this
     method, then solve them using data structures and functional programming. Some
     of these practical problems are obvious, even to a non-aviator, and the
     predictable incident reports are the end result.</li>
-    <li>finally, we will have a look at a live demonstration of a software defined
+    <li>Finally, we will have a look at a live demonstration of a software defined
     radio (SDR), receiving ADS-B transmissions from aircraft (live), an AHRS
     implementation and GNSS receiver using off-the-shelf, low-cost parts. We will
     look at why these instruments are helpful to aircraft pilots and interact with
