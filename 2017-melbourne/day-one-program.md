@@ -30,15 +30,14 @@ title: "Day One Program"
         <br />
 
         <div class="keybox">
-	<table class="key agenda">
-	<tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
-	<tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr>
-	<tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
-	</table>
+          <table class="key agenda">
+            <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
+            <tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr>
+            <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
+          </table>
         </div>
- 
-         <br/>
 
+        <br/>
 
         <table class="agenda">
           {% for t in site.data.2017-melbourne.speakers.times %}
@@ -80,7 +79,12 @@ title: "Day One Program"
       </div>
       <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
         <div class="col-lg-10 col-md-10 col-sm-10">
-          <h3 class="no-top-space"> {{t.title}} </h3>
+          <h3 class="no-top-space">
+            {{t.title}}
+            {% if t.permalink %}
+              <a style="font-size:40%;" href="{{t.permalink}}#h1">(Permalink)</a>
+            {% endif %}
+          </h3>
           <div class="abstract">
             {{ t.details }}
           </div>

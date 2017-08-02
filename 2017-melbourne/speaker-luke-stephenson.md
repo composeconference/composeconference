@@ -1,11 +1,11 @@
 ---
 layout: 2017-melbourne/speaker
-title: "Compose :: Melbourne Speaker - Andrew Sorensen"
+title: "Compose :: Melbourne Speaker - Luke Stephenson"
 ---
 
 {% for t in site.data.2017-melbourne.speakers.times %}
 {% unless t.hide %}
-{% if t.name contains "Andrew Sorensen" %}
+{% if t.name contains "Luke Stephenson" %}
 
   <div class="container cfpsection" id="{{t.id}}">
 
