@@ -35,11 +35,11 @@ TODO:
       </p>
       <p>
         To find out how to be a sponsor, please take a look at
-        <a href="https://github.com/composeconference/Compose-Melbourne/wiki/Sponsorship-Tiers">this page</a>
+        <a href="https://github.com/composeconference/Compose-Melbourne-2017/wiki/Sponsorship-Tiers">this page</a>
         for information. If you would like additional information on sponsorship,
         please contact us at: <a href="mailto:composemel-admin@googlegroups.com">composemel-admin@googlegroups.com</a>.
       </p>
-      <h3> More details coming soon... </h3>
+      <!-- <h3> More details coming soon... </h3> -->
     </div>
   </div>
   <div class="row">
