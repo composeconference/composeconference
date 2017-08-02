@@ -461,9 +461,33 @@
     "id": "t-1645",
     "title": "TBA"},
   {"time": "5:15pm",
-    "name": "TBA",
+    "name": "Keira Hodgkison",
     "id": "t-1715",
-    "title": "TBA"},
+    "level": 2,
+    "img": "/assets/img/2017-melbourne/keira_hodgkison.jpg",
+    "title": "The Why and How of ReasonML. A Non-Functional Programmer's Perspective",
+    "details": "
+
+      <p> This talk is a general introduction to ReasonML and ReasonReact.
+      Created by Facebook, ReasonML is a syntax layer and toolchain for OCaml
+      and yet another compile-to-JavaScript, typed language. ReasonReact
+      marries ReasonML's type-safety with the React component model while
+      leveraging the existing ecosystem for developers seeking a better working
+      experience across both web and native apps. </p>
+
+      <p> Since its release in March 2017, the ReasonReact syntax has moved
+      quickly. In this brief overview, attendees should gain an understanding
+      of the the language's evolution, the ethos surrounding it and how it
+      might shape development in the future. </p>
+      ",
+    "bio": "
+      <p> Keira is a developer at Culture Amp, the world's leading culture
+      analytics platform. She works with React, Flow, and Rails on solutions to
+      help customers share, and act upon company employee engagement data.
+      Keira is an advocate for using functional programming techniques to
+      improve the JavaScript coding and refactoring experience. When she's not
+      writing code, she can be found under a large cat. </p>
+  "},
   {"time": "5:45pm",
     "id": "closing",
     "title": "Closing comment",
