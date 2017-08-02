@@ -22,7 +22,7 @@ title: "Compose :: Melbourne Speaker - Andrew Sorensen"
         <p style="font-weight: bold;">
           Compose :: Melbourne will feature many excellent speakers.
           One of this year's lineup is {{t.name}}.
-          If you want to see the whole linup <a href="/2017-melbourne/day-one-program/">look here!</a>
+          If you want to see the whole lineup <a href="/2017-melbourne/day-one-program/">look here!</a>
         </p>
 
         <br />
