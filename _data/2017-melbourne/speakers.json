@@ -123,7 +123,19 @@
 	</ul>
     "
   },
+
   {"time": "11:30am",
+    "name": "TBA",
+    "id": "tba1",
+    "title": "TBA"},
+
+  {"time": "12pm",
+    "title": "Lunch",
+    "id": "lunch",
+    "name": "<hr />",
+    "break": true},
+
+  {"time": "1pm",
     "name": "George Wilson",
     "id": "george_wilson",
     "level": 1,
@@ -167,12 +179,8 @@
            with practical guidelines helping them to do so.</p>
     "
    },
-  {"time": "12pm",
-    "title": "Lunch",
-    "id": "lunch",
-    "name": "<hr />",
-    "break": true},
-  {"time": "1pm",
+
+  {"time": "1:30pm",
     "name": "Justin Bed&#337;",
     "id": "justin_bedo",
     "permalink": "/2017-melbourne/speaker-justin-bedo",
@@ -213,7 +221,7 @@
       NICTA, IBISC (le laboratoire Informatique, Biologie Int&eacute;grative et
       Systèmes Complexes), and IBM Research Australia.
     "},
-  {"time": "1:30pm",
+  {"time": "2pm",
     "name": "Tony Morris",
     "id": "tony_morris",
     "permalink": "/2017-melbourne/speaker-tony-morris",
@@ -271,7 +279,14 @@
     </p>
     "
   },
-  {"time": "2pm",
+
+  {"time": "2:30pm",
+    "title": "Break",
+    "name": "<hr />",
+    "id": "break2",
+    "break": true},
+
+  {"time": "3pm",
     "name": "Ronen Narkis",
     "id": "ronen_narkis",
     "permalink": "/2017-melbourne/speaker-ronen-narkis",
@@ -325,12 +340,8 @@
 
     "
   },
-  {"time": "2:30pm",
-    "title": "Break",
-    "name": "<hr />",
-    "id": "break2",
-    "break": true},
-  {"time": "3pm",
+
+  {"time": "3:30pm",
     "name": "Luke Stephenson",
     "id": "luke_stephenson",
     "permalink": "/2017-melbourne/speaker-luke-stephenson",
@@ -390,7 +401,14 @@
     structure for attendees to reference and extend upon if they wish.</p>
     "
   },
-  {"time": "3:30pm",
+
+  {"time": "4pm",
+    "title": "Break",
+    "name": "<hr />",
+    "id": "break3",
+    "break": true},
+
+  {"time": "4:15pm",
     "name": "Huw Campbell",
     "id": "huw_campbell",
     "permalink": "/2017-melbourne/speaker-huw-campbell",
@@ -424,12 +442,8 @@
 	degree of confidence in their correctness.</p>
     "
   },
-  {"time": "4pm",
-    "title": "Break",
-    "name": "<hr />",
-    "id": "break3",
-    "break": true},
-  {"time": "4:15pm",
+
+  {"time": "4:45pm",
     "name": "Jurriaan Hage",
     "id": "jurriaan-hage",
     "permalink": "/2017-melbourne/speaker-jurriaan-hage",
@@ -466,10 +480,6 @@
          in our branch of GHC, allows EDSL developers to do.</p> 
     "
   },
-  {"time": "4:45pm",
-    "name": "TBA",
-    "id": "t-1645",
-    "title": "TBA"},
   {"time": "5:15pm",
     "name": "Keira Hodgkison",
     "id": "keira-hodgkison",
