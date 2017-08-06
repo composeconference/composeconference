@@ -22,7 +22,7 @@ title: "Frequently Asked Questions"
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
-        <h1 class="text-center">Day One - Speakers and Presentations</h1>
+        <h1 class="text-center">Melbourne 2016 Day One - Speakers and Presentations</h1>
         <br />
 
         <table class="agenda">
