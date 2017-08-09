@@ -534,6 +534,7 @@
 
   {"time": "5:45pm",
     "id": "closing",
+    "name": "Ken Scambler",
     "title": "Closing comment",
     "committee": true}
 
