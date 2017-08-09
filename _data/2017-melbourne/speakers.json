@@ -125,9 +125,29 @@
   },
 
   {"time": "11:30am",
-    "name": "TBA",
-    "id": "tba1",
-    "title": "TBA"},
+    "name": "Pei Shi Yong",
+    "id": "pei-shi-yong",
+    "level": 1,
+    "img": "/assets/img/2017-melbourne/pei_shi_yong.jpg",
+    "title": "React: JS vs ClojureScript",
+    "permalink": "/2017-melbourne/speaker-pei-shi-yong",
+    "details": "
+      After 2 months building a React/Redux UI in Javascript for a client Pei
+      Shi realised there must be a better way. With boilerplate galore and even
+      the simplest changes requiring edits across many files the bar was set.
+      ClojureScript looked like an interesting alternative. She re-implemented
+      the project, and will share with you the ups and downs and whether it's
+      worth the switch. Come for concrete examples of real world tradeoffs
+      between the king of Vanilla JS and the largest functional compiles-to-js
+      language.
+    ",
+    "bio": "
+      Pei Shi is a full stack developer, lover of stuffed animals and a hobby
+      seamstress. She hacks on Ruby, JS, Clojure and Charles Katz's unreleased
+      fork of Cobol 60. She's an ex-ThoughtWorker and now works for Zendesk
+      munging data to support her fabric addiction.
+    "
+  },
 
   {"time": "12pm",
     "title": "Lunch",
@@ -342,6 +362,43 @@
   },
 
   {"time": "3:30pm",
+    "name": "Keira Hodgkison",
+    "id": "keira-hodgkison",
+    "permalink": "/2017-melbourne/speaker-keira-hodgkison",
+    "level": 2,
+    "img": "/assets/img/2017-melbourne/keira_hodgkison.jpg",
+    "title": "The Why and How of ReasonML. A Non-Functional Programmer's Perspective",
+    "details": "
+
+      <p> This talk is a general introduction to ReasonML and ReasonReact.
+      Created by Facebook, ReasonML is a syntax layer and toolchain for OCaml
+      and yet another compile-to-JavaScript, typed language. ReasonReact
+      marries ReasonML's type-safety with the React component model while
+      leveraging the existing ecosystem for developers seeking a better working
+      experience across both web and native apps. </p>
+
+      <p> Since its release in March 2017, the ReasonReact syntax has moved
+      quickly. In this brief overview, attendees should gain an understanding
+      of the the language's evolution, the ethos surrounding it and how it
+      might shape development in the future. </p>
+      ",
+    "bio": "
+      <p> Keira is a developer at Culture Amp, the world's leading culture
+      analytics platform. She works with React, Flow, and Rails on solutions to
+      help customers share, and act upon company employee engagement data.
+      Keira is an advocate for using functional programming techniques to
+      improve the JavaScript coding and refactoring experience. When she's not
+      writing code, she can be found under a large cat. </p>
+  "},
+
+
+  {"time": "4pm",
+    "title": "Break",
+    "name": "<hr />",
+    "id": "break3",
+    "break": true},
+
+  {"time": "4:15pm",
     "name": "Luke Stephenson",
     "id": "luke_stephenson",
     "permalink": "/2017-melbourne/speaker-luke-stephenson",
@@ -402,47 +459,6 @@
     "
   },
 
-  {"time": "4pm",
-    "title": "Break",
-    "name": "<hr />",
-    "id": "break3",
-    "break": true},
-
-  {"time": "4:15pm",
-    "name": "Huw Campbell",
-    "id": "huw_campbell",
-    "permalink": "/2017-melbourne/speaker-huw-campbell",
-    "img": "/assets/img/2017-melbourne/huw_campbell.jpg",
-    "title": "Grenade - Dependently Typed Neural Networks in Haskell",
-    "level": 3, 
-    "bio": "
-      <p>Huw Campbell is a physicist, data scientist, and functional programmer,
-        currently working at Ambiata in Sydney. Coming from an academic
-	background with a PhD in experimental physics, Huw started working
-	as an applied researcher in machine learning in 2014. With Ambiata's
-	broad Haskell experience and mentorship, and a strong interest in
-	functional programming and type systems, Huw decided to apply these
-	principles to machine learning - bringing together these diverse fields.</p>
-    ",
-    "details": "
-	<p>Deep learning and deep neural networks are currently fields of great
-	interest and excitement, due to their impressive results in supervised
-	and unsupervised machine learning tasks across a broad range of fields
-	including computer vision, speech recognition, and games such as Go.</p>
-
-	<p>In this talk, I'll talk about my recent explorations in using type
-	level and purely functional programming techniques applied to deep
-	learning and neural networks.  We'll run over deep neural networks
-	theory, their common architectures, and their various use cases to
-	obtain an appreciation for the depth of the field. I'll then show
-	how the use of modern Haskell programming allows for these networks
-	to be expressed at the type level, providing not only extreme
-	concision, but also compile time safety, functional reasoning and
-	composition, as well as pretty good runtime performance with a high
-	degree of confidence in their correctness.</p>
-    "
-  },
-
   {"time": "4:45pm",
     "name": "Jurriaan Hage",
     "id": "jurriaan-hage",
@@ -480,35 +496,42 @@
          in our branch of GHC, allows EDSL developers to do.</p> 
     "
   },
+
   {"time": "5:15pm",
-    "name": "Keira Hodgkison",
-    "id": "keira-hodgkison",
-    "permalink": "/2017-melbourne/speaker-keira-hodgkison",
-    "level": 2,
-    "img": "/assets/img/2017-melbourne/keira_hodgkison.jpg",
-    "title": "The Why and How of ReasonML. A Non-Functional Programmer's Perspective",
-    "details": "
-
-      <p> This talk is a general introduction to ReasonML and ReasonReact.
-      Created by Facebook, ReasonML is a syntax layer and toolchain for OCaml
-      and yet another compile-to-JavaScript, typed language. ReasonReact
-      marries ReasonML's type-safety with the React component model while
-      leveraging the existing ecosystem for developers seeking a better working
-      experience across both web and native apps. </p>
-
-      <p> Since its release in March 2017, the ReasonReact syntax has moved
-      quickly. In this brief overview, attendees should gain an understanding
-      of the the language's evolution, the ethos surrounding it and how it
-      might shape development in the future. </p>
-      ",
+    "name": "Huw Campbell",
+    "id": "huw_campbell",
+    "permalink": "/2017-melbourne/speaker-huw-campbell",
+    "img": "/assets/img/2017-melbourne/huw_campbell.jpg",
+    "title": "Grenade - Dependently Typed Neural Networks in Haskell",
+    "level": 3, 
     "bio": "
-      <p> Keira is a developer at Culture Amp, the world's leading culture
-      analytics platform. She works with React, Flow, and Rails on solutions to
-      help customers share, and act upon company employee engagement data.
-      Keira is an advocate for using functional programming techniques to
-      improve the JavaScript coding and refactoring experience. When she's not
-      writing code, she can be found under a large cat. </p>
-  "},
+      <p>Huw Campbell is a physicist, data scientist, and functional programmer,
+        currently working at Ambiata in Sydney. Coming from an academic
+	background with a PhD in experimental physics, Huw started working
+	as an applied researcher in machine learning in 2014. With Ambiata's
+	broad Haskell experience and mentorship, and a strong interest in
+	functional programming and type systems, Huw decided to apply these
+	principles to machine learning - bringing together these diverse fields.</p>
+    ",
+    "details": "
+	<p>Deep learning and deep neural networks are currently fields of great
+	interest and excitement, due to their impressive results in supervised
+	and unsupervised machine learning tasks across a broad range of fields
+	including computer vision, speech recognition, and games such as Go.</p>
+
+	<p>In this talk, I'll talk about my recent explorations in using type
+	level and purely functional programming techniques applied to deep
+	learning and neural networks.  We'll run over deep neural networks
+	theory, their common architectures, and their various use cases to
+	obtain an appreciation for the depth of the field. I'll then show
+	how the use of modern Haskell programming allows for these networks
+	to be expressed at the type level, providing not only extreme
+	concision, but also compile time safety, functional reasoning and
+	composition, as well as pretty good runtime performance with a high
+	degree of confidence in their correctness.</p>
+    "
+  },
+
   {"time": "5:45pm",
     "id": "closing",
     "title": "Closing comment",
