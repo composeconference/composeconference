@@ -102,7 +102,8 @@ Unconference Content:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> A pile of things about Reflex - The Haskell FRP library for writing front end apps </p>
+        <p> <strong> A Pile of Things About Reflex </strong> </p>
+        <p> An introduction to the Haskell FRP library for writing front end apps. </p>
       </div>
     </div>
   </div>
@@ -137,7 +138,7 @@ Unconference Content:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> Introductory Haskell Workshop </p>
+        <p> <strong> Introductory Haskell Workshop </strong> </p>
       </div>
     </div>
   </div>
@@ -150,7 +151,7 @@ Unconference Content:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> Scala Workshop on Exceptions </p>
+        <p> <strong> Scala Workshop on Exceptions </strong> </p>
       </div>
     </div>
   </div>
@@ -163,7 +164,22 @@ Unconference Content:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> Building a Basic Haskell Web-Service in Servant Workshop </p>
+        <p> <strong> Building a Basic Haskell Web-Service in Servant Workshop </strong> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h3> Vaibhav Sagar </h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> <strong> Git Internals Workshop </strong> </p>
+        <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
+        <p> "Let's walk through a Git repository together and implement a Git of our own one step at a time." </p>
       </div>
     </div>
   </div>
