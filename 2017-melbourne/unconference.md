@@ -58,26 +58,7 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container cfpsection" id="knowmore">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Unconference</h2>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          As is standard practice with unconferences, topics to be decided on the day.
-          However, if you wish to <a href="mailto:composemel-admin@googlegroups.com">let the committee know</a>
-          that you are planning to announce an unconference talk on the day
-          then we would be happy to hear from you so that we can get a feel for
-          what people are offering on the second day!
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container cfpsection" id="knowmore">
+<div class="container cfpsection">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2>Venue </h2>
@@ -92,7 +73,42 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container cfpsection" id="knowmore">
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Unconference</h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          As is standard practice with unconferences, topics to be decided on the day.
+          However, if you wish to <a href="mailto:composemel-admin@googlegroups.com">let the committee know</a>
+          that you are planning to announce an unconference talk on the day
+          then we would be happy to hear from you so that we can get a feel for
+          what people are offering on the second day!
+        </p>
+        <p>
+          Some of the unconference talks that have been proposed include:
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h3> Dave Laing Presenting </h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> A pile of things about Reflex - The Haskell FRP library for writing front end apps </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2>Workshops</h2>
@@ -106,6 +122,48 @@ Unconference Content:
           Also, if your workshop requires more than spontaneous organisation then
           getting in touch is a must!
         </p>
+        <p>
+          Some of the workshops planned for Day-Two include:
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h3> The Compose :: Melbourne Committee </h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> Introductory Haskell Workshop </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h3> Sharon Holliday </h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> Scala Workshop on Exceptions </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h3> Khan Thompson </h3>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p> Building a Basic Haskell Web-Service in Servant Workshop </p>
       </div>
     </div>
   </div>
