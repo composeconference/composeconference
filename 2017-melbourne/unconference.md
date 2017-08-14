@@ -139,6 +139,9 @@ Unconference Content:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p> <strong> Introductory Haskell Workshop </strong> </p>
+        <p> <a href="https://www.eventbrite.com/e/compose-melbourne-2017-introductory-haskell-workshop-tickets-36989049242"
+               >EventBrite Event</a>
+        </p>
       </div>
     </div>
   </div>
