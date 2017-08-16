@@ -33,6 +33,7 @@
         "id": "servant-introduction",
         "title": "Building a Basic Haskell Web-Service in Servant",
         "details": "
+          <!--
           <p>
             I will be running a workshop on building a basic Haskell web service.
           </p>
@@ -41,6 +42,7 @@
             it’s sometimes hard to get off the ground when it comes to doing
             'real work' at the same time as learning Haskell.
           </p>
+          -->
           <p>
             The goal for this workshop is for all attendees to have a working CRUD webservice
             connecting to a database that they can then extend. Depending on time
@@ -48,14 +50,13 @@
             endpoints and return types, and adding unit testing.
           </p>
           <p>
-            We will use the Servant framework for this. The database connection will
+            We will use the Servant framework. The database connection will
             be to SQLite, avoiding a more complicated setup.  Therefore the
-            only dependency will be stack and some development libraries.
+            only dependencies should be stack and some development libraries.
           </p>
           <p>
-            I'd imagine that this would be done in around 2 hours, although I can
-            provide a little more clarity on that when I’ve done a practice run
-            on workmates. Attendees would need a laptop with stack installed and
+            Estimated time is around 2 hours.
+            Attendees will need a laptop with Stack installed and
             an editor setup and running.
           </p>
           <p>
@@ -70,6 +71,10 @@
             Haskell (they are familiar with the syntax) but are interested in
             working through the ins-and-outs of building a web service, e.g.
             transformer-stacks, database-connections, authentication, etc.
+          </p>
+          <p>
+            Attendees will need a laptop with stack installed and
+            an editor setup and running.
           </p>
         "
       },
