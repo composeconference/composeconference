@@ -17,6 +17,8 @@ Unconference Content:
 <div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
 
 <br />
+
+
 <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
@@ -58,6 +60,43 @@ Unconference Content:
   </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <br> <br> <br>
+        <h1 class="text-center">Un-Conference Activities (More on the Day!)</h1>
+        <br>
+
+        <table class="agenda">
+          <tr> <td> <strong> Talks </strong> </td> </tr>
+
+          {% for w in site.data.2017-melbourne.unconference.talks %}
+            <tr>
+              <td> {% if w.time %} {{w.time}} {% endif %} </td>
+              <td> {% if w.room %} {{w.room}} {% endif %} </td>
+              <td> {{w.name}} </td>
+              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
+            </tr>
+          {% endfor %}
+
+          <tr> <td> <br> </td> </tr>
+
+          <tr> <td> <strong> Workshops </strong> </td> </tr>
+
+          {% for w in site.data.2017-melbourne.unconference.workshops %}
+            <tr>
+              <td> {% if w.time %} {{w.time}} {% endif %} </td>
+              <td> {% if w.room %} {{w.room}} {% endif %} </td>
+              <td> {{w.name}} </td>
+              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
+            </tr>
+          {% endfor %}
+        </table>
+        <br> <br> <br>
+    </div>
+  </div>
+</div>
+
 <div class="container cfpsection">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
@@ -95,19 +134,31 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container cfpsection">
+{% for w in site.data.2017-melbourne.unconference.talks %}
+
+<div class="container cfpsection" id="{{ w.id }}">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h3> Dave Laing Presenting </h3>
+      <h2> {{ w.name }} </h2>
+      <p> <em> (Talk) </em> </p>
+      <p>
+        <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
+      </p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> <strong> A Pile of Things About Reflex </strong> </p>
-        <p> An introduction to the Haskell FRP library for writing front end apps. </p>
+        <p><strong> {{ w.title }} </strong></p>
+        {{ w.details }}
+        {% if w.prereqs %}
+          <p><strong> Pre-Requisites </strong></p>
+          <p> {{ w.prereqs }} </p>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
+
+{% endfor %}
 
 <div class="container cfpsection">
   <div class="row">
@@ -131,60 +182,28 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container cfpsection">
+{% for w in site.data.2017-melbourne.unconference.workshops %}
+
+<div class="container cfpsection" id="{{ w.id }}">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h3> The Compose :: Melbourne Committee </h3>
+      <h2> {{ w.name }}</h2>
+      <p> <em> (Workshop) </em> </p>
+      <p>
+        <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
+      </p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> <strong> Introductory Haskell Workshop </strong> </p>
-        <p> <a href="https://www.eventbrite.com/e/compose-melbourne-2017-introductory-haskell-workshop-tickets-36989049242"
-               >EventBrite Event</a>
-        </p>
+        <p><strong> {{ w.title }} </strong></p>
+        {{ w.details }}
+        {% if w.prereqs %}
+          <p><strong> Pre-Requisites </strong></p>
+          <p> {{ w.prereqs }} </p>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="container cfpsection">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h3> Sharon Holliday </h3>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> <strong> Scala Workshop on Exceptions </strong> </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container cfpsection">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h3> Khan Thompson </h3>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> <strong> Building a Basic Haskell Web-Service in Servant Workshop </strong> </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container cfpsection">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h3> Vaibhav Sagar </h3>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p> <strong> Git Internals Workshop </strong> </p>
-        <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
-        <p> "Let's walk through a Git repository together and implement a Git of our own one step at a time." </p>
-      </div>
-    </div>
-  </div>
-</div>
-
+{% endfor %}

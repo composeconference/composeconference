@@ -1,0 +1,55 @@
+{
+  "workshops":
+    [
+      { "time": "9:00am" ,
+        "name": "Compose Committee" ,
+        "id": "introduction-to-haskell",
+        "title": "Introductory Haskell Workshop",
+        "img": "/assets/img/2017-melbourne/haskell-workshop.png",
+        "prereqs": "Stack",
+        "room": "Room TBA",
+        "details": '
+          <p>Introductory Haskell Workshop</p>
+          <p> <a href="https://www.eventbrite.com/e/compose-melbourne-2017-introductory-haskell-workshop-tickets-36989049242"
+                   >EventBrite Event</a></p>
+        '
+      },
+
+      { 
+        "name": "Sharon Holliday" ,
+        "id": "scala-exceptions",
+        "title": "Scala Workshop on Exceptions",
+        "room": "Room TBA"
+      },
+
+      { 
+        "name": "Khan Thompson" ,
+        "id": "servant-introduction",
+        "title": "Building a Basic Haskell Web-Service in Servant",
+        "room": "Room TBA"
+      },
+
+      { 
+        "name": "Vaibhav Sagar" ,
+        "id": "git-internals",
+        "title": "Git Internals Workshop",
+        "room": "Room TBA",
+        "details": "
+          <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
+          <p> Let's walk through a Git repository together and implement a Git of our own one step at a time. </p>
+        "
+      }
+   ],
+
+  "talks": [
+      { "time": "Time TBA" ,
+        "room": "Room TBA" ,
+        "name": "Dave Laing" ,
+        "id": "reflex-things",
+        "title": "A Pile of Things About Reflex",
+        "details": '
+          <p> An introduction to the Haskell FRP library for writing front end apps. </p>
+        '
+      }
+  ]
+}
