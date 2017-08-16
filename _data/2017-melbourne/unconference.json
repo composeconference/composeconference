@@ -15,9 +15,11 @@
         '
       },
 
-      { 
+      {
         "name": "Sharon Holliday" ,
+        "hide": true,
         "id": "scala-exceptions",
+        "img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
         "title": "Exceptional Scala Workshop",
         "details": "
           Sharon will be running a workshop on some techniques for dealing
@@ -35,12 +37,20 @@
       { 
         "name": "Vaibhav Sagar" ,
         "id": "git-internals",
+        "img": "/assets/img/2017-melbourne/vaibhav_sagar_github_avatar.jpeg",
         "title": "Git Internals Workshop",
         "img": "/assets/img/2017-melbourne/vaibhav-sagar.jpg",
         "details": "
           <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
           <p> Let's walk through a Git repository together and implement a Git of our own one step at a time. </p>
           <p> See the related blog-post: <a href='http://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/'>I Haskell a Git</a>! </p>
+        ",
+        "prereqs": "
+          <ul>
+            <li>Basic competence with using Git and knowledge of Haskell and/or Python 3</li>
+            <li>Have <code>stack</code> and <code>python3</code> installed</li>
+            <li><code>Nix</code> is nice but not required</li>
+          </ul>
         "
       }
    ],

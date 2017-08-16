@@ -124,12 +124,14 @@ Unconference Content:
           <tr> <td> <strong> Talks </strong> </td> </tr>
 
           {% for w in site.data.2017-melbourne.unconference.talks %}
+          {% unless w.hide %}
             <tr>
               <td> {% if w.time %} {{w.time}} {% endif %} </td>
               <td> {% if w.room %} {{w.room}} {% endif %} </td>
               <td> {{w.name}} </td>
               <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
             </tr>
+          {% endunless %}
           {% endfor %}
 
           <tr> <td> <br> </td> </tr>
@@ -137,12 +139,14 @@ Unconference Content:
           <tr> <td> <strong> Workshops </strong> </td> </tr>
 
           {% for w in site.data.2017-melbourne.unconference.workshops %}
+          {% unless w.hide %}
             <tr>
               <td> {% if w.time %} {{w.time}} {% endif %} </td>
               <td> {% if w.room %} {{w.room}} {% endif %} </td>
               <td> {{w.name}} </td>
               <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
             </tr>
+          {% endunless %}
           {% endfor %}
         </table>
         <br> <br> <br>
@@ -151,6 +155,7 @@ Unconference Content:
 </div>
 
 {% for w in site.data.2017-melbourne.unconference.talks %}
+{% unless w.hide %}
 
 <div class="container cfpsection" id="{{ w.id }}">
   <div class="row">
@@ -168,6 +173,7 @@ Unconference Content:
         <p><strong> {{ w.title }} </strong></p>
         {{ w.details }}
         {% if w.prereqs %}
+          <br>
           <p><strong> Pre-Requisites </strong></p>
           <p> {{ w.prereqs }} </p>
         {% endif %}
@@ -176,9 +182,11 @@ Unconference Content:
   </div>
 </div>
 
+{% endunless %}
 {% endfor %}
 
 {% for w in site.data.2017-melbourne.unconference.workshops %}
+{% unless w.hide %}
 
 <div class="container cfpsection" id="{{ w.id }}">
   <div class="row">
@@ -196,6 +204,7 @@ Unconference Content:
         <p><strong> {{ w.title }} </strong></p>
         {{ w.details }}
         {% if w.prereqs %}
+          <br>
           <p><strong> Pre-Requisites </strong></p>
           <p> {{ w.prereqs }} </p>
         {% endif %}
@@ -204,4 +213,5 @@ Unconference Content:
   </div>
 </div>
 
+{% endunless %}
 {% endfor %}
