@@ -19,21 +19,18 @@
         "name": "Sharon Holliday" ,
         "id": "scala-exceptions",
         "title": "Scala Workshop on Exceptions",
-        "room": "Room TBA"
       },
 
       { 
         "name": "Khan Thompson" ,
         "id": "servant-introduction",
         "title": "Building a Basic Haskell Web-Service in Servant",
-        "room": "Room TBA"
       },
 
       { 
         "name": "Vaibhav Sagar" ,
         "id": "git-internals",
         "title": "Git Internals Workshop",
-        "room": "Room TBA",
         "details": "
           <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
           <p> Let's walk through a Git repository together and implement a Git of our own one step at a time. </p>
@@ -42,13 +39,22 @@
    ],
 
   "talks": [
-      { "time": "Time TBA" ,
+      { "time": "9:00am" ,
         "room": "Room TBA" ,
         "name": "Dave Laing" ,
         "id": "reflex-things",
         "title": "A Pile of Things About Reflex",
         "details": '
           <p> An introduction to the Haskell FRP library for writing front end apps. </p>
+        '
+      },
+      { "name": "Andy Kitchen (MC)" ,
+        "id": "unrecruiting",
+        "title": "Un-Recruiting - Session for FP-People and FP-Jobs in Melbourne",
+        "details": '
+          <p> Andy Kitchen will MC a 30-Minute session where people looking for
+          developers or developers looking for work can stand up and talk for
+          2-5minutes. </p>
         '
       }
   ]
