@@ -162,10 +162,12 @@ Unconference Content:
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> {{ w.name }} </h2>
+      {% if w.img %}
+        <p>
+          <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
+        </p>
+      {% endif %}
       <p> <em> (Talk) </em> </p>
-      <p>
-        <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
-      </p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
@@ -188,10 +190,12 @@ Unconference Content:
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
       <h2> {{ w.name }}</h2>
+      {% if w.img %}
+        <p>
+          <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
+        </p>
+      {% endif %}
       <p> <em> (Workshop) </em> </p>
-      <p>
-        <img style="max-width: 80%; max-height: 300px;" src="{{ w.img }}" />
-      </p>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
