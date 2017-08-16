@@ -89,9 +89,6 @@ Unconference Content:
           then we would be happy to hear from you so that we can get a feel for
           what people are offering on the second day!
         </p>
-        <p>
-          Some of the unconference talks that have been proposed include:
-        </p>
       </div>
     </div>
   </div>
@@ -110,9 +107,6 @@ Unconference Content:
           to let them know so that they can advertise that your work will be there for others.
           Also, if your workshop requires more than spontaneous organisation then
           getting in touch is a must!
-        </p>
-        <p>
-          Some of the workshops planned for Day-Two include:
         </p>
       </div>
     </div>
