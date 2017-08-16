@@ -34,6 +34,7 @@
         "details": "
           <p> Vaibhav will be presenting a talk followed by a workshop on the internals of Git. </p>
           <p> Let's walk through a Git repository together and implement a Git of our own one step at a time. </p>
+          <p> See the related blog-post: <a href=\"http://vaibhavsagar.com/blog/2017/08/13/i-haskell-a-git/\">I Haskell a Git</a>! </p>
         "
       }
    ],
