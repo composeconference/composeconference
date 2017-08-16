@@ -60,43 +60,6 @@ Unconference Content:
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-        <br> <br> <br>
-        <h1 class="text-center">Un-Conference Activities (More on the Day!)</h1>
-        <br>
-
-        <table class="agenda">
-          <tr> <td> <strong> Talks </strong> </td> </tr>
-
-          {% for w in site.data.2017-melbourne.unconference.talks %}
-            <tr>
-              <td> {% if w.time %} {{w.time}} {% endif %} </td>
-              <td> {% if w.room %} {{w.room}} {% endif %} </td>
-              <td> {{w.name}} </td>
-              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
-            </tr>
-          {% endfor %}
-
-          <tr> <td> <br> </td> </tr>
-
-          <tr> <td> <strong> Workshops </strong> </td> </tr>
-
-          {% for w in site.data.2017-melbourne.unconference.workshops %}
-            <tr>
-              <td> {% if w.time %} {{w.time}} {% endif %} </td>
-              <td> {% if w.room %} {{w.room}} {% endif %} </td>
-              <td> {{w.name}} </td>
-              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
-            </tr>
-          {% endfor %}
-        </table>
-        <br> <br> <br>
-    </div>
-  </div>
-</div>
-
 <div class="container cfpsection">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
@@ -134,6 +97,65 @@ Unconference Content:
   </div>
 </div>
 
+<div class="container cfpsection">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Workshops</h2>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          Although the second day is a largely-unstructured event, if you wish to run
+          a workshop then please <a href="mailto:composemel-admin@googlegroups.com">get in touch with the committee</a>
+          to let them know so that they can advertise that your work will be there for others.
+          Also, if your workshop requires more than spontaneous organisation then
+          getting in touch is a must!
+        </p>
+        <p>
+          Some of the workshops planned for Day-Two include:
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <br> <br> <br>
+        <h1 class="text-center">Un-Conference Activities (More on the Day!)</h1>
+        <br>
+
+        <table class="agenda">
+          <tr> <td> <strong> Talks </strong> </td> </tr>
+
+          {% for w in site.data.2017-melbourne.unconference.talks %}
+            <tr>
+              <td> {% if w.time %} {{w.time}} {% endif %} </td>
+              <td> {% if w.room %} {{w.room}} {% endif %} </td>
+              <td> {{w.name}} </td>
+              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
+            </tr>
+          {% endfor %}
+
+          <tr> <td> <br> </td> </tr>
+
+          <tr> <td> <strong> Workshops </strong> </td> </tr>
+
+          {% for w in site.data.2017-melbourne.unconference.workshops %}
+            <tr>
+              <td> {% if w.time %} {{w.time}} {% endif %} </td>
+              <td> {% if w.room %} {{w.room}} {% endif %} </td>
+              <td> {{w.name}} </td>
+              <td> <a href="#{{w.id}}">{{w.title}}</a> </td>
+            </tr>
+          {% endfor %}
+        </table>
+        <br> <br> <br>
+    </div>
+  </div>
+</div>
+
 {% for w in site.data.2017-melbourne.unconference.talks %}
 
 <div class="container cfpsection" id="{{ w.id }}">
@@ -159,28 +181,6 @@ Unconference Content:
 </div>
 
 {% endfor %}
-
-<div class="container cfpsection">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Workshops</h2>
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          Although the second day is a largely-unstructured event, if you wish to run
-          a workshop then please <a href="mailto:composemel-admin@googlegroups.com">get in touch with the committee</a>
-          to let them know so that they can advertise that your work will be there for others.
-          Also, if your workshop requires more than spontaneous organisation then
-          getting in touch is a must!
-        </p>
-        <p>
-          Some of the workshops planned for Day-Two include:
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
 
 {% for w in site.data.2017-melbourne.unconference.workshops %}
 
