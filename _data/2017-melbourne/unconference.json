@@ -31,7 +31,47 @@
       { 
         "name": "Khan Thompson" ,
         "id": "servant-introduction",
-        "title": "Building a Basic Haskell Web-Service in Servant"
+        "title": "Building a Basic Haskell Web-Service in Servant",
+        "details": "
+          <p>
+            I will be running a workshop on building a basic Haskell web service.
+          </p>
+          <p>
+            A lot of devs work in web <em>(all the ones I work with at least ;))</em>, and
+            it’s sometimes hard to get off the ground when it comes to doing
+            'real work' at the same time as learning Haskell.
+          </p>
+          <p>
+            The goal for this workshop is for all attendees to have a working CRUD webservice
+            connecting to a database that they can then extend. Depending on time
+            limits, we can then discuss changing databases, adding additional
+            endpoints and return types, and adding unit testing.
+          </p>
+          <p>
+            We will use the Servant framework for this. The database connection will
+            be to SQLite, avoiding a more complicated setup.  Therefore the
+            only dependency will be stack and some development libraries.
+          </p>
+          <p>
+            I'd imagine that this would be done in around 2 hours, although I can
+            provide a little more clarity on that when I’ve done a practice run
+            on workmates. Attendees would need a laptop with stack installed and
+            an editor setup and running.
+          </p>
+          <p>
+            I will take a step by step approach, introducing the tasks and their
+            motivations, and then leaving attendees to complete the steps, pausing
+            to help anyone who falls behind.
+          </p>
+        ",
+        "prereqs": "
+          <p>
+            The intended audience will be people who have learnt a little bit of
+            Haskell (they are familiar with the syntax) but are interested in
+            working through the ins-and-outs of building a web service, e.g.
+            transformer-stacks, database-connections, authentication, etc.
+          </p>
+        "
       },
 
       { 
