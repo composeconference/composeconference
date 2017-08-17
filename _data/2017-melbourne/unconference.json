@@ -17,7 +17,6 @@
 
       {
         "name": "Sharon Holliday" ,
-        "hide": true,
         "id": "scala-exceptions",
         "img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
         "title": "Exceptional Scala Workshop",
