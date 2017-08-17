@@ -30,6 +30,7 @@
       { 
         "name": "Khan Thompson" ,
         "id": "servant-introduction",
+        "img": "/assets/img/2017-melbourne/khan-thompson.jpg",
         "title": "Building a Basic Haskell Web-Service in Servant",
         "details": "
           <!--
