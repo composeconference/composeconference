@@ -73,8 +73,11 @@
             transformer-stacks, database-connections, authentication, etc.
           </p>
           <p>
-            Attendees will need a laptop with stack installed and
-            an editor setup and running.
+            Attendees will need a laptop with stack installed and an editor setup
+            and running. They should also follow the instructions
+            <a href='https://github.com/khanage/servant-workshop'>online</a>
+            to ensure that they have already downloaded and compiled all the
+            necessary dependencies as this could be challenging on site.
           </p>
         "
       },
