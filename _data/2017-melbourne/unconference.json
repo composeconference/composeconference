@@ -77,8 +77,15 @@
             and running. They should also follow the instructions
             <a href='https://github.com/khanage/servant-workshop'>online</a>
             to ensure that they have already downloaded and compiled all the
-            necessary dependencies as this could be challenging on site.
+            necessary dependencies as this could be challenging on site. Briefly:
           </p>
+          <ul>
+            <li>Install the Stack tool and ensure that it is in your $PATH.</li>
+            <li>You should have a Haskell editor setup. Atom or something more adventurous (E.g. The one and true editor, Spacemacs)</li>
+            <li>Clone https://github.com/khanage/servant-workshop to a handy directory.</li>
+            <li>Run <code>stack build</code> and <code>stack test</code></li>
+            <li>Then run <code>stack install yesod-bin</code></li>
+          </ul>
         "
       },
 
