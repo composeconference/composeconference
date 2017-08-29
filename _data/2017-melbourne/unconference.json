@@ -22,6 +22,8 @@
         "id": "scala-exceptions",
         "img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
         "title": "Exceptional Scala Workshop",
+        "room": "Room 80.03.06",
+        "time": "11:00am",
         "details": "
           Sharon will be running a workshop on some techniques for dealing
           with, or avoiding exceptions in Scala!
@@ -126,7 +128,7 @@
       { "name": "Andy Kitchen (MC)" ,
         "time": "1:15pm",
         "id": "unrecruiting",
-        "room": "Room 80.02.07" ,
+        "room": "Room 80.04.?? Level 4, follow the posters" ,
         "img": "/assets/img/2017-melbourne/unrecruiting.png",
         "title": "Un-Recruiting - Session for FP-People and FP-Jobs in Melbourne",
         "details": '
