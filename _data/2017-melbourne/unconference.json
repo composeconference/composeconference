@@ -2,7 +2,7 @@
   "workshops":
     [
       { "time": "9:00am" ,
-        "name": "Compose Committee" ,
+        "name": "Lyndon Maydwell" ,
         "id": "introduction-to-haskell",
         "title": "Introductory Haskell Workshop",
         "img": "/assets/img/2017-melbourne/haskell-workshop.png",
@@ -33,6 +33,8 @@
 
       { 
         "name": "Khan Thompson" ,
+        "room": "80.04.11",
+        "time": "1:45pm",
         "id": "servant-introduction",
         "img": "/assets/img/2017-melbourne/khan-thompson.jpg",
         "title": "Building a Basic Haskell Web-Service in Servant",
@@ -96,6 +98,8 @@
       { 
         "name": "Vaibhav Sagar" ,
         "id": "git-internals",
+        "room": "Room 80.04.11",
+        "time": "10:30am",
         "img": "/assets/img/2017-melbourne/vaibhav_sagar_github_avatar.jpeg",
         "title": "Git Internals Workshop",
         "img": "/assets/img/2017-melbourne/vaibhav-sagar.jpg",
@@ -115,8 +119,8 @@
    ],
 
   "talks": [
-      { "time": "9:00am" ,
-        "room": "Room TBA" ,
+      { "time": "2:00pm" ,
+        "room": "Room 80.04.11" ,
         "name": "Dave Laing" ,
         "id": "reflex-things",
         "img": "/assets/img/2017-melbourne/dave-laing.png",
@@ -125,10 +129,21 @@
           <p> An introduction to the Haskell FRP library for writing front end apps. </p>
         '
       },
+      { "name": "Lightning Speakers" ,
+        "time": "9:00am",
+        "id": "lightning",
+        "room": "Room 80.04.19 ~ Follow the banners" ,
+        "title": "Lightning Talks and Hangout Zone!",
+        "details": '
+          <p> Andy Kitchen will MC a 30-Minute session where people looking for
+          developers or developers looking for work can stand up and talk for
+          2-5 minutes. </p>
+        '
+      },
       { "name": "Andy Kitchen (MC)" ,
         "time": "1:15pm",
         "id": "unrecruiting",
-        "room": "Room 80.04.?? Level 4, follow the posters" ,
+        "room": "Room 80.04.19 ~ Follow the banners" ,
         "img": "/assets/img/2017-melbourne/unrecruiting.png",
         "title": "Un-Recruiting - Session for FP-People and FP-Jobs in Melbourne",
         "details": '
