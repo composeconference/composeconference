@@ -71,7 +71,7 @@ Unconference Content:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p> RMIT Building 80 </p>
-        <p> Rooms: 80.03.06, 80.03.15 and 80.02.07.  </p>
+        <p> Rooms: 80.03.06, 80.04.11 and 80.04.19.  </p>
       </div>
     </div>
   </div>
