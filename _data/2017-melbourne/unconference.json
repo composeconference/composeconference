@@ -7,7 +7,7 @@
         "title": "Introductory Haskell Workshop",
         "img": "/assets/img/2017-melbourne/haskell-workshop.png",
         "prereqs": "Stack",
-        "room": "Room 80.03.06",
+        "room": "80.03.06",
         "details": '
           <p>Introductory Haskell Workshop</p>
           <p> <a href="https://www.eventbrite.com/e/compose-melbourne-2017-introductory-haskell-workshop-tickets-36989049242"
@@ -22,7 +22,7 @@
         "id": "scala-exceptions",
         "img": "/assets/img/2016-melbourne/speakers/Sharon-Holliday.jpg",
         "title": "Exceptional Scala Workshop",
-        "room": "Room 80.03.06",
+        "room": "80.03.06",
         "time": "11:00am",
         "details": "
           Sharon will be running a workshop on some techniques for dealing
@@ -98,7 +98,7 @@
       { 
         "name": "Vaibhav Sagar" ,
         "id": "git-internals",
-        "room": "Room 80.04.11",
+        "room": "80.04.11",
         "time": "10:30am",
         "img": "/assets/img/2017-melbourne/vaibhav_sagar_github_avatar.jpeg",
         "title": "Git Internals Workshop",
@@ -120,7 +120,7 @@
 
   "talks": [
       { "time": "2:00pm" ,
-        "room": "Room 80.04.11" ,
+        "room": "80.04.11" ,
         "name": "Dave Laing" ,
         "id": "reflex-things",
         "img": "/assets/img/2017-melbourne/dave-laing.png",
@@ -132,7 +132,7 @@
       { "name": "Lightning Speakers" ,
         "time": "9:00am",
         "id": "lightning",
-        "room": "Room 80.04.19 ~ Follow the banners" ,
+        "room": "80.04.19" ,
         "img": "/assets/img/2017-melbourne/unconference.png",
         "title": "Lightning Talks and Hangout Zone!",
         "details": '
@@ -144,7 +144,7 @@
       { "name": "Andy Kitchen (MC)" ,
         "time": "1:15pm",
         "id": "unrecruiting",
-        "room": "Room 80.04.19 ~ Follow the banners" ,
+        "room": "80.04.19" ,
         "img": "/assets/img/2017-melbourne/unrecruiting.png",
         "title": "Un-Recruiting - Session for FP-People and FP-Jobs in Melbourne",
         "details": '

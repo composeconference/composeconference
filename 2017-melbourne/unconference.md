@@ -173,6 +173,11 @@ Unconference Content:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p><strong> {{ w.title }} </strong></p>
+        <table>
+          <tr><td>Time &nbsp; &nbsp;  &nbsp;  </td> <td>{% if w.time %} {{w.time}} {% endif %} </td></tr>
+          <tr><td>Room &nbsp; &nbsp;  &nbsp;  </td> <td>{% if w.room %} {{w.room}} {% endif %} </td></tr>
+        </table>
+        <br>
         {{ w.details }}
         {% if w.prereqs %}
           <br>
@@ -204,6 +209,11 @@ Unconference Content:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p><strong> {{ w.title }} </strong></p>
+        <table>
+          <tr><td>Time &nbsp; &nbsp;  &nbsp;  </td> <td>{% if w.time %} {{w.time}} {% endif %} </td></tr>
+          <tr><td>Room &nbsp; &nbsp;  &nbsp;  </td> <td>{% if w.room %} {{w.room}} {% endif %} </td></tr>
+        </table>
+        <br>
         {{ w.details }}
         {% if w.prereqs %}
           <br>
