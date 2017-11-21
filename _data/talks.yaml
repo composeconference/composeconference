@@ -78,3 +78,99 @@ talks:
     speaker_url: "/2015/speakers/index.html#eliopoulos"
     year: 2015
     city: new_york
+
+  - name: "Sound Synthesis in the Computational Crucible"
+    sectionid: "andrew_sorensen_ssitcc"
+    video_url: "https://www.youtube.com/embed/Mlbe7d90DoI?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Andrew Sorensen"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-andrew-sorensen/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Your first Haskell app"
+    sectionid: "andrew_mccluskey_yfha"
+    video_url: "https://www.youtube.com/embed/lUibiSzIgG4?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Andrew McCluskey"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-andrew-mccluskey/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "From JavaScript to PureScript"
+    sectionid: "rahul_trikha_fjtp"
+    video_url: "https://www.youtube.com/embed/MBj2q9O3b-8?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Rahul Trikha"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-rahul-trikha/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "React: JS vs ClojureScript"
+    sectionid: "pei_shi_yong_rjsvcljs"
+    video_url: "https://www.youtube.com/embed/7Kl63sCXdRQ?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Pei Shi Yong"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-pei-shi-yong/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Type Class: The Ultimate Ad Hoc"
+    sectionid: "george_wilson_tctuah"
+    video_url: "https://www.youtube.com/embed/2EdQFCP5mZ8?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "George Wilson"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-george-wilson/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "BioShake: A Haskell EDSL for Bio-Informatics Pipelines"
+    sectionid: "justin_bedo_bsahedslfbip"
+    video_url: "https://www.youtube.com/embed/lu90p7EWXJE?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Justin Bedő"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-justin-bedo/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "FP in Aviation"
+    sectionid: "tony_morris_fpia"
+    video_url: "https://www.youtube.com/embed/ZOII5dbduKU?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Tony Morris"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-tony-morris/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Re-ops, a Functional Live-Infrastructure as Code"
+    sectionid: "ronen_narkis_rafliac"
+    video_url: "https://www.youtube.com/embed/iopuirQuK-s?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Ronen Narkis"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-ronen-narkis/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "The Why and How of ReasonML"
+    sectionid: "keira_hodgkison_twahor"
+    video_url: "https://www.youtube.com/embed/j5mlMUzpE5g?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Keira Hodgkison"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-keira-hodgkison/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Reactive Streams for REA feeders"
+    sectionid: "luke_stephenson_rsfrf"
+    video_url: "https://www.youtube.com/embed/mOanvXdMRQY?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Luke Stephenson"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-luke-stephenson/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Domain-Specific Type Error Diagnosis in GHC"
+    sectionid: "jurriaan_hage_dstedighc"
+    video_url: "https://www.youtube.com/embed/GbCfmnTmQDc?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Jurriaan Hage"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-jurriaan-hage/#h1"
+    year: 2017
+    city: melbourne
+
+  - name: "Grenade - Dependently Typed Neural Networks in Haskell"
+    sectionid: "huw_campbell_gdtnnihs"
+    video_url: "https://www.youtube.com/embed/sPjA6lS0GlQ?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj"
+    speaker: "Huw Campbell"
+    speaker_url: "http://127.0.0.1:4000/2017-melbourne/speaker-huw-campbell/#h1"
+    year: 2017
+    city: melbourne

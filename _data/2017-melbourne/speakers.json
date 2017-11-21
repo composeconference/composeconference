@@ -12,6 +12,7 @@
     "name": "Andrew Sorensen" ,
     "id": "andrew_sorensen",
     "title": "Keynote - Sound Synthesis in the Computational Crucible",
+    "video": "https://youtu.be/Mlbe7d90DoI?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "permalink": "/2017-melbourne/speaker-andrew-sorensen",
     "level": 1, 
     "img": "/assets/img/2017-melbourne/andrew_sorensen.jpg",
@@ -48,6 +49,7 @@
     "name": "Andrew McCluskey",
     "id": "andrew_mccluskey",
     "img": "/assets/img/2017-melbourne/andrew_mccluskey.jpg",
+    "video": "https://youtu.be/lUibiSzIgG4?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "permalink": "/2017-melbourne/speaker-andrew-mccluskey",
     "title": "Your first Haskell app",
     "level": 1, 
@@ -90,6 +92,7 @@
     "name": "Rahul Trikha",
     "id": "rahul_trikha",
     "img": "/assets/img/2017-melbourne/rahul_trikha.jpg",
+    "video": "https://youtu.be/MBj2q9O3b-8?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "permalink": "/2017-melbourne/speaker-rahul-trikha",
     "title": "From JavaScript to PureScript",
     "level": 1, 
@@ -129,6 +132,7 @@
     "id": "pei-shi-yong",
     "level": 1,
     "img": "/assets/img/2017-melbourne/pei_shi_yong.jpg",
+    "video": "https://youtu.be/7Kl63sCXdRQ?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "React: JS vs ClojureScript",
     "permalink": "/2017-melbourne/speaker-pei-shi-yong",
     "details": "
@@ -162,6 +166,7 @@
     "permalink": "/2017-melbourne/speaker-george-wilson",
     "title": "Type Class: The Ultimate Ad Hoc",
     "img": "/assets/img/2017-melbourne/george_wilson.jpg",
+    "video": "https://youtu.be/2EdQFCP5mZ8?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "bio": "
       <p>George Wilson is an enthusiastic functional programmer at the <a href='http://qfpl.io'>Queensland Functional Programming Lab</a>, 
          under Data61/CSIRO, located in Brisbane, Australia.</p> 
@@ -205,6 +210,7 @@
     "id": "justin_bedo",
     "permalink": "/2017-melbourne/speaker-justin-bedo",
     "img": "/assets/img/2017-melbourne/justin_bedo.jpg",
+    "video": "https://youtu.be/lu90p7EWXJE?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "BioShake: a Haskell EDSL for bioinformatics pipelines",
     "level": 2,
     "details": "
@@ -246,6 +252,7 @@
     "id": "tony_morris",
     "permalink": "/2017-melbourne/speaker-tony-morris",
     "img": "/assets/img/2017-melbourne/tony_morris.jpg",
+    "video": "https://youtu.be/ZOII5dbduKU?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "FP in Aviation",
     "level": 2, 
     "bio": "
@@ -312,6 +319,7 @@
     "permalink": "/2017-melbourne/speaker-ronen-narkis",
     "title": "Re-ops, a Functional Live-Infrastructure as Code",
     "img": "/assets/img/2017-melbourne/ronen_narkis.jpg",
+    "video": "https://youtu.be/iopuirQuK-s?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "level": 2, 
     "bio": "
     <p>Ronen Narkis has been a pro coder for more than 12 years across a variety of projects
@@ -367,6 +375,7 @@
     "permalink": "/2017-melbourne/speaker-keira-hodgkison",
     "level": 2,
     "img": "/assets/img/2017-melbourne/keira_hodgkison.jpg",
+    "video": "https://youtu.be/j5mlMUzpE5g?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "The Why and How of ReasonML. A Non-Functional Programmer's Perspective",
     "details": "
 
@@ -403,6 +412,7 @@
     "id": "luke_stephenson",
     "permalink": "/2017-melbourne/speaker-luke-stephenson",
     "img": "/assets/img/2017-melbourne/luke_stephenson.jpg",
+    "video": "https://youtu.be/mOanvXdMRQY?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "Reactive Streams for REA feeders",
     "level": 2, 
     "bio": "
@@ -464,6 +474,7 @@
     "id": "jurriaan-hage",
     "permalink": "/2017-melbourne/speaker-jurriaan-hage",
     "img": "/assets/img/2017-melbourne/jurriaan_hage.jpg",
+    "video": "https://youtu.be/GbCfmnTmQDc?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "level": 3,
     "title": "Domain-Specific Type Error Diagnosis in GHC",
     "bio": "
@@ -502,6 +513,7 @@
     "id": "huw_campbell",
     "permalink": "/2017-melbourne/speaker-huw-campbell",
     "img": "/assets/img/2017-melbourne/huw_campbell.jpg",
+    "video": "https://youtu.be/sPjA6lS0GlQ?list=PLNoHgLVTxtarRJWmMAs3RSy9BbB_TGlgj",
     "title": "Grenade - Dependently Typed Neural Networks in Haskell",
     "level": 3, 
     "bio": "
