@@ -7,6 +7,10 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
 		.panel-default .panel-body.unrestricted-height {
 			max-height: none;
 		}
+
+    .center {
+      text-align: center;
+    }
 </style>
 
 <div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
@@ -18,14 +22,16 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
   <br />
 
   <div class="row">
-    <div class="col-sm-offset-2 col-sm-8">
+    <div class="col-sm-offset-2 col-sm-8 center">
         <br />
         <br />
-        <h3 style="text-align: center;"> More details coming soon... </h3>
-      <!--
         <p>
-          Details Coming Soon.
+          <a href="/assets/img/2018-melbourne/compose-melbourne-2018-sponsorship-prospectus.pdf" target="_blank">Download PDF</a>
         </p>
+        <br />
+        <br />
+        <h3> More details coming soon... </h3>
+      <!--
       -->
     </div>
     <br />
