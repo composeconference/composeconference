@@ -259,8 +259,6 @@ TODO:
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p> The second day will be dedicated to workshops and <a href="https://en.wikipedia.org/wiki/Unconference">unconferences</a>. </p>
         <h3> Workshops </h3>
-        <p> We will be running a beginners Haskell workshop. </p>
-        <p>
           If you wish to run a workshop on the second day of the conference, then
           please let us know. Alternatively, if there is a workshop that would interest
           you as an attendee, then please also let us know.
