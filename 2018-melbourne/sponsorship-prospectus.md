@@ -1,5 +1,5 @@
 ---
-layout: 2017-melbourne/melbourne
+layout: 2018-melbourne/melbourne
 title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
 ---
 
