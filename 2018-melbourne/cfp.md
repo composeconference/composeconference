@@ -1,7 +1,9 @@
 ---
 layout: 2018-melbourne/melbourne
 title: Call for Proposals
+redirect_from: "/cfp/"
 ---
+
 
 <!--
 
@@ -31,12 +33,17 @@ TODO:
         <br />
 
         <p>
+          We at Compose :: Melbourne are delighted to call for presentations for our 2018 conference!
+        </p>
+        <p>
           Compose :: Melbourne is a functional programming conference focused on
           developing the community and bringing functional programming to a wider
           audience. It is a 2-day event being held in Melbourne, Australia on the
           27th and 28th of August 2018. The first day features a single track of
           presentations followed by a second day of workshops and an unconference.
           We are a sister-conference of the NY based Compose :: Conference.
+        </p> <p>
+         Submit your presentation <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">here</a>.
         </p>
 
       </div>
@@ -90,18 +97,15 @@ TODO:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
        
-      Coming soon!
-      <!--
         <p>
           Submit a Presentation Proposal via
-          <a href="https://easychair.org/conferences/?conf=cmc20170">
-            Easy Chair</a>.
+          <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">
+            this web form</a>.
         </p>
         <p>
           Or... <a href="mailto:composemel-admin@googlegroups.com">contact us via email</a>
           with your proposed presentation at <code>composemel-admin@googlegroups.com</code>.
         </p>
-        --> 
       </div>
     </div>
   </div>
