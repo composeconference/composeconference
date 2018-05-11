@@ -4,9 +4,9 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
 ---
 
 <style type="text/css">
-		.panel-default .panel-body.unrestricted-height {
-			max-height: none;
-		}
+    .panel-default .panel-body.unrestricted-height {
+      max-height: none;
+    }
 
     .center {
       text-align: center;
@@ -49,6 +49,30 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
     <div class="col-sm-offset-2 col-sm-8">
       <div class="tier">
         <h3 class="center"> Sponsorship Benefits </h3>
+        <br><br>
+        <p>
+          If you are reading this prospectus, then you understand that
+          functional-programming has much to offer. The development
+          community in Melbourne are passionate about these technologies
+          and want to share their experiences and learn togeather.
+          There is a strong desire to learn use and share powerful
+          tools and Compose :: Melbourne is a platform to engage this
+          way.
+        </p>
+        <p>
+          As a sponsor, you will be seen as a company who shares
+          this philosophy. A leader on the cutting edge that the
+          attendees can look to for inspiration when putting these
+          tools into practice. As well as this, your presence
+          will show you are engaging professionally in this
+          space in a way that will generate interest in joining
+          your ranks.
+        </p>
+        <p>
+          Take advantage of this oportunity to show you are strongly
+          engaged with the Melbourne functional programming
+          community by sponsoring Compose :: Melbourne 2018!
+        </p>
         <br><br>
         <ul>
           <li>1 tier-one, 2 tier-two, 4 tier-three sponsors.</li>
