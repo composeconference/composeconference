@@ -55,7 +55,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
           functional-programming has much to offer. The development
           community in Melbourne are passionate about these technologies
           and want to share their experiences and learn togeather.
-          There is a strong desire to learn use and share powerful
+          There is a strong desire to learn, use, and share powerful
           tools and Compose :: Melbourne is a platform to engage this
           way.
         </p>
