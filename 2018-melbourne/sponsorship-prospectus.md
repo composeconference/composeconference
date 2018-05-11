@@ -74,6 +74,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
           community by sponsoring Compose :: Melbourne 2018!
         </p>
         <br><br>
+        <p><strong>Details:</strong></p>
         <ul>
           <li>1 tier-one, 2 tier-two, 4 tier-three sponsors.</li>
           <li>Banners must be provided by the sponsor.</li>
