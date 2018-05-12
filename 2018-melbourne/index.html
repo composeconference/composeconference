@@ -181,6 +181,39 @@ title: Melbourne 2018
 	</div><!-- /container -->
 </div><!-- /aboutwrap -->
 
+<div id="portfoliowrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 unconfblock">
+				<h4> News! </h4>
+				<p style="font-size:13px">
+					Latest news and announcements!
+					<!-- TODO: Add a news page for all posts. -->
+				</p>
+			</div>
+
+			<div class="col-sm-8 col-xs-12 block">
+				<div class="news">
+					<table style="margin: auto; width: 100%;">
+						{% for post in site.posts limit:5 %}
+							{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+							{% capture range %}{{'2018-01-01 00:00:00 +1000' | date: '%s'}}{% endcapture %}
+							{% if posttime > range %}
+							<tr>
+								<td style=" text-align: left;">
+									<a class="landing-link" style="color: #428bca;" href="{{ post.url }}">{{ post.title }}</a>
+								</td>
+								<td class="hidden-xs hidden-sm" style="text-align: right;"> {{ post.date | date: "%b %-d, %Y" }} </td>
+							</tr>
+							{% endif %}
+						{% endfor %}
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="sep talk melbourne" data-stellar-background-ratio="0.5" style="background-position: 50% -91.5px;"></div>
 
 <div id="portfoliowrap">
