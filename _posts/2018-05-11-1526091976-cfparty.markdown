@@ -1,0 +1,19 @@
+---
+layout: 2018-melbourne/news-post
+title:  "Call for Presentations Party Wrap-Up!"
+---
+
+Last night we <a href="/2018-melbourne/cfp/">kicked off the call-for-presentations</a>
+process for Compose :: Melbourne 2018
+<a href="https://www.eventbrite.com.au/e/compose-melbourne-cfparty-tickets-45333084476">with a party</a>
+that we've been calling the "CFParty!"
+
+You can see further details on the CFP process
+<a href="/2018-melbourne/cfp/">on the cfp page</a>,
+or you can
+<a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">go directly to the submission form</a>
+and tell us what you would like to talk about!
+
+In addition to launching the CFP,
+<a href="https://www.eventbrite.com.au/e/compose-melbourne-2018-tickets-46002911948">tickets for the conference</a>
+are now on sale!
