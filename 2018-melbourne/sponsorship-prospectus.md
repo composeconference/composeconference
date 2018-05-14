@@ -69,14 +69,14 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
           your ranks.
         </p>
         <p>
-          Take advantage of this oportunity to show you are strongly
+          Take advantage of this opportunity to show you are strongly
           engaged with the Melbourne functional programming
           community by sponsoring Compose :: Melbourne 2018!
         </p>
         <br><br>
         <p><strong>Details:</strong></p>
         <ul>
-          <li>1 tier-one, 2 tier-two, 4 tier-three sponsors.</li>
+          <li>There are 1 Tier One, 2 Tier Two, 4 Tier Three sponsorship slots.</li>
           <li>Banners must be provided by the sponsor.</li>
           <li>Logos must be provided by the sponsor.</li>
           <li>Logos will be on: printed material, formal slides, and the website composeconference.  org, as specified by the tier structure.</li>
