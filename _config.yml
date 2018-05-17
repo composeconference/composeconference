@@ -6,7 +6,7 @@ markdown: kramdown
 permalink: /:title/
 highlighter: rouge
 
-plugins:
+plugins_dir:
   - jekyll-redirect-from
 
 # Exclude these files from your production _site
