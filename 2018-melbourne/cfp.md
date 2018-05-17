@@ -22,7 +22,7 @@ TODO:
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
 
-      {% include 2017-melbourne/languages.html %}
+      {% include 2018-melbourne/languages.html %}
 
     </div>
 
