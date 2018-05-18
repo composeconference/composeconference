@@ -1,0 +1,15 @@
+{ "times": [
+  { "name": "Julie Moronuki" ,
+    "id": "julie_moronuki",
+    "title": "Keynote - Topic TBA",
+
+    "permalink": "/2018-melbourne/speaker-julie-moronuki",
+    "level": 1, 
+    "img": "/assets/img/2018-melbourne/julie_moronuki.jpg",
+    "details": "
+    ",
+    "bio": "
+    <p>Julie Moronuki learned Haskell while writing Haskell Programming from First Principles. She has degrees in philosophy and linguistics and formerly worked as a language teacher and librarian. Her interests include the intersections of linguistics, logic, and programming, as well as improving functional programming instruction and outreach. Currently she is writing a second book, The Joy of Haskell, and is a co-founder of Type Classes (typeclasses.com). In her spare time she homeschools her two children and makes too much jam.</p>
+    "
+  }]
+}
