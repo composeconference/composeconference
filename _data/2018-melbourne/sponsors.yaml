@@ -1,5 +1,12 @@
 sponsors:
-  - name:      'Data 61'
+
+  - name:      'RMIT (Venue Sponsor)'
+    link:      'https://www.rmit.edu.au'
+    link_text: 'RMIT University'
+    by_line:   'RMIT is a global university of technology, design and enterprise.'
+    img:       '/assets/img/logos/RMIT.jpg'
+
+  - name:      'Data 61 (Sponsor)'
     link:      'https://data61.csiro.au/'
     link_text: 'data61.csiro.au'
     by_line:   'World leaders in data science research and engineering and trusted advisers to government, business and academia.'
@@ -10,3 +17,9 @@ sponsors:
     link_text: 'Silverpond'
     by_line:   'Accelerating the adoption of AI.'
     img:       '/assets/img/logos/silverpond2b.png'
+
+  - name:      'SEEK (Sponsor)'
+    link:      'http://www.seek.com.au/'
+    link_text: 'seek.com.au'
+    by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
+    img:       '/assets/img/logos/seek.png'

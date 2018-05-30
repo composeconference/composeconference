@@ -29,7 +29,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
         To find out how to be a sponsor, please take a look at
         <a href="/2018-melbourne/sponsorship-prospectus/">this page</a>
         for information. If you would like additional information on sponsorship,
-        please contact us at: <a href="mailto:composemel-admin@googlegroups.com">composemel-admin@googlegroups.com</a>.
+        please contact us at: <a href="sponsors@mfpai">sponsors@mfpai</a>.
       </p>
       <!-- <h3> More details coming soon... </h3> -->
     </div>
