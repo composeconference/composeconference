@@ -43,7 +43,8 @@ TODO:
           presentations followed by a second day of workshops and an unconference.
           We are a sister-conference of the NY based Compose :: Conference.
         </p> <p>
-         Submit your presentation <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">here</a>.
+         Submit your presentation (or workshop)
+         <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">here</a>.
         </p>
 
       </div>
@@ -98,7 +99,7 @@ TODO:
       <div class="col-lg-10 col-md-10 col-sm-10">
        
         <p>
-          Submit a Presentation Proposal via
+          Submit a Presentation Proposal or Workshop via
           <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">
             this web form</a>.
         </p>
@@ -263,8 +264,10 @@ TODO:
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p> The second day will be dedicated to workshops and <a href="https://en.wikipedia.org/wiki/Unconference">unconferences</a>. </p>
         <h3> Workshops </h3>
+        <p>
           If you wish to run a workshop on the second day of the conference, then
-          please let us know. Alternatively, if there is a workshop that would interest
+          please <a href="https://compose-cfparty-2018.herokuapp.com/workshops/new">propose your workshop</a>.
+          Alternatively, if there is a workshop that would interest
           you as an attendee, then please also let us know.
         </p>
         <h3> Unconference </h3>
