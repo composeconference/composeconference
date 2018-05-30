@@ -4,3 +4,9 @@ sponsors:
     link_text: 'data61.csiro.au'
     by_line:   'World leaders in data science research and engineering and trusted advisers to government, business and academia.'
     img:       '/assets/img/2018-melbourne/data61.png'
+
+  - name:      'Silverpond (Sponsor)'
+    link:      'http://silverpond.com.au/'
+    link_text: 'Silverpond'
+    by_line:   'Accelerating the adoption of AI.'
+    img:       '/assets/img/logos/silverpond2b.png'
