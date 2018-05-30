@@ -1,0 +1,6 @@
+sponsors:
+  - name:      'Data 61'
+    link:      'https://data61.csiro.au/'
+    link_text: 'data61.csiro.au'
+    by_line:   'World leaders in data science research and engineering and trusted advisers to government, business and academia.'
+    img:       '/assets/img/2018-melbourne/data61.png'
