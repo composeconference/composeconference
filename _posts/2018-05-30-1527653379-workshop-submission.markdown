@@ -16,7 +16,7 @@ title:  "Unconference Workshop 'CFW' Submission Form!"
 Compose :: Melbourne have now launched our
 [workshop submission form](https://compose-cfparty-2018.herokuapp.com/workshops/new)!
 
-If you're interested in running a workshop at Compose one Day Two at the unconference,
+If you're interested in running a workshop at Compose :: Melbourne on Day-Two at the unconference,
 then please visit
 [this page](https://compose-cfparty-2018.herokuapp.com/workshops/new)
 to submit your workshop idea!
