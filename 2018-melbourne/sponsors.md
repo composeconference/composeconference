@@ -14,7 +14,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
 
 <div class="container">
 
-  <h1 class="centered">Sponsors</h1>
+  <h1 class="centered">Melbourne 2018 Sponsors</h1>
   <br />
 
   <div class="row">
