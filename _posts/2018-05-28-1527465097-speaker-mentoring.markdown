@@ -1,0 +1,30 @@
+---
+layout: 2018-melbourne/news-post
+title:  "Announcing - Online Speaker Mentoring!"
+---
+
+<br>
+<br>
+
+[![](/assets/img/2018-melbourne/gitter.png)](https://gitter.im/Compose-Melbourne-2018-Mentoring/Lobby)
+
+<br>
+<br>
+<br>
+
+
+Compose :: Melbourne is proud to announce that we have created a
+[Gitter.im community](https://gitter.im/Compose-Melbourne-2018-Mentoring/Lobby)
+to provide mentoring for prospective speakers.
+
+Sign in with your Github, Gitlab, or Twitter account to chat with members of
+the committee, and other volunteers from the FP community.
+You can chat in the lobby channel, or directly message admins to set up
+a private session.
+
+We want you to feel comfortable submitting a talk, stop by for help with your
+submission. We can help validate your talk ideas, structure, timing, and
+more.
+
+Looking forward to seeing you!
+

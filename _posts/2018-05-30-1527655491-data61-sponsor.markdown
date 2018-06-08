@@ -1,0 +1,19 @@
+---
+layout: 2018-melbourne/news-post
+title:  "New Sponsor - Data 61!"
+---
+
+<br>
+<br>
+
+[![](/assets/img/2018-melbourne/data61.png)](https://data61.csiro.au/)
+
+<br>
+<br>
+<br>
+
+
+Thanks to [Data 61](https://data61.csiro.au/) for their generous sponsorship of
+Compose :: Melbourne 2018!
+
+
