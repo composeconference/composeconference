@@ -1,15 +1,19 @@
-sponsors:
+tier1:
+
+tier2:
   - name:      'REA (Sponsor)'
     link:      'https://www.realestate.com.au/'
     link_text: 'realestate.com.au'
     by_line:   'Australia lives here.'
     img:       '/assets/img/logos/rea.png'
 
+
+tier3:
   - name:      'Data 61 (Sponsor)'
     link:      'https://data61.csiro.au/'
     link_text: 'data61.csiro.au'
-    by_line:   'World leaders in data science research and engineering and trusted advisers to government, business and academia.'
-    img:       '/assets/img/2018-melbourne/data61.png'
+    by_line:   "CSIRO's Data61: Australia's leading digital innovation network"
+    img:       '/assets/img/logos/DATA61-CSIRO_OnWhite.png'
 
   - name:      'SEEK (Sponsor)'
     link:      'http://www.seek.com.au/'
@@ -23,6 +27,9 @@ sponsors:
     by_line:   'We develop powerful tools for the Web Age.'
     img:       '/assets/img/logos/yeslogic-kerning-logo.png'
 
+tier4:
+
+in_kind:
   - name:      'Silverpond (Sponsor)'
     link:      'http://silverpond.com.au/'
     link_text: 'Silverpond'

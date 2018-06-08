@@ -26,24 +26,35 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
         diversity efforts, and providing refreshments at the event.
       </p>
       <p>
-      A Compose :: Melbourne sponsorship will position your company as a contributor 
-      to the Functional Programming scene in Australia.
-      </p>
-      <p>
         To find out how to be a sponsor, please take a look at our
-        <a href="http://www.composeconference.org/2018-melbourne/sponsorship-prospectus/">sponsorship prospectus</a>
-        for information. If you would like additional information on sponsorship,
-        please contact us at: <a href="sponsors@mfpai">sponsors@mfpai</a>.
+        <a href="http://www.composeconference.org/2018-melbourne/sponsors">sponsorship information</a>.
       </p>
       <!-- <h3> More details coming soon... </h3> -->
     </div>
   </div>
-  <div class="row">
 
+      <!-- SPONSORS. One "row" per tier/category-->
+  <div class="row">
+    {% for t in site.data.2018-melbourne.sponsors.tier1 %}
+        <div class="col-sm-12">
+          <div class="panel panel-default centered">
+            <div class="panel-heading">{{t.name}}</div>
+            <div class="panel-body centered unrestricted-height">
+              <a href="{{t.link}}">
+                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
+              </a>
+              <p> {{t.by_line}} </p>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
     <br />
     <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
-    {% for t in site.data.2018-melbourne.sponsors.sponsors %}
+  </div>
+  
+  <div class="row">
+    {% for t in site.data.2018-melbourne.sponsors.tier2 %}
         <div class="col-sm-6">
           <div class="panel panel-default">
             <div class="panel-heading">{{t.name}}</div>
@@ -56,5 +67,47 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
           </div>
         </div>
     {% endfor %}
+    <!-- <br /> -->
+    <!-- <hr style="color: #ddd; border-color: #ddd; border-style:dotted"> -->
+    <!-- <br /> -->
   </div>
+  
+  <div class="row">
+    {% for t in site.data.2018-melbourne.sponsors.tier3 %}
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">{{t.name}}</div>
+            <div class="panel-body centered unrestricted-height">
+              <a href="{{t.link}}">
+                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
+              </a>
+              <p> {{t.by_line}} </p>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    <br />
+    <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
+    <br />
+  </div>
+  
+  <div class="row">
+    {% for t in site.data.2018-melbourne.sponsors.in_kind %}
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">{{t.name}}</div>
+            <div class="panel-body centered unrestricted-height">
+              <a href="{{t.link}}">
+                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
+              </a>
+              <p> {{t.by_line}} </p>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    <br />
+    <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
+    <br />
+  </div>
+  
 </div>
