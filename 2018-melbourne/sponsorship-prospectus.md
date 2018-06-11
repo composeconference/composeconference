@@ -40,8 +40,8 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
         </p>
         <br />
         <br />
-        To enquire about sponsorship process,
-        <a href="mailto:composemel-admin@googlegroups.com" target="_blank">contact the Compose Melbourne Committee.</a>
+        To enquire about sponsorship process, please contact us at
+        <a href="mailto:sponsors@mfpai.org.au" target="_blank">sponsors@mfpai.org.au</a>
     </div>
   </div>
 
@@ -79,11 +79,12 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
           <li>There are 1 Tier One, 2 Tier Two, 4 Tier Three sponsorship slots.</li>
           <li>Banners must be provided by the sponsor.</li>
           <li>Logos must be provided by the sponsor.</li>
-          <li>Logos will be on: printed material, formal slides, and the website composeconference.  org, as specified by the tier structure.</li>
+          <li>Logos will be on: printed material, formal slides, and the website composeconference.org, as specified by the tier structure.</li>
           <li>Recruiting slot limited to 5 minutes.</li>
           <li>All sponsors will be thanked at the end of the formal component of both days.</li>
           <li>All logos will be accompanied on the website by a brief description of the services offered.</li>
           <li>All sponsorship amounts are listed in AUD.</li>
+          <li>Extras (catering sponsorship, etc) available upon request.</li>
         </ul>
       </div>
     </div>
