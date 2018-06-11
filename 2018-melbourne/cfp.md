@@ -153,7 +153,7 @@ TODO:
           opportunity as a sales pitch.
         </p>
         <p>
-          <strong>Note: Accepted presenters will not be required to purchase a ticket.</strong>
+          <strong>Note: Accepted presenters will be given a free ticket.</strong>
         </p>
       </div>
     </div>
@@ -269,6 +269,9 @@ TODO:
           please <a href="https://compose-cfparty-2018.herokuapp.com/workshops/new">propose your workshop</a>.
           Alternatively, if there is a workshop that would interest
           you as an attendee, then please also let us know.
+        </p>
+        <p>
+          <strong>Note: Workshop organisers will be given a free ticket.</strong>
         </p>
         <h3> Unconference </h3>
         <p>
