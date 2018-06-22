@@ -27,7 +27,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
       </p>
       <p>
         To find out how to be a sponsor, please take a look at our
-        <a href="../sponsorship-prospectus/">sponsorship information</a>.
+        <a href="/2018-melbourne/sponsorship-prospectus/">sponsorship information</a>.
       </p>
       <!-- <h3> More details coming soon... </h3> -->
     </div>

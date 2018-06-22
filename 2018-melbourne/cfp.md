@@ -20,7 +20,7 @@ TODO:
 <br />
 <div class="container">
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
+    <div class="col-lg-4 col-md-4 col-sm-4 name hidden-xs hidden-sm">
 
       {% include 2018-melbourne/languages.html %}
 
@@ -97,7 +97,7 @@ TODO:
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
-       
+
         <p>
           Submit a Presentation Proposal or Workshop via
           <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">
@@ -121,7 +121,7 @@ TODO:
       <div class="col-lg-10 col-md-10 col-sm-10">
         <p>Talk slots will be 30 minutes: 25 minute talk and 5 minutes for questions.
         </p>
-        <p> 
+        <p>
           Provide sufficient detail in your submission to enable the reviewers
           to understand your proposal and clearly identify what an attendee
           will gain from attending your session. You should include the
