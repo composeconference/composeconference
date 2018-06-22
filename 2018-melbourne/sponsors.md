@@ -27,7 +27,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
       </p>
       <p>
         To find out how to be a sponsor, please take a look at our
-        <a href="http://www.composeconference.org/2018-melbourne/sponsors">sponsorship information</a>.
+        <a href="../sponsorship-prospectus/">sponsorship information</a>.
       </p>
       <!-- <h3> More details coming soon... </h3> -->
     </div>
@@ -52,7 +52,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
     <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
   </div>
-  
+
   <div class="row">
     {% for t in site.data.2018-melbourne.sponsors.tier2 %}
         <div class="col-sm-6">
@@ -71,7 +71,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
     <!-- <hr style="color: #ddd; border-color: #ddd; border-style:dotted"> -->
     <!-- <br /> -->
   </div>
-  
+
   <div class="row">
     {% for t in site.data.2018-melbourne.sponsors.tier3 %}
         <div class="col-sm-6">
@@ -90,7 +90,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
     <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
   </div>
-  
+
   <div class="row">
     {% for t in site.data.2018-melbourne.sponsors.in_kind %}
         <div class="col-sm-6">
@@ -109,5 +109,5 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
     <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
   </div>
-  
+
 </div>
