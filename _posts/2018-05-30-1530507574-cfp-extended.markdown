@@ -1,0 +1,15 @@
+---
+layout: 2018-melbourne/news-post
+title:  "Melbourne CFP Extended until Sunday 8th July!"
+---
+
+![](/assets/img/2018-melbourne/einstein.png)
+
+You ask, we deliver! The Compose CFP has been extended by one week! New
+deadline: Sunday 8th July. Drop by to chat about your idea, and for
+encouragement:
+
+<https://gitter.im/Compose-Melbourne-2018-Mentoring/Lobby>
+
+
+![](/assets/img/2018-melbourne/cat.png)
