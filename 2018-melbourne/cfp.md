@@ -52,6 +52,22 @@ TODO:
   </div>
 </div>
 
+<div class="container cfpsection" id="update">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 name">
+      <h2>Breaking News!</h2>
+    </div>
+
+    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
+      <div class="col-lg-10 col-md-10 col-sm-10">
+        <p>
+          The CFP has been extended until <strong>July the 8th!</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container cfpsection" id="knowmore">
   <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-4 name">
@@ -80,7 +96,8 @@ TODO:
         <ul>
           <li>CFP Launch Party - Friday 11th May</li>
           <li>CFP Opens - Friday 11th May</li>
-          <li>CFP Closes Sunday 1st July</li>
+          <li><strike>CFP Closes Sunday 1st July</strike></li>
+          <li><strong>CFP Closes Sunday 8th July</strong></li>
           <li>Notify Presenters - Sunday 15th July</li>
           <li>Conference Day 1: Presentations - Monday, 27-Aug-2018</li>
           <li>Conference Day 2: Unconference & workshops - Tuesday, 28-Aug-2018</li>
