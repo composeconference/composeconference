@@ -29,12 +29,10 @@ TODO:
     <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
       <div class="col-lg-10 col-md-10 col-sm-10">
 
-        <h1>Call for Presentations 2018 </h1>
+        <h1>Call for Presentations 2018<br/>(closed)</h1>
         <br />
-
-        <p>
-          We at Compose :: Melbourne are delighted to call for presentations for our 2018 conference!
-        </p>
+        <h3>Note: The Melbourne 2018 CFP is now closed!</h3>
+        <br />
         <p>
           Compose :: Melbourne is a functional programming conference focused on
           developing the community and bringing functional programming to a wider
@@ -42,27 +40,12 @@ TODO:
           27th and 28th of August 2018. The first day features a single track of
           presentations followed by a second day of workshops and an unconference.
           We are a sister-conference of the NY based Compose :: Conference.
-        </p> <p>
+        </p>
+        <p>
          Submit your presentation (or workshop)
          <a href="https://compose-cfparty-2018.herokuapp.com/submissions/new">here</a>.
         </p>
 
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container cfpsection" id="update">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 name">
-      <h2>Breaking News!</h2>
-    </div>
-
-    <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-      <div class="col-lg-10 col-md-10 col-sm-10">
-        <p>
-          The CFP has been extended until <strong>July the 8th!</strong>
-        </p>
       </div>
     </div>
   </div>
@@ -97,7 +80,7 @@ TODO:
           <li>CFP Launch Party - Friday 11th May</li>
           <li>CFP Opens - Friday 11th May</li>
           <li><strike>CFP Closes Sunday 1st July</strike></li>
-          <li><strong>CFP Closes Sunday 8th July</strong></li>
+          <li>CFP Closes Sunday 8th July</li>
           <li>Notify Presenters - Sunday 15th July</li>
           <li>Conference Day 1: Presentations - Monday, 27-Aug-2018</li>
           <li>Conference Day 2: Unconference & workshops - Tuesday, 28-Aug-2018</li>
