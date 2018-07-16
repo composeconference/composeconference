@@ -31,7 +31,9 @@ TODO:
 
         <h1>Call for Presentations 2018<br/>(closed)</h1>
         <br />
-        <h3>Note: The Melbourne 2018 CFP is now closed!</h3>
+        <h3>Note: Presenters will be notified on Sunday the 22nd of July </h3>
+        (postponed from the 16th of July)
+        <br />
         <br />
         <p>
           Compose :: Melbourne is a functional programming conference focused on
@@ -81,7 +83,8 @@ TODO:
           <li>CFP Opens - Friday 11th May</li>
           <li><strike>CFP Closes Sunday 1st July</strike></li>
           <li>CFP Closes Sunday 8th July</li>
-          <li>Notify Presenters - Sunday 15th July</li>
+          <li><strike>Notify Presenters - Sunday 15th July</strike></li>
+          <li>Notify Presenters - Sunday 22nd July</li>
           <li>Conference Day 1: Presentations - Monday, 27-Aug-2018</li>
           <li>Conference Day 2: Unconference & workshops - Tuesday, 28-Aug-2018</li>
         </ul>
