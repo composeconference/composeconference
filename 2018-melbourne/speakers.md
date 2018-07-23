@@ -1,5 +1,5 @@
 ---
-layout: 2018/page
+layout: 2018-melbourne/melbourne
 title: C◦mp◦se 2018 Speakers
 permalink: /2018-melbourne/speakers/
 ---
