@@ -53,4 +53,6 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
 
 ---
 
-Register for C◦mp◦se :: Conference 2016 tickets at [composeconference.eventbrite.com](http://composeconference.eventbrite.com)
+<div class="container">
+Register for C◦mp◦se :: Conference 2016 tickets at <a href="https://www.eventbrite.com.au/e/compose-melbourne-2018-tickets-46002911948">Eventbrite</a>
+</div>
