@@ -26,24 +26,29 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
       <h2>&nbsp;</h2>
       <!-- <h3><small>{{ speaker.start_time | date: '%h %-d, %I:%M%P'}}</small></h3> -->
       <p class="text-centered">
-{% if speaker.twitter %}
-<a href="http://twitter.com/{{ speaker.twitter }}">
- <i class="fa fa-twitter"> {{ speaker.twitter }}</i>
-</a>
-{% endif %}
-{% if speaker.github %}
-<a href="http://github.com/{{ speaker.github }}">
- <i class="fa fa-github"> {{ speaker.github }}</i>
-</a>
-{% endif %}
-{% if speaker.irc_handle %}
-IRC: {{ speaker.irc_handle }}</i>
-{% endif %}
-</p>
-</div>
-</div><!-- --/row ---->
-</div><!-- --/container ---->
-</div>
+        {% if speaker.home %}
+        <a href="{{speaker.home}}">
+        <i class="fa fa-home"> {{ speaker.home }}</i>
+        </a>
+        {% endif %}
+        {% if speaker.twitter %}
+        <a href="http://twitter.com/{{ speaker.twitter }}">
+        <i class="fa fa-twitter"> {{ speaker.twitter }}</i>
+        </a>
+        {% endif %}
+        {% if speaker.github %}
+        <a href="http://github.com/{{ speaker.github }}">
+        <i class="fa fa-github"> {{ speaker.github }}</i>
+        </a>
+        {% endif %}
+        {% if speaker.irc_handle %}
+        IRC: {{ speaker.irc_handle }}</i>
+        {% endif %}
+      </p>
+    </div>
+  </div><!-- --/row ---->
+  </div><!-- --/container ---->
+  </div><!-- biowrap -->
 {% endfor %}
 
 ---
