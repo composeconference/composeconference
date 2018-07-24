@@ -50,6 +50,44 @@
       "github": null,
       "twitter": null,
       "bio": null
+    },
+    {
+      "name": "Tim McGilchrist",
+      "img": null,
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    }
+  ],
+  "yet_to_accept": [
+    {
+      "name": "Andrew McCluskey",
+      "img": null,
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    },
+    {
+      "name": "David Barri",
+      "img": null,
+      "title": "Quantifiers in Programming, with real examples",
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
     }
   ]
 }
