@@ -6,11 +6,88 @@
       "title": "AST to WebAssembly: writing a code generator",
       "abstract":
         "Ever wonder how your compiler translates your program into machine code but worried that this was some eldritch knowledge, lurking in the depths of compilers where undergraduates fear to tread?  Well it's not, and although it's a deep topic, the basics are fairly basic. <p/> The WebAssembly MVP is now available in almost all browsers (except IE) providing a fast virtual machine right in your browser.  Opening up the web for strong & statically typed functional programming languages*.  This presentation will show a simple and elegant code generator that generates WebAssembly from an abstract syntax tree (AST) for a ML-like language. Furthermore the basic algorithm is so straightforward you'll be filing PRs against your favourite compiler next week!* <p/> *: Almost:  The WebAssembly MVP leaves a couple of really awesome features unimplemented, but it won't be long and these problems will be solved too.  We just want to make sure you're ready. <p/> The presentation will also discuss other architectures including x86_64 and LLVM.",
-      "start_time": "",
-      "end_time": "",
+      "bio":
+        "Dr Paul Bone is a talented software engineer and computer scientist. His interests include programming language implementation and performance, including parallelism and concurrency. <p/> By day Paul works for Mozilla where he is a humble garbage collector, sweeping up unused objects from Firefox's JavaScript heap. Err.. Senior Software Engineer, Paul works on the garbage collector for Firefox's JavaScript engine. <p/> At night Paul transforms into his alter-ego and works on the new Plasma programming language, which aims to bring the worlds of functional and imperative programming together! With the powers of these worlds unified we will usher in a new age of large scale, reliable, high-performance parallel and concurrent software.",
+      "start_time": null,
+      "end_time": null,
       "home": "http://paul.bone.id.au/",
       "github": "PaulBone",
       "twitter": "Paul_Bone"
+    },
+    {
+      "name": "Dave Yarwood",
+      "img": "/assets/img/2018-melbourne/dave_yarwood.jpeg",
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    },
+    {
+      "name": "George Wilson",
+      "img": "/assets/img/2018-melbourne/george_wilson.jpg",
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": "http://wils.online/",
+      "github": "https://github.com/gwils",
+      "twitter": "GeorgeTalksCode",
+      "bio":
+        "George Wilson is an enthusiastic functional programmer from Brisbane, Australia. He works on open source Haskell projects at the Queensland Functional Programming Lab inside Data61. George is a member of the Haskell.org committee, and a Hackage Trustee."
+    },
+    {
+      "name": "Rohit Grover",
+      "img": "/assets/img/2018-melbourne/rohit_grover.jpg",
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    },
+    {
+      "name": "Tim McGilchrist",
+      "img": null,
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    }
+  ],
+  "yet_to_accept": [
+    {
+      "name": "Andrew McCluskey",
+      "img": null,
+      "title": null,
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
+    },
+    {
+      "name": "David Barri",
+      "img": null,
+      "title": "Quantifiers in Programming, with real examples",
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": null
     }
   ]
 }
