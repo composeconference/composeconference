@@ -35,14 +35,14 @@ title: "Compose :: Melbourne Speaker - Julie Moronuki"
 
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 name">
-        <h2> {{t.time}} {% unless t.break %} - {{ t.name }} {% endunless %} </h2>
+        <h2> {{t.time}} {% unless t.break %} {{ t.name }} {% endunless %} </h2>
         {% if t.img %} <img src="{{t.img}}" /> {% endif %}
       </div>
       <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
         <div class="col-lg-10 col-md-10 col-sm-10">
           <h3 class="no-top-space"> {{t.title}} </h3>
           <div class="abstract">
-            {{ t.details }}
+            {{ t.abstract }}
           </div>
           {% if t.video %}
             <div class="links">
