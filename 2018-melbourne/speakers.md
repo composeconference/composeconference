@@ -16,7 +16,7 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
   <div class="container">
   <div class="row">
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-        <h2>{{ speaker.name }}</h2>
+        <h2><a id="{{ speaker.id }}">{{ speaker.name }}</a></h2>
         <h3>{{ speaker.title }}</h3>
         <p>
           <img src="{{ speaker.img }}" align="left" style="padding: 0px 15px 15px 0px; max-height: 300px;"> {{ speaker.bio }}

@@ -1,13 +1,14 @@
 {
   "speakers": [
     {
+      "id": "julie_moronuki",
       "name": "Julie Moronuki",
       "img": "/assets/img/2018-melbourne/julie_moronuki.jpg",
       "title": "Keynote - The Unreasonable Effectiveness of Metaphor",
       "abstract":
         "Metaphor is a figure of speech that describes one thing in terms of another, ignoring literal differences in favor of some similarity the author wants readers to notice. Most people come away from their English or literature courses with the impression that this is all metaphor is, a poetic device that might be pretty but is always unnecessary and may even obscure the real world or obstruct technical discussions.  <p/> This isn't how linguists and cognitive scientists think of metaphor, however. Decades of research into the nature of metaphor suggests that conceptual metaphors are pervasive, and much of our reasoning power and ability to build and understand abstractions is based on metaphor. Some of these conceptual metaphors, such as understanding and talking about time, by relating it to properties of physical space, are \"dead\" to us; that is, we no longer feel that they are metaphors, but it's difficult to think of \"time\" without those metaphors. Some, such as \"time is money\", are more obviously metaphorical but influence our unconscious understanding of time and what we think about it.  <p/> We'll examine the necessity of conceptual metaphors and what makes metaphors good or bad, in what they conceal or reveal about things and their relationships. We'll look at the ways mathematics relies on metaphor, and the metaphorical nature of how we think about computers, programs, interfaces -- and, yes, monads. Finally, with an eye toward better pedagogy and building better interfaces, we'll see how finding new metaphors can help us see new truths about the world by revealing facets of abstractions that other metaphors have concealed.",
       "bio":
-        "<p>Julie Moronuki learned Haskell while writing Haskell Programming from First Principles. She has degrees in philosophy and linguistics and formerly worked as a language teacher and librarian. Her interests include the intersections of linguistics, logic, and programming, as well as improving functional programming instruction and outreach. Currently she is writing a second book, The Joy of Haskell, and is a co-founder of Type Classes (typeclasses.com). In her spare time she homeschools her two children and makes too much jam.</p>",
+        "<p>Julie Moronuki learned Haskell while writing Haskell Programming from First Principles. She has degrees in philosophy and linguistics and formerly worked as a language teacher and librarian. Her interests include the intersections of linguistics, logic, and programming, as well as improving functional programming instruction and outreach. Currently she is writing a second book, The Joy of Haskell, and is a co-founder of Type Classes (<a href='typeclasses.com'>typeclasses.com</a>). In her spare time she homeschools her two children and makes too much jam.</p>",
       "start_time": null,
       "end_time": null,
       "home": "https://argumatronic.com",
@@ -15,6 +16,7 @@
       "twitter": "argumatronic"
     },
     {
+      "id": "dr_paul_bone",
       "name": "Dr. Paul Bone",
       "img": "/assets/img/2018-melbourne/paul_bone.jpeg",
       "title": "AST to WebAssembly: writing a code generator",
@@ -29,22 +31,27 @@
       "twitter": "Paul_Bone"
     },
     {
+      "id": "dave_yarwood",
       "name": "Dave Yarwood",
       "img": "/assets/img/2018-melbourne/dave_yarwood.jpeg",
       "title": "A music composition language with a functional backbone",
-      "abstract": "Alda is a music programming language that offers a way to describe a musical composition in the form of a text document. The language has an easy-to-use syntax that is well-suited for both musicians with little-to-no programming knowledge and programmers with little-to-no music theory knowledge. Alda is inspired by existing music/audio programming languages such as MML, LilyPond and ChucK, but aspires to be a general-purpose music programming language that gives composers the power to create music in many different ways, all while maintaining simplicity and ease of use.<p/>In this presentation, I will give a brief introduction to Alda and its purpose. I will provide a lightning-fast tutorial, demonstrating the basic features of the language, accompanied by live audio from Alda's ""Read-Evaluate-Play-Loop"" (REPL). As I type each snippet of Alda code into the REPL, the audience will hear the result. I will then show and play examples of Alda scores, demonstrating some of the artistic possibilities that can be achieved when writing music as Alda code. This will include an explanation of how one can build a musical score out of modular components, an idea which is at the heart of functional programming, and one which I believe can also be applied to composing a musical score.",
+      "abstract":
+        "Alda is a music programming language that offers a way to describe a musical composition in the form of a text document. The language has an easy-to-use syntax that is well-suited for both musicians with little-to-no programming knowledge and programmers with little-to-no music theory knowledge. Alda is inspired by existing music/audio programming languages such as MML, LilyPond and ChucK, but aspires to be a general-purpose music programming language that gives composers the power to create music in many different ways, all while maintaining simplicity and ease of use.<p/>In this presentation, I will give a brief introduction to Alda and its purpose. I will provide a lightning-fast tutorial, demonstrating the basic features of the language, accompanied by live audio from Alda's \"Read-Evaluate-Play-Loop\" (REPL). As I type each snippet of Alda code into the REPL, the audience will hear the result. I will then show and play examples of Alda scores, demonstrating some of the artistic possibilities that can be achieved when writing music as Alda code. This will include an explanation of how one can build a musical score out of modular components, an idea which is at the heart of functional programming, and one which I believe can also be applied to composing a musical score.",
       "start_time": null,
       "end_time": null,
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": "Dave Yarwood is a composer, musician, and software engineer at Adzerk, where he uses Clojure and ClojureScript to build UIs, APIs, and backend services. In his free time, he maintains Alda, a programming language for music composition. Dave holds a Bachelor of Music degree from the University of North Carolina at Chapel Hill."
+      "bio":
+        "Dave Yarwood is a composer, musician, and software engineer at Adzerk, where he uses Clojure and ClojureScript to build UIs, APIs, and backend services. In his free time, he maintains Alda, a programming language for music composition. Dave holds a Bachelor of Music degree from the University of North Carolina at Chapel Hill."
     },
     {
+      "id": "george_wilson",
       "name": "George Wilson",
       "img": "/assets/img/2018-melbourne/george_wilson.jpg",
-      "title": null,
-      "abstract": null,
+      "title": "Laws!",
+      "abstract":
+        "Laws, laws, laws. It seems as though whenever we learn about a new abstraction in functional programming, we hear about its associated laws. Laws come up when we learn about type classes like Functors, Monoids, Monads, and more! Usually laws are mentioned and swiftly brushed past as we move on to examples and applications of whatever structure we're learning about. But not today. <p/> In this talk, we'll look more closely at laws themselves. Why should our abstractions have laws? We'll answer this question both by seeing powers we gain by having laws, and by seeing tragedies that can befall us without laws. <p/> We will look at examples of the utility of associativity and identity in working with Monoids. Concretely, appending a collection of lists going from left to right is O(n^2), but associativity gives us the power to append them all in O(n) - while knowing we'll get the same answer. More abstractly, we'll see that without the laws, the number of useful functions we can write in terms of Monoid's interface is severely diminished. Similar arguments, both in the abstract and the concrete, will be made for the Functor laws of composition and identity, and the Monad laws. The common theme is that laws let us get the most out of our abstractions. This is further highlighted by examining Data.Default - a dreaded lawless type class. <p/> Finally, we will make recommendations about how to verify whether the laws pass when one makes an instance of an abstraction, using the testing libraries QuickCheck and checkers. <p/> Goals <p/> An attendee should learn why giving laws to our abstractions helps us work with and understand them. Attendees should leave the talk better equipped to exploit the advantages of these laws and with knowledge of how to test whether they hold.",
       "start_time": null,
       "end_time": null,
       "home": "http://wils.online/",
@@ -54,18 +61,21 @@
         "George Wilson is an enthusiastic functional programmer from Brisbane, Australia. He works on open source Haskell projects at the Queensland Functional Programming Lab inside Data61. George is a member of the Haskell.org committee, and a Hackage Trustee."
     },
     {
+      "id": "rohit_grover",
       "name": "Rohit Grover",
       "img": "/assets/img/2018-melbourne/rohit_grover.jpg",
-      "title": null,
+      "title": "Prototype Driven Development using Haskell",
       "abstract": null,
       "start_time": null,
       "end_time": null,
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": "Rohit has been a systems programmer for the past 20 years, using C/C++ for products ranging from multiprocessor kernels to bare metal embedded systems. At his current job, he is responsible for developing filtering algorithms for radar target tracking. Most of his professional work requires writing modern C++, but increasingly he finds himself reaching out to Haskell to write correct code faster."
+      "bio":
+        "Rohit has been a systems programmer for the past 20 years, using C/C++ for products ranging from multiprocessor kernels to bare metal embedded systems. At his current job, he is responsible for developing filtering algorithms for radar target tracking. Most of his professional work requires writing modern C++, but increasingly he finds himself reaching out to Haskell to write correct code faster."
     },
     {
+      "id": "tim_mcgilchrist",
       "name": "Tim McGilchrist",
       "img": null,
       "title": null,
@@ -75,17 +85,21 @@
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": "Tim McGilchrist began his career as a mere midshipman, with some experiences in the exotic lands of Erlang, Lisp and OCaml. He developed a liking for the rough sailor life, strong types and a tot of rum. He quickily progressed to more daring exploits in distributed systems and contrarianism which gained him the promotion to lieutenant. After some gruelling service where he was blockaded at Brest using un-mentionable non-FP languages, he was offered a promotion to Master and Commander of Big Data at Ambiata. Once there, he met a number of gizzled Haskell verterans and went to work on special operations in infrastrure, machine learning and big data. After the Ambiata crew dispanded he continued operations in machine learning and big data using OCaml and Haskell in the area of high finance and brigandry.<p/> He brings before you the tales of an adventurer in the wild lands of Real Life Functional Programming."
+      "bio":
+        "Tim McGilchrist began his career as a mere midshipman, with some experiences in the exotic lands of Erlang, Lisp and OCaml. He developed a liking for the rough sailor life, strong types and a tot of rum. He quickily progressed to more daring exploits in distributed systems and contrarianism which gained him the promotion to lieutenant. After some gruelling service where he was blockaded at Brest using un-mentionable non-FP languages, he was offered a promotion to Master and Commander of Big Data at Ambiata. Once there, he met a number of gizzled Haskell verterans and went to work on special operations in infrastrure, machine learning and big data. After the Ambiata crew dispanded he continued operations in machine learning and big data using OCaml and Haskell in the area of high finance and brigandry.<p/> He brings before you the tales of an adventurer in the wild lands of Real Life Functional Programming."
     },
     {
+      "id": "eli_jordan",
       "name": "Eli Jordan",
       "img": null,
 
-      "bio": "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to keep your sanity while maintaining complex distributed systems."
+      "bio":
+        "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to keep your sanity while maintaining complex distributed systems."
     }
   ],
   "yet_to_accept": [
     {
+      "id": "andrew_mccluskey",
       "name": "Andrew McCluskey",
       "img": null,
       "title": null,
@@ -98,6 +112,7 @@
       "bio": null
     },
     {
+      "id": "david_barri",
       "name": "David Barri",
       "img": null,
       "title": "Quantifiers in Programming, with real examples",
