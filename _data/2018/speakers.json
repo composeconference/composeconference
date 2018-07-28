@@ -31,14 +31,14 @@
     {
       "name": "Dave Yarwood",
       "img": "/assets/img/2018-melbourne/dave_yarwood.jpeg",
-      "title": null,
-      "abstract": null,
+      "title": "A music composition language with a functional backbone",
+      "abstract": "Alda is a music programming language that offers a way to describe a musical composition in the form of a text document. The language has an easy-to-use syntax that is well-suited for both musicians with little-to-no programming knowledge and programmers with little-to-no music theory knowledge. Alda is inspired by existing music/audio programming languages such as MML, LilyPond and ChucK, but aspires to be a general-purpose music programming language that gives composers the power to create music in many different ways, all while maintaining simplicity and ease of use.<p/>In this presentation, I will give a brief introduction to Alda and its purpose. I will provide a lightning-fast tutorial, demonstrating the basic features of the language, accompanied by live audio from Alda's ""Read-Evaluate-Play-Loop"" (REPL). As I type each snippet of Alda code into the REPL, the audience will hear the result. I will then show and play examples of Alda scores, demonstrating some of the artistic possibilities that can be achieved when writing music as Alda code. This will include an explanation of how one can build a musical score out of modular components, an idea which is at the heart of functional programming, and one which I believe can also be applied to composing a musical score.",
       "start_time": null,
       "end_time": null,
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": null
+      "bio": "Dave Yarwood is a composer, musician, and software engineer at Adzerk, where he uses Clojure and ClojureScript to build UIs, APIs, and backend services. In his free time, he maintains Alda, a programming language for music composition. Dave holds a Bachelor of Music degree from the University of North Carolina at Chapel Hill."
     },
     {
       "name": "George Wilson",
@@ -63,7 +63,7 @@
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": null
+      "bio": "Rohit has been a systems programmer for the past 20 years, using C/C++ for products ranging from multiprocessor kernels to bare metal embedded systems. At his current job, he is responsible for developing filtering algorithms for radar target tracking. Most of his professional work requires writing modern C++, but increasingly he finds himself reaching out to Haskell to write correct code faster."
     },
     {
       "name": "Tim McGilchrist",
@@ -75,7 +75,13 @@
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": null
+      "bio": "Tim McGilchrist began his career as a mere midshipman, with some experiences in the exotic lands of Erlang, Lisp and OCaml. He developed a liking for the rough sailor life, strong types and a tot of rum. He quickily progressed to more daring exploits in distributed systems and contrarianism which gained him the promotion to lieutenant. After some gruelling service where he was blockaded at Brest using un-mentionable non-FP languages, he was offered a promotion to Master and Commander of Big Data at Ambiata. Once there, he met a number of gizzled Haskell verterans and went to work on special operations in infrastrure, machine learning and big data. After the Ambiata crew dispanded he continued operations in machine learning and big data using OCaml and Haskell in the area of high finance and brigandry.<p/> He brings before you the tales of an adventurer in the wild lands of Real Life Functional Programming."
+    },
+    {
+      "name": "Eli Jordan",
+      "img": null,
+
+      "bio": "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to keep your sanity while maintaining complex distributed systems."
     }
   ],
   "yet_to_accept": [
