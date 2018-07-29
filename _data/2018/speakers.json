@@ -69,7 +69,7 @@
       "start_time": null,
       "end_time": null,
       "home": null,
-      "github": null,
+      "github": "rgrover",
       "twitter": null,
       "bio":
         "Rohit has been a systems programmer for the past 20 years, using C/C++ for products ranging from multiprocessor kernels to bare metal embedded systems. At his current job, he is responsible for developing filtering algorithms for radar target tracking. Most of his professional work requires writing modern C++, but increasingly he finds himself reaching out to Haskell to write correct code faster."
@@ -77,24 +77,16 @@
     {
       "id": "tim_mcgilchrist",
       "name": "Tim McGilchrist",
-      "img": null,
+      "img": "/assets/img/2018-melbourne/tim_mcgilchrist.jpg",
       "title": "Dependently Typed State Machines",
       "abstract": null,
       "start_time": null,
       "end_time": null,
       "home": null,
-      "github": null,
+      "github": "tmcgilchrist",
       "twitter": null,
       "bio":
         "Tim McGilchrist began his career as a mere midshipman, with some experiences in the exotic lands of Erlang, Lisp and OCaml. He developed a liking for the rough sailor life, strong types and a tot of rum. He quickily progressed to more daring exploits in distributed systems and contrarianism which gained him the promotion to lieutenant. After some gruelling service where he was blockaded at Brest using un-mentionable non-FP languages, he was offered a promotion to Master and Commander of Big Data at Ambiata. Once there, he met a number of gizzled Haskell verterans and went to work on special operations in infrastrure, machine learning and big data. After the Ambiata crew dispanded he continued operations in machine learning and big data using OCaml and Haskell in the area of high finance and brigandry.<p/> He brings before you the tales of an adventurer in the wild lands of Real Life Functional Programming."
-    },
-    {
-      "id": "eli_jordan",
-      "name": "Eli Jordan",
-      "img": null,
-
-      "bio":
-        "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to keep your sanity while maintaining complex distributed systems."
     },
     {
       "id": "andrew_mccluskey",
@@ -134,6 +126,32 @@
       "github": "sentience",
       "twitter": "sentience",
       "bio": "Culture Amp’s Director of Front End Engineering, Kevin previously spent a decade teaching a generation of developers about web standards at SitePoint, where he also helped to launch success stories like 99designs and Flippa. More recently, he quizzed web developers on HTML, CSS and JavaScript by leading the team behind Sit the Test, and has spoken at tech conferences around the world. On weekends he performs improvised theatre with Impro Melbourne, which is a lot more like building websites than you might expect."
+    },
+    {
+      "id": "sean_chalmers",
+      "name": "Sean Chalmers",
+      "img": null,
+      "title": "Reflexive Art",
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio": "Sean started out developing for the Drupal platform, before studying overseas and releasing a paper on the ‘State of the art of Big Data’, which is no longer state of the art. During this time he discovered FP through Lisp, Erlang, and eventually Haskell. <p/> After briefly contracting with PHP, he was eventually able to use his FP powers for good, developing everything from simple JSON to PostgreSQL pipelines, CRM components, and robust data munchers. Sean is interested in game development, and improving the state of FP documentation and education."
+    },
+    {
+      "id": "elias_jordan",
+      "name": "Elias Jordan",
+      "img": "/assets/img/2018-melbourne/elias_jordan.jpg",
+      "title": "Life Is A Comonad",
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": "https://eli-jordan.github.io",
+      "github": "eli-jordan",
+      "twitter": null,
+      "bio": "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. <p/> My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to maintain your sanity while maintaining complex distributed systems."
     }
 
   ]
