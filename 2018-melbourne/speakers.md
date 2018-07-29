@@ -16,17 +16,9 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
   <div class="container">
   <a id="{{ speaker.id }}"></a>
   <div class="row" style="padding-top:60px;">
-      <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+      <div class="col-lg-8">
         <h2>{{ speaker.name }}</h2>
-        <h3>{{ speaker.title }}</h3>
-        <p>
-          <img src="{{ speaker.img }}" align="left" style="padding: 0px 25px 25px 0px; max-height: 300px;"> {{ speaker.bio }}
-        </p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-      <h2>&nbsp;</h2>
-      <!-- <h3><small>{{ speaker.start_time | date: '%h %-d, %I:%M%P'}}</small></h3> -->
-      <p class="text-centered">
+              <p class="text-centered">
         {% if speaker.home %}
         <a href="{{speaker.home}}">
         <i class="fa fa-home"> {{ speaker.home }}</i>
@@ -46,6 +38,17 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
         IRC: {{ speaker.irc_handle }}</i>
         {% endif %}
       </p>
+        <h3>{{ speaker.title }}</h3>
+        <p>
+          <img src="{{ speaker.img }}" align="right" style="padding: 0px 0px 25px 0px; max-height: 300px;"> 
+          {{ speaker.abstract }}
+          <h2>Bio</h2>
+          {{ speaker.bio }}
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <h2>&nbsp;</h2>
+      <!-- <h3><small>{{ speaker.start_time | date: '%h %-d, %I:%M%P'}}</small></h3> -->
     </div>
   </div><!-- --/row ---->
   </div><!-- --/container ---->
