@@ -78,7 +78,7 @@
       "id": "tim_mcgilchrist",
       "name": "Tim McGilchrist",
       "img": null,
-      "title": null,
+      "title": "Dependently Typed State Machines",
       "abstract": null,
       "start_time": null,
       "end_time": null,
@@ -95,34 +95,46 @@
 
       "bio":
         "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to keep your sanity while maintaining complex distributed systems."
-    }
-  ],
-  "yet_to_accept": [
+    },
     {
       "id": "andrew_mccluskey",
       "name": "Andrew McCluskey",
-      "img": null,
-      "title": null,
-      "abstract": null,
+      "img": "/assets/img/2018-melbourne/andrew_mccluskey.jpg",
+      "title": "Appetite for dysfunction",
+      "abstract": "Property based testing is an unreasonably effective technique for finding bugs and providing minimal test cases to reproduce those bugs. It achieves this by randomly generating inputs, providing those inputs to the software under test, and ensuring that the outputs uphold some desirable properties. Property based _state machine_ testing extends this technique to more easily test stateful software, using state machines to model the application while ensuring that the model and application continue to agree. <p/> `hedgehog`, as its project page tells us, will eat all your bugs. More specifically, it is a Haskell library that provides excellent support for both of these styles of testing. Although `hedgehog` is a Haskell library, its usefulness is by no means limited to testing Haskell code. In fact, coupled with some other libraries and tools, it can be used to great effect when testing any software. Even something like... WordPress. <p/> WordPress, for anyone who hasn't investigated setting up a blog in the last 15 years, is a blogging platform implemented using PHP and MySQL. WordPress is not written in Haskell or anything resembling a functional programming language, its REST API is under specified, and it makes extensive use of JSON objects with fields that may or may not appear depending on the context in which the object is used. At first this might not appear to be a good candidate for testing with a typed, functional language. Appearances can be deceiving. Haskell and its ecosystem are well equipped to tackle this problem, bringing with them all of their usual benefits. You don't have to take my word for it either -- I've written the code. <p/> In this talk I will provide a tour of the tools and techniques I've employed to test WordPress. The main players are: <p/> <ul> <li> `hedgehog` to perform state machine testing, including concurrency tests.</li> <li> `servant` to generate client request functions given a specification of the REST API.</li> <li> `dependent-map` to model the dynamic JSON objects.</li> </ul> <p/> The final ingredient in this functional, testing cocktail is Nix. I will briefly show how NixOps and Nixpkgs provide a means to specify a test environment in a succinct and declarative manner, and then deploy that specification to a virtual machine for testing. <p/> Attendees should leave the talk with a high-level understanding of state machine testing and the tools and techniques that can be employed to test complex APIs not written in Haskell. All source code will be made publicly available under an open source licence after the talk.",
       "start_time": null,
       "end_time": null,
       "home": null,
       "github": null,
       "twitter": null,
-      "bio": null
+      "bio": "I'm a functional programming engineer in the Queensland Functional Programming Lab at Data61. Earlier in my career I worked across a range of domains using conventional imperative programming languages, growing more and more frustrated with the difficulties of reasoning in a stateful and often untyped world. At some point I encountered Clojure and the ideas of immutability and referential transparency, which quickly changed the way I thought about solving problems. From there I discovered the benefits of a good type system and have been learning and using Haskell to solve problems whenever possible."
     },
     {
       "id": "david_barri",
       "name": "David Barri",
-      "img": null,
+      "img": "/assets/img/2018-melbourne/david_barri.jpg",
       "title": "Quantifiers in Programming, with real examples",
       "abstract": null,
       "start_time": null,
       "end_time": null,
-      "home": null,
-      "github": null,
-      "twitter": null,
-      "bio": null
+      "home": "https://japgolly.blogspot.com",
+      "github": "japgolly",
+      "twitter": "japgolly",
+      "bio": "Programming-obsessed since childhood, 6 years ago I discovered Scala and shortly after, the amazing world of functional programming. It has since changed my life and I've been programming like a new person, exclusively, ever since. I've published and maintain a large handful of open-source libraries for Scala. I've built my bootstrap startup on Scala, Scala.JS, type theory and FP, a decision consistently validated by its results and their high quality. I constantly strive to improve, learn new things, and when possible, share my knowledge and experiences with others interested in learning too."
+    },
+    {
+      "id": "kevin_yank",
+      "name": "Kevin Yank",
+      "img": "/assets/img/2018-melbourne/kevin_yank.jpg",
+      "title": "Elm at Scale: Surprises and Pain Points",
+      "abstract": null,
+      "start_time": null,
+      "end_time": null,
+      "home": "https://kevinyank.com",
+      "github": "sentience",
+      "twitter": "sentience",
+      "bio": "Culture Amp’s Director of Front End Engineering, Kevin previously spent a decade teaching a generation of developers about web standards at SitePoint, where he also helped to launch success stories like 99designs and Flippa. More recently, he quizzed web developers on HTML, CSS and JavaScript by leading the team behind Sit the Test, and has spoken at tech conferences around the world. On weekends he performs improvised theatre with Impro Melbourne, which is a lot more like building websites than you might expect."
     }
+
   ]
 }
