@@ -14,12 +14,13 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
 
   <div id="biowrap">
   <div class="container">
-  <div class="row">
+  <a id="{{ speaker.id }}"></a>
+  <div class="row" style="padding-top:60px;">
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
         <h2>{{ speaker.name }}</h2>
-        <!-- <h3>{{ speaker.title }}</h3> -->
+        <h3>{{ speaker.title }}</h3>
         <p>
-          <img src="{{ speaker.img }}" align="left" style="padding: 0px 15px 15px 0px;"> {{ speaker.bio }}
+          <img src="{{ speaker.img }}" align="left" style="padding: 0px 25px 25px 0px; max-height: 300px;"> {{ speaker.bio }}
         </p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -50,12 +51,6 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
   </div><!-- --/container ---->
   </div><!-- biowrap -->
 {% endfor %}
-
----
-
-<div class="container">
-More speakers coming soon
-</div>
 
 ---
 
