@@ -34,80 +34,32 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
   </div>
 
       <!-- SPONSORS. One "row" per tier/category-->
+  <!-- Manually select only the tiers we have sponsors for -->
+  {% for tier in (1..5) %}
   <div class="row">
-    {% for t in site.data.2018-melbourne.sponsors.tier1 %}
-        <div class="col-sm-12">
-          <div class="panel panel-default centered">
-            <div class="panel-heading">{{t.name}}</div>
-            <div class="panel-body centered unrestricted-height">
-              <a href="{{t.link}}">
-                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
-              </a>
-              <p> {{t.by_line}} </p>
+    {% for sponsor in site.data.2018-melbourne.sponsors.sponsors %}
+        {% if sponsor.tier == tier %}
+          {% if sponsor.tier <= 2 %}
+          <div class="col-sm-12">
+          {% else %}
+          <div class="col-sm-6">
+          {% endif %}
+            <div class="panel panel-default centered">
+              <div class="panel-heading">{{sponsor.name}}</div>
+              <div class="panel-body centered unrestricted-height">
+                <a href="{{sponsor.link}}">
+                  <img src="{{sponsor.img}}" class="img-responsive" alt="{{sponsor.name}}"> <br><br>
+                </a>
+                <p> {{sponsor.by_line}} </p>
+              </div>
             </div>
-          </div>
         </div>
+        {% endif %}
     {% endfor %}
     <br />
-    <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
-    <br />
-  </div>
-
-  <div class="row">
-    {% for t in site.data.2018-melbourne.sponsors.tier2 %}
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">{{t.name}}</div>
-            <div class="panel-body centered unrestricted-height">
-              <a href="{{t.link}}">
-                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
-              </a>
-              <p> {{t.by_line}} </p>
-            </div>
-          </div>
-        </div>
-    {% endfor %}
-    <!-- <br /> -->
     <!-- <hr style="color: #ddd; border-color: #ddd; border-style:dotted"> -->
-    <!-- <br /> -->
-  </div>
-
-  <div class="row">
-    {% for t in site.data.2018-melbourne.sponsors.tier3 %}
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">{{t.name}}</div>
-            <div class="panel-body centered unrestricted-height">
-              <a href="{{t.link}}">
-                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
-              </a>
-              <p> {{t.by_line}} </p>
-            </div>
-          </div>
-        </div>
-    {% endfor %}
-    <br />
-    <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
     <br />
   </div>
-
-  <div class="row">
-    {% for t in site.data.2018-melbourne.sponsors.in_kind %}
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">{{t.name}}</div>
-            <div class="panel-body centered unrestricted-height">
-              <a href="{{t.link}}">
-                <img src="{{t.img}}" class="img-responsive" alt="{{t.name}}"> <br><br>
-              </a>
-              <p> {{t.by_line}} </p>
-            </div>
-          </div>
-        </div>
-    {% endfor %}
-    <br />
-    <hr style="color: #ddd; border-color: #ddd; border-style:dotted">
-    <br />
-  </div>
+  {% endfor %}
 
 </div>
