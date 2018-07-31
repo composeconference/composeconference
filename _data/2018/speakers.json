@@ -120,7 +120,7 @@
       "id": "david_barri",
       "name": "David Barri",
       "img": "/assets/img/2018-melbourne/david_barri.jpg",
-      "title": "Quantifiers in Programming, with real examples",
+      "title": "Quantifiers in Programming",
       "abstract": "In this talk I'll describe quantifiers and how they manifest in programming (at both type and term levels). I'll then go on to show two very different real-world problems that were solved to profound benefit, using quantification. <p/> One of the examples pertains to scalajs-react, a library for type-safe, frontend FP in Scala.JS, which builds on top of React, a pure JS library. When creating scalajs-react, I faced a difficult problem: React itself has a feature that it implements in such a way that confidence in its correctness is difficult and flaky. How would I implement this in Scala and maintain my goal that compilation is proof of correctness (as reasonably as one can in Scala anyway). I ultimately devised what I think is a novel, unique solution, and it has worked tremendously well in practice. scalajs-react now implements React's feature better than React itself will ever be able to without access to more advanced language features. It also leads to the insight that it can be a profoundly valuable technique to solve a problem for universal and existential quantification separately.",
       "start_time": null,
       "end_time": null,
