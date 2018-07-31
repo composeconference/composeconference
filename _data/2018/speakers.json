@@ -19,7 +19,7 @@
       "id": "jo_cranford",
       "name": "Jo Cranford",
       "img": "/assets/img/2018-melbourne/jo_cranford.jpeg",
-      "title": "",
+      "title": "Drinking the Elixir",
       "abstract":
         "Elixir is a functional language that's growing in popularity as a stepping stone into functional programming, thanks to its strengths in areas like concurrency, fault tolerance and scalability combined with a syntax that is simple to learn, and feels very familiar for those with experience of languages like Ruby or Python. However, it is a very different beast – a functional style, new tools, and Erlang and Elixir libraries to learn, and while many people are experimenting with it, it's not quite mainstream for apps in the wild yet. <p/> Our Elixir journey began around two years ago, when we started breaking out parts of our monolith and rebuilding it as microservices in Elixir. It was a chance to introduce boundaries, and consider performance from the ground up for an application for which performance was starting to become a concern as the customer base was growing. This talk will tell the story of a journey into a new, functional language and discuss how we approached decisions around where to start breaking the monolith apart.",
       "bio":
