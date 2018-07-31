@@ -16,6 +16,21 @@
       "twitter": "argumatronic"
     },
     {
+      "id": "jo_cranford",
+      "name": "Jo Cranford",
+      "img": "/assets/img/2018-melbourne/jo_cranford.jpeg",
+      "title": "Drinking the Elixir",
+      "abstract":
+        "Elixir is a functional language that's growing in popularity as a stepping stone into functional programming, thanks to its strengths in areas like concurrency, fault tolerance and scalability combined with a syntax that is simple to learn, and feels very familiar for those with experience of languages like Ruby or Python. However, it is a very different beast – a functional style, new tools, and Erlang and Elixir libraries to learn, and while many people are experimenting with it, it's not quite mainstream for apps in the wild yet. <p/> Our Elixir journey began around two years ago, when we started breaking out parts of our monolith and rebuilding it as microservices in Elixir. It was a chance to introduce boundaries, and consider performance from the ground up for an application for which performance was starting to become a concern as the customer base was growing. This talk will tell the story of a journey into a new, functional language and discuss how we approached decisions around where to start breaking the monolith apart.",
+      "bio":
+        "Jo is a technical leader with a passion for enabling teams to work better and grow together. Her interest in workplace culture led her to Culture Amp, where she is part of a global movement to make the world a better place to work while putting her technical background to good use. <p/> When she's not working, she's a maker of things. Jo spends her free time creating artwork and papercraft projects, and her cupboards are bursting with paper scraps, paintbrushes and sparkly trimmings.",
+      "start_time": null,
+      "end_time": null,
+      "home": "http://www.postposttechnical.com",
+      "github": "jocranford",
+      "twitter": "jocranford"
+    },
+    {
       "id": "dr_paul_bone",
       "name": "Dr. Paul Bone",
       "img": "/assets/img/2018-melbourne/paul_bone.jpeg",
