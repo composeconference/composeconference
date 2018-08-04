@@ -8,7 +8,7 @@ Register for C◦mp◦se :: Conference 2018 tickets at [composeconference.eventb
 
 ---
 
-{% for speaker in site.data.2018.speakers.speakers %}
+{% for speaker in site.data.2018-melbourne.speakers.times %}
 
   <hr>
 
