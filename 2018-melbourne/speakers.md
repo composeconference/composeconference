@@ -30,6 +30,7 @@ permalink: /2018-melbourne/speakers/
         <h1 class="text-center">Day One - Speakers and Presentations</h1>
         <br />
 
+        {% if site.data.2018-melbourne.speakers.show-level %}
         <div class="keybox">
           <table class="key agenda">
             <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
@@ -37,6 +38,7 @@ permalink: /2018-melbourne/speakers/
             <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
           </table>
         </div>
+        {% endif %}
 
         <br/>
 
@@ -50,7 +52,8 @@ permalink: /2018-melbourne/speakers/
                   <a href="#{{t.id}}">{{t.title}}</a>
                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
                   {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
-                  </td>
+                </td>
+                {% if site.data.2018-melbourne.speakers.show-level %}
                  <td>
                    <nobr>
                    {% if t.level >= 1 %} &#x1f535; {% endif %} 
@@ -58,6 +61,7 @@ permalink: /2018-melbourne/speakers/
                    {% if t.level >= 3 %} &#x1f535; {% endif %} 
                    </nobr>
                  </td>
+                {% endif %}
               </tr>
             {% endunless %}
           {% endfor %}
