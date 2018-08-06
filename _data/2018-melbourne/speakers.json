@@ -41,18 +41,18 @@
     },
     {
       "time": "10:30am",
-      "id": "dave_yarwood",
-      "name": "Dave Yarwood",
-      "img": "/assets/img/2018-melbourne/dave_yarwood.jpeg",
-      "title": "A music composition language with a functional backbone",
+      "id": "sean_chalmers",
+      "name": "Sean Chalmers",
+      "img": "/assets/img/2018-melbourne/sean_chalmers.jpg",
+      "title": "Reflexive Art",
       "abstract":
-        "Alda is a music programming language that offers a way to describe a musical composition in the form of a text document. The language has an easy-to-use syntax that is well-suited for both musicians with little-to-no programming knowledge and programmers with little-to-no music theory knowledge. Alda is inspired by existing music/audio programming languages such as MML, LilyPond and ChucK, but aspires to be a general-purpose music programming language that gives composers the power to create music in many different ways, all while maintaining simplicity and ease of use.<p/>In this presentation, I will give a brief introduction to Alda and its purpose. I will provide a lightning-fast tutorial, demonstrating the basic features of the language, accompanied by live audio from Alda's \"Read-Evaluate-Play-Loop\" (REPL). As I type each snippet of Alda code into the REPL, the audience will hear the result. I will then show and play examples of Alda scores, demonstrating some of the artistic possibilities that can be achieved when writing music as Alda code. This will include an explanation of how one can build a musical score out of modular components, an idea which is at the heart of functional programming, and one which I believe can also be applied to composing a musical score.",
+        "Web development need not only be sign-up forms and shopping carts. There's games to build, data to visualise, and a myriad of thoughts to be brought to life. This talk is about two Haskell packages that can help. <p/> At QFPL, we're big fans of the `reflex-frp` framework for functional reactive programming. It is great for what would otherwise be hairy and complicated user interfaces, not to mention handling convoluted application behaviour. With the core `reflex` and `reflex-dom` packages you have access to an incredible amount of high-performing functionality. <p/> But there was a gap... The was no nice way to integrate with some of the more powerful drawing APIs present in a modern browser. Specifically SVG and Canvas. <p/> <ul> <li>To render SVG elements you had to type them all out by hand as custom elements, with no guide as to which properties belong where.</li> <li>To use the Canvas you had to dig into the JavaScript FFI and figure out how to wire in the require actions.</li> </ul> <p/> The original paper on functional reactive programming was specifically for functional reactive animation. But we didn't have a nice way of building animations using FRP! No longer! <p/> <h3>Content</h3> Drawing upon inspiration from the Generative Art talk by Xavier Ho at LambdaJam 2018. I will demonstrate two new libraries from QFPL for interfacing with SVG (`reflex-dom-svg`) and HTML5 Canvas (`reflex-dom-canvas`). I will also touch on the utility provided by `jsaddle` and `ghcjs-dom` packages. <p/> We'll use these libraries to generate some art, then make them wiggle and dance to various inputs! Starting with some SVG drawing using a blog post by Benjamin Kovach as a guide. After that we'll switch over to the 2D HTML5 Canvas, followed by some WebGL GLSL shader shenanigans. <p/> During all of this we'll cover some of the implementation details of the different packages, and how to start using them. I will also try to demonstrate how to use the `jsaddle` and `ghcjs-dom` packages to access JavaScript functions without needing any explicit FFI calls. <p/> <h3>Goals</h3> <ul> <li>Introduce people to two new Haskell libraries for creating visual treats in a modern browser. </li> <li>Demonstrate that programming these applications using Haskell is possible without having to go wild with a foreign function interface or arcane build process.</li> <li>Inspire people to try out building games, art, or simply beautiful things using FRP and Haskell. - Introduce more people to `reflex` and FRP.</li> </ul>",
       "home": null,
       "github": null,
       "twitter": null,
+      "level": 2,
       "bio":
-        "Dave Yarwood is a composer, musician, and software engineer at Adzerk, where he uses Clojure and ClojureScript to build UIs, APIs, and backend services. In his free time, he maintains Alda, a programming language for music composition. Dave holds a Bachelor of Music degree from the University of North Carolina at Chapel Hill.",
-      "level": 1
+        "Sean started out developing for the Drupal platform, before studying overseas and releasing a paper on the ‘State of the art of Big Data’, which is no longer state of the art. During this time he discovered FP through Lisp, Erlang, and eventually Haskell. <p/> After briefly contracting with PHP, he was eventually able to use his FP powers for good, developing everything from simple JSON to PostgreSQL pipelines, CRM components, and robust data munchers. Sean is interested in game development, and improving the state of FP documentation and education."
     },
     {
       "time": "11am",
@@ -84,12 +84,14 @@
       "twitter": "Paul_Bone",
       "level": 2
     },
-    {"time": "12pm",
+    {
+      "time": "12pm",
       "title": "Lunch",
       "id": "lunch",
       "name": "<hr />",
-      "break": true},
-  
+      "break": true
+    },
+
     {
       "id": "rohit_grover",
       "name": "Rohit Grover",
@@ -136,28 +138,30 @@
         "George Wilson is an enthusiastic functional programmer from Brisbane, Australia. He works on open source Haskell projects at the Queensland Functional Programming Lab inside Data61. George is a member of the Haskell.org committee, and a Hackage Trustee."
     },
 
-    {"time": "2:30pm",
+    {
+      "time": "2:30pm",
       "title": "Break",
       "name": "<hr />",
       "id": "break2",
-      "break": true},
-  
-      {
-        "id": "kevin_yank",
-        "name": "Kevin Yank",
-        "img": "/assets/img/2018-melbourne/kevin_yank.jpg",
-        "title": "Elm at Scale: Surprises and Pain Points",
-        "abstract":
-          "The ups and downs of Culture Amp’s rollout of Elm – a pure functional, strongly typed language for building web front ends – to its commercial, production application, and a team of engineers familiar with JavaScript and React. <p/> When we began experimenting with Elm in production nearly two years ago, we immediately encountered a number of surprises (confident refactoring, helpful compiler errors) and pain points (CSS integration, DOM access). Nevertheless, the positive impact on the team's productivity was undeniable. <p/> As our single-team experiment has grown across teams to the point where we are now writing as much Elm as we are JavaScript, the surprises and pain points have changed. We've solved some of our initial challenges and open-sourced those solutions (CSS integration), while new surprises like Elm's impact on hiring and compiler performance on large projects have appeared.",
-        "time": "2:45pm",
-        "home": "https://kevinyank.com",
-        "github": "sentience",
-        "twitter": "sentience",
-        "level": 1,
-        "bio":
-          "Culture Amp’s Director of Front End Engineering, Kevin previously spent a decade teaching a generation of developers about web standards at SitePoint, where he also helped to launch success stories like 99designs and Flippa. More recently, he quizzed web developers on HTML, CSS and JavaScript by leading the team behind Sit the Test, and has spoken at tech conferences around the world. On weekends he performs improvised theatre with Impro Melbourne, which is a lot more like building websites than you might expect."
-      },
-      {
+      "break": true
+    },
+
+    {
+      "id": "kevin_yank",
+      "name": "Kevin Yank",
+      "img": "/assets/img/2018-melbourne/kevin_yank.jpg",
+      "title": "Elm at Scale: Surprises and Pain Points",
+      "abstract":
+        "The ups and downs of Culture Amp’s rollout of Elm – a pure functional, strongly typed language for building web front ends – to its commercial, production application, and a team of engineers familiar with JavaScript and React. <p/> When we began experimenting with Elm in production nearly two years ago, we immediately encountered a number of surprises (confident refactoring, helpful compiler errors) and pain points (CSS integration, DOM access). Nevertheless, the positive impact on the team's productivity was undeniable. <p/> As our single-team experiment has grown across teams to the point where we are now writing as much Elm as we are JavaScript, the surprises and pain points have changed. We've solved some of our initial challenges and open-sourced those solutions (CSS integration), while new surprises like Elm's impact on hiring and compiler performance on large projects have appeared.",
+      "time": "2:45pm",
+      "home": "https://kevinyank.com",
+      "github": "sentience",
+      "twitter": "sentience",
+      "level": 1,
+      "bio":
+        "Culture Amp’s Director of Front End Engineering, Kevin previously spent a decade teaching a generation of developers about web standards at SitePoint, where he also helped to launch success stories like 99designs and Flippa. More recently, he quizzed web developers on HTML, CSS and JavaScript by leading the team behind Sit the Test, and has spoken at tech conferences around the world. On weekends he performs improvised theatre with Impro Melbourne, which is a lot more like building websites than you might expect."
+    },
+    {
       "id": "andrew_mccluskey",
       "name": "Andrew McCluskey",
       "img": "/assets/img/2018-melbourne/andrew_mccluskey.jpg",
@@ -187,35 +191,21 @@
       "bio":
         "David loves to create! <p/> His primary outlet and passion is programming, with music being second. In fact, David has been obsessively coding and creating since the age of 8 and is still just as excited about it. A common theme throughout all his creation of software, is the striving for, and emphasis on quality. Two of the most important tools towards achieving and maintaining high quality software are a strong, expressive, static type-system; and the functional programming universe (as in: beyond just the paradigm). <p/> Over the past 6 years David has been writing pure FP Scala almost exclusively through a mixture of bootstrapping a requirement management SaaS startup, creating and maintaining numerous open-source Scala and Scala.JS FP libraries, consulting, and when time (and family) permit, sharing learnings and experiences to help others up the learning curve. <p/> He moved to Melbourne just under a year ago. Feel free to say hi! You can also find him on twitter at <a href='http://twitter.com/japgolly'> <i class='fa fa-twitter'>@japgolly</i> </a>."
     },
-    {"time": "4:15pm",
+    {
+      "time": "4:15pm",
       "title": "Break",
       "name": "<hr />",
       "id": "break3",
-      "break": true},
-    
-    {
-      "id": "sean_chalmers",
-      "name": "Sean Chalmers",
-      "img": "/assets/img/2018-melbourne/sean_chalmers.jpg",
-      "title": "Reflexive Art",
-      "abstract":
-        "Web development need not only be sign-up forms and shopping carts. There's games to build, data to visualise, and a myriad of thoughts to be brought to life. This talk is about two Haskell packages that can help. <p/> At QFPL, we're big fans of the `reflex-frp` framework for functional reactive programming. It is great for what would otherwise be hairy and complicated user interfaces, not to mention handling convoluted application behaviour. With the core `reflex` and `reflex-dom` packages you have access to an incredible amount of high-performing functionality. <p/> But there was a gap... The was no nice way to integrate with some of the more powerful drawing APIs present in a modern browser. Specifically SVG and Canvas. <p/> <ul> <li>To render SVG elements you had to type them all out by hand as custom elements, with no guide as to which properties belong where.</li> <li>To use the Canvas you had to dig into the JavaScript FFI and figure out how to wire in the require actions.</li> </ul> <p/> The original paper on functional reactive programming was specifically for functional reactive animation. But we didn't have a nice way of building animations using FRP! No longer! <p/> <h3>Content</h3> Drawing upon inspiration from the Generative Art talk by Xavier Ho at LambdaJam 2018. I will demonstrate two new libraries from QFPL for interfacing with SVG (`reflex-dom-svg`) and HTML5 Canvas (`reflex-dom-canvas`). I will also touch on the utility provided by `jsaddle` and `ghcjs-dom` packages. <p/> We'll use these libraries to generate some art, then make them wiggle and dance to various inputs! Starting with some SVG drawing using a blog post by Benjamin Kovach as a guide. After that we'll switch over to the 2D HTML5 Canvas, followed by some WebGL GLSL shader shenanigans. <p/> During all of this we'll cover some of the implementation details of the different packages, and how to start using them. I will also try to demonstrate how to use the `jsaddle` and `ghcjs-dom` packages to access JavaScript functions without needing any explicit FFI calls. <p/> <h3>Goals</h3> <ul> <li>Introduce people to two new Haskell libraries for creating visual treats in a modern browser. </li> <li>Demonstrate that programming these applications using Haskell is possible without having to go wild with a foreign function interface or arcane build process.</li> <li>Inspire people to try out building games, art, or simply beautiful things using FRP and Haskell. - Introduce more people to `reflex` and FRP.</li> </ul>",
-      "time": "4:30pm",
-      "home": null,
-      "github": null,
-      "twitter": null,
-      "level": 2,
-      "bio":
-        "Sean started out developing for the Drupal platform, before studying overseas and releasing a paper on the ‘State of the art of Big Data’, which is no longer state of the art. During this time he discovered FP through Lisp, Erlang, and eventually Haskell. <p/> After briefly contracting with PHP, he was eventually able to use his FP powers for good, developing everything from simple JSON to PostgreSQL pipelines, CRM components, and robust data munchers. Sean is interested in game development, and improving the state of FP documentation and education."
+      "break": true
     },
     {
+      "time": "4:30pm",
       "id": "elias_jordan",
       "name": "Elias Jordan",
       "img": "/assets/img/2018-melbourne/elias_jordan.jpg",
       "title": "Life Is A Comonad",
       "abstract":
         "Today is opposite day! Lets explore duality and co-things.<p/> In this talk, we will learn about Comonads (the opposite of Monads). How do they work? What does it mean to be the opposite of a Monad? How can we use them? <p/> We use the Zipper data structure to provide an intuition for how Comonads work. Then extend the Zipper to a Grid, to implement Conway's game of life. <p/> You will walk away from this talk with an intuitive understanding of Comonads. The concept of duality, and where you can use Comonads.",
-      "time": "5pm",
       "home": "https://eli-jordan.github.io",
       "github": "eli-jordan",
       "twitter": null,
@@ -223,11 +213,28 @@
       "bio":
         "I am currently a lead developer at IBM, leading the infrastructure team of the cloud product Watson Content Hub. <p/> My first programming language was Haskell, but I was diverted into enterprise java for quite some time. I have always maintained my passion for functional programming and in the last few years have convinced my workplace to embrace scala and functional programming techniques. I believe strong static typing, and purity are the only way to maintain your sanity while maintaining complex distributed systems."
     },
-    {"time": "5:30pm",
+
+    {
+      "time": "5:00pm",
+      "id": "dave_yarwood",
+      "name": "Dave Yarwood",
+      "img": "/assets/img/2018-melbourne/dave_yarwood.jpeg",
+      "title": "A music composition language with a functional backbone",
+      "abstract":
+        "Alda is a music programming language that offers a way to describe a musical composition in the form of a text document. The language has an easy-to-use syntax that is well-suited for both musicians with little-to-no programming knowledge and programmers with little-to-no music theory knowledge. Alda is inspired by existing music/audio programming languages such as MML, LilyPond and ChucK, but aspires to be a general-purpose music programming language that gives composers the power to create music in many different ways, all while maintaining simplicity and ease of use.<p/>In this presentation, I will give a brief introduction to Alda and its purpose. I will provide a lightning-fast tutorial, demonstrating the basic features of the language, accompanied by live audio from Alda's \"Read-Evaluate-Play-Loop\" (REPL). As I type each snippet of Alda code into the REPL, the audience will hear the result. I will then show and play examples of Alda scores, demonstrating some of the artistic possibilities that can be achieved when writing music as Alda code. This will include an explanation of how one can build a musical score out of modular components, an idea which is at the heart of functional programming, and one which I believe can also be applied to composing a musical score.",
+      "home": null,
+      "github": null,
+      "twitter": null,
+      "bio":
+        "Dave Yarwood is a composer, musician, and software engineer at Adzerk, where he uses Clojure and ClojureScript to build UIs, APIs, and backend services. In his free time, he maintains Alda, a programming language for music composition. Dave holds a Bachelor of Music degree from the University of North Carolina at Chapel Hill.",
+      "level": 1
+    },
+    {
+      "time": "5:30pm",
       "id": "closing",
       "name": "Lyndon Maydwell",
       "title": "Closing comment",
-      "committee": true}
-  
+      "committee": true
+    }
   ]
 }
