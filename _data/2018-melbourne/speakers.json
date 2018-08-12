@@ -2,7 +2,7 @@
   "show-level": false,
   "times": [
     {
-      "time": "8am",
+      "time": "Monday, 27 Aug 2018, 8am",
       "name": "<hr />",
       "id": "t-0800",
       "title": "Registration",
@@ -235,6 +235,19 @@
       "name": "Lyndon Maydwell",
       "title": "Closing comment",
       "committee": true
+    },
+    {
+      "time": "",
+      "title": "",
+      "name": "&nbsp;",
+      "id": "end-of-day-one",
+      "break": true
+    },
+    {
+      "time": "Tuesday, 28 Aug 2018, 9am",
+      "id": "day-two-registration",
+      "name": "",
+      "title": "Registration"
     }
   ]
 }

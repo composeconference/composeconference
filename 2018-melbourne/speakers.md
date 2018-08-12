@@ -27,7 +27,7 @@ permalink: /2018-melbourne/speakers/
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
-        <h1 class="text-center">Day One - Speakers and Presentations</h1>
+        <h1 class="text-center">Programme</h1>
         <br />
 
         {% if site.data.2018-melbourne.speakers.show-level %}
@@ -69,9 +69,11 @@ permalink: /2018-melbourne/speakers/
 
         <br />
 
-    </div>
+      </div>
   </div>
 </div>
+
+<h1 class="text-center">Day One - Speakers and Presentations</h1>
 
 {% for t in site.data.2018-melbourne.speakers.times %}
 {% unless t.hide %}
@@ -112,6 +114,12 @@ permalink: /2018-melbourne/speakers/
 
 {% endunless %}
 {% endfor %}
+
+---
+<h1 class="text-center">Day Two - Unconference</h1>
+        
+
+
 
 ---
 
