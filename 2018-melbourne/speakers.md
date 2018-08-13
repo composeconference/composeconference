@@ -27,8 +27,7 @@ permalink: /2018-melbourne/speakers/
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
-        <h1 class="text-center">Day One - Speakers and Presentations</h1>
-        <br />
+        <h1 class="text-center">Programme</h1>
 
         {% if site.data.2018-melbourne.speakers.show-level %}
         <div class="keybox">
@@ -69,7 +68,7 @@ permalink: /2018-melbourne/speakers/
 
         <br />
 
-    </div>
+      </div>
   </div>
 </div>
 
