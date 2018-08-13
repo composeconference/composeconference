@@ -254,27 +254,27 @@
       "time": "10am",
       "id": "rob_howard",
       "name": "Rob Howard",
-      "title": "Build a simple compiler in Javascript",
+      "title": "WORKSHOP - Build a simple compiler in Javascript",
       "twitter": "damncabbage"
     },
     {
       "time": "11am",
       "id": "lyndon_maydwell",
       "name": "Lyndon Maydwell",
-      "title": "CRASHKELL",
+      "title": "WORKSHOP - CRASHKELL",
       "twitter": "ConSord"
     },
     {
       "time": "1pm",
       "id": "david_laing",
       "name": "David Laing",
-      "title": "Front-end development with Reflex"
+      "title": "WORKSHOP - Front-end development with Reflex"
     },
     {
       "time": "2pm",
       "id": "luke_stephenson",
       "name": "Luke Stephenson",
-      "title": "Monix adventures",
+      "title": "WORKSHOP - Monix adventures",
       "twitter": "lukestephenson8"
     }
   ]
