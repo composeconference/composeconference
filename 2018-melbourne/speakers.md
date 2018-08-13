@@ -116,12 +116,6 @@ permalink: /2018-melbourne/speakers/
 {% endfor %}
 
 ---
-<h1 class="text-center">Day Two - Unconference</h1>
-        
-
-
-
----
 
 <div class="container">
 Register for C◦mp◦se :: Conference 2018 tickets at <a href="https://www.eventbrite.com.au/e/compose-melbourne-2018-tickets-46002911948">Eventbrite</a>

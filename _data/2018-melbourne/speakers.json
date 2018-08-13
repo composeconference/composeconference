@@ -2,7 +2,7 @@
   "show-level": false,
   "times": [
     {
-      "time": "Monday, 27 Aug 2018, 8am",
+      "time": "Monday 27 Aug 8am",
       "name": "<hr />",
       "id": "t-0800",
       "title": "Registration",
@@ -244,10 +244,37 @@
       "break": true
     },
     {
-      "time": "Tuesday, 28 Aug 2018, 9am",
+      "time": "Tuesday 28 Aug  9am",
       "id": "day-two-registration",
-      "name": "",
-      "title": "Registration"
+      "name": "<hr />",
+      "title": "Registration",
+      "break": true
+    },
+    {
+      "time": "10am",
+      "id": "rob_howard",
+      "name": "Rob Howard",
+      "title": "Build a simple compiler in Javascript",
+      "twitter": "damncabbage"
+    },
+    {
+      "time": "11am",
+      "id": "lyndon_maydwell",
+      "name": "Lyndon Maydwell",
+      "title": "CRASHKELL",
+      "twitter": "ConSord"
+    },
+    {
+      "time": "1pm",
+      "id": "david_laing",
+      "name": "David Laing",
+      "title": "Front-end development with Reflex"
+    },
+    {
+      "time": "2pm",
+      "id": "Luke Stephenson",
+      "name": "Monix adventures",
+      "twitter": "lukestephenson8"
     }
   ]
 }
