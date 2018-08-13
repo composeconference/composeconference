@@ -2,7 +2,7 @@
   "show-level": false,
   "times": [
     {
-      "time": "8am",
+      "time": "Monday 27 Aug 8am",
       "name": "<hr />",
       "id": "t-0800",
       "title": "Registration",
@@ -235,6 +235,47 @@
       "name": "Lyndon Maydwell",
       "title": "Closing comment",
       "committee": true
+    },
+    {
+      "time": "",
+      "title": "",
+      "name": "&nbsp;",
+      "id": "end-of-day-one",
+      "break": true
+    },
+    {
+      "time": "Tuesday 28 Aug  9am",
+      "id": "day-two-registration",
+      "name": "<hr />",
+      "title": "Registration",
+      "break": true
+    },
+    {
+      "time": "10am",
+      "id": "rob_howard",
+      "name": "Rob Howard",
+      "title": "WORKSHOP - Build a simple compiler in Javascript",
+      "twitter": "damncabbage"
+    },
+    {
+      "time": "11am",
+      "id": "lyndon_maydwell",
+      "name": "Lyndon Maydwell",
+      "title": "WORKSHOP - CRASHKELL",
+      "twitter": "ConSord"
+    },
+    {
+      "time": "1pm",
+      "id": "david_laing",
+      "name": "David Laing",
+      "title": "WORKSHOP - Front-end development with Reflex"
+    },
+    {
+      "time": "2pm",
+      "id": "luke_stephenson",
+      "name": "Luke Stephenson",
+      "title": "WORKSHOP - Monix adventures",
+      "twitter": "lukestephenson8"
     }
   ]
 }
