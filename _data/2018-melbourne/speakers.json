@@ -272,8 +272,9 @@
     },
     {
       "time": "2pm",
-      "id": "Luke Stephenson",
-      "name": "Monix adventures",
+      "id": "luke_stephenson",
+      "name": "Luke Stephenson",
+      "title": "Monix adventures",
       "twitter": "lukestephenson8"
     }
   ]
