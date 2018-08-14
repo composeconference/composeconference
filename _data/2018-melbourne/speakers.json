@@ -266,18 +266,18 @@
       "name": "Lyndon Maydwell",
       "title": "WORKSHOP - CRASHKELL",
       "twitter": "ConSord",
-      "bio": null,
-      "abstract": null,
-      "img": null
+      "bio": "Lyndon is a huge jerk. Check out his <a href='https://www.linkedin.com/in/lyndon-maydwell-01455723/'>Linkedin</a> if you don't believe me. He has run Haskell workshops for the past 5 years. This is the latest version.",
+      "abstract": "CRASHKELL - Learn Haskell by Crashing! <p/> We will work through a series of broken code-snippets, fixing them, and by doing-so learning what will be used for the next exercises. In this fashion, we will build knowledge and have fun! <p/> We will start out with simple printing and strings, and by the end will be defining our own complex data-types and creating sophisticated algorithms!",
+      "img": "/assets/img/2018-melbourne/lyndon_maydwell.jpg"
     },
     {
       "time": "1pm",
       "id": "david_laing",
       "name": "David Laing",
       "title": "WORKSHOP - Front-end development with Reflex",
-      "bio": null,
-      "abstract": null,
-      "img": null
+      "bio": "Dave is a programmer working at the Queensland Functional Programming Lab. <p/> He is mostly interested in programming language theory, functional reactive programming, Nix, session types, and various other bits and pieces of mathematics and theory associated with functional programming. <p/> He is also passionate about spreading all of this knowledge, mostly by giving talks and writing blog posts and other training material, but also via talking to people at conferences, in pubs, and during elevator rides.",
+      "abstract": "There has been a lot of excitement about Functional Reactive Programming (FRP). <p/> Most of it has been about distant relatives of the original idea, which are nowhere near as powerful or as useful. The `reflex` library -- and the companion `reflex-dom` library -- were created in order to use FRP to do front-end development using Haskell. This workshop will give you hands-on experience with these libraries. <p/> The workshop will show attendees a new way to manage state and time-dependent logic, with significant benefits over the standard approaches when it comes to abstraction, composition and correctness. It will also make the case that when these ideas are applied to front-end development, they lead to something beyond what is delivered by libraries like `react` and `redux`.",
+      "img": "/assets/img/2018-melbourne/david_laing.jpg"
     },
     {
       "time": "2pm",
@@ -285,9 +285,9 @@
       "name": "Luke Stephenson",
       "title": "WORKSHOP - Monix adventures",
       "twitter": "lukestephenson8",
-      "bio": null,
-      "abstract": null,
-      "img": null
+      "bio": "Lead Developer at REA. 3 years commercial Scala experience.<p/>On the Melbourne Scala User Group committee.",
+      "abstract": "An introduction to Monix Task and Observable. Both are introduced through a series of problems which need to be solved using Monix APIs.  Tests are provided so participants can see progress and know the solution works. <p/> So far I've run the Task exercises internally at REA and 1 hour was sufficient for that.  I suspect another hour will cover the Observable exercises (which I'm still working on).  https://github.com/lukestephenson/monix-adventures",
+      "img": "/assets/img/2017-melbourne/luke_stephenson.jpg"
     }
   ]
 }
