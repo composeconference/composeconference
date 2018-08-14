@@ -255,27 +255,39 @@
       "id": "rob_howard",
       "name": "Rob Howard",
       "title": "WORKSHOP - Build a simple compiler in Javascript",
-      "twitter": "damncabbage"
+      "twitter": "damncabbage",
+      "bio": "Hi! I'm Rob, and I'm a web developer who currently switches between Elixir, Ruby and TypeScript at CancerAid up in sunny Sydney. Having so far made a career from learning and mixing the nice parts from different programming languages, I love nothing better than to help programming communities to learn more from each other, and become more welcoming for newcomers.",
+      "abstract": "\"Compilers\" are usually-mysterious things that a lot of us actually use and rely on from day to day, eg. the JavaScript V8 compiler, the TypeScript compiler, or the Clang+LLVM compilers. Digging into how these work can be satisfying (like sleuthing a good puzzle); but some of the ways we implement them can appear in other places, such as when validating user input or doing other transformations. <p/> This workshop will comprise of a quick talk that introduces the main parts of a compiler, followed by a <a href='https://github.com/workshopper/stream-adventure'>Stream Adventure</a>-style guided tour through building a little one of your own. We'll start with a simple language that compiles to JavaScript, and then extend both the language and the compiler in a few different ways. <p/> We'll be stepping through: <p/> <ul> <li> Lexing (taking a string and turning it into a bunch of symbols),</li> <li> Token Parsing (taking these symbols and turning it into a representation of a program), and</li> <li> Code Generation (taking that representation and turning it into, in this case, JavaScript).</li> </ul> <p/> There'll also be a few optional paths you can take: <p/> <ul> <li> Interpreting (taking the representation and evaluating it ourselves, instead of handing it over to JavaScript).</li> <li> Adding some actions that interact with the outside world (have side-effects), such as reading the current time and writing to a file.</li> <li> Using a parser-combinator library (which can be used to make both Lexing and Token Parsing steps look more uniform).</li> </ul> <p/> This workshop is for people who are already reasonably familiar with JavaScript (as in EcmaScript 5+, and not anything like Node.js APIs). The GitHub repo with setup instructions will be provided closer to the date, but will only need Node.js 6+ and a text editor of your choice.",
+      "img": null
     },
     {
       "time": "11am",
       "id": "lyndon_maydwell",
       "name": "Lyndon Maydwell",
       "title": "WORKSHOP - CRASHKELL",
-      "twitter": "ConSord"
+      "twitter": "ConSord",
+      "bio": "Lyndon is a huge jerk. Check out his <a href='https://www.linkedin.com/in/lyndon-maydwell-01455723/'>Linkedin</a> if you don't believe me. He has run Haskell workshops for the past 5 years. This is the latest version.",
+      "abstract": "CRASHKELL - Learn Haskell by Crashing! <p/> We will work through a series of broken code-snippets, fixing them, and by doing-so learning what will be used for the next exercises. In this fashion, we will build knowledge and have fun! <p/> We will start out with simple printing and strings, and by the end will be defining our own complex data-types and creating sophisticated algorithms!",
+      "img": "/assets/img/2018-melbourne/lyndon_maydwell.jpg"
     },
     {
       "time": "1pm",
       "id": "david_laing",
       "name": "David Laing",
-      "title": "WORKSHOP - Front-end development with Reflex"
+      "title": "WORKSHOP - Front-end development with Reflex",
+      "bio": "Dave is a programmer working at the Queensland Functional Programming Lab. <p/> He is mostly interested in programming language theory, functional reactive programming, Nix, session types, and various other bits and pieces of mathematics and theory associated with functional programming. <p/> He is also passionate about spreading all of this knowledge, mostly by giving talks and writing blog posts and other training material, but also via talking to people at conferences, in pubs, and during elevator rides.",
+      "abstract": "There has been a lot of excitement about Functional Reactive Programming (FRP). <p/> Most of it has been about distant relatives of the original idea, which are nowhere near as powerful or as useful. The `reflex` library -- and the companion `reflex-dom` library -- were created in order to use FRP to do front-end development using Haskell. This workshop will give you hands-on experience with these libraries. <p/> The workshop will show attendees a new way to manage state and time-dependent logic, with significant benefits over the standard approaches when it comes to abstraction, composition and correctness. It will also make the case that when these ideas are applied to front-end development, they lead to something beyond what is delivered by libraries like `react` and `redux`.",
+      "img": "/assets/img/2018-melbourne/david_laing.jpg"
     },
     {
       "time": "2pm",
       "id": "luke_stephenson",
       "name": "Luke Stephenson",
       "title": "WORKSHOP - Monix adventures",
-      "twitter": "lukestephenson8"
+      "twitter": "lukestephenson8",
+      "bio": "Lead Developer at REA. 3 years commercial Scala experience.<p/>On the Melbourne Scala User Group committee.",
+      "abstract": "An introduction to Monix Task and Observable. Both are introduced through a series of problems which need to be solved using Monix APIs.  Tests are provided so participants can see progress and know the solution works. <p/> So far I've run the Task exercises internally at REA and 1 hour was sufficient for that.  I suspect another hour will cover the Observable exercises (which I'm still working on).  https://github.com/lukestephenson/monix-adventures",
+      "img": "/assets/img/2017-melbourne/luke_stephenson.jpg"
     }
   ]
 }
