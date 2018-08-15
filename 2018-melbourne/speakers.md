@@ -8,11 +8,17 @@ permalink: /2018-melbourne/speakers/
   .container img {
     max-height: 300px;
   }
-  h3.no-top-space {
+  .no-top-space {
     margin-top: 0;
   }
   .agenda td {
     vertical-align: top;
+  }
+  .agenda td h2 {
+    margin: 0 0;
+  }
+  .agenda .heading td {
+    padding-bottom: 30px;
   }
   .key td {
     vertical-align: top;
@@ -43,8 +49,17 @@ permalink: /2018-melbourne/speakers/
 
         <table class="agenda">
           {% for t in site.data.2018-melbourne.speakers.times %}
-            {% unless t.hide %}
-              <tr>
+            {% if t.heading %}
+              <tr class="heading">
+                <td colspan="3">
+                  <h2><a href="#{{t.id}}">{{ t.time }} - {{ t.heading }}</a></h2>
+                  {{ t.blurb }}
+                  <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }}
+                </td>
+              </tr>
+            {% endif %}
+            {% unless t.hide or t.heading %}
+              <tr class="time">
                 <td>{{t.time}}</td>
                 <td>{{t.name}}</td>
                 <td>
@@ -73,7 +88,18 @@ permalink: /2018-melbourne/speakers/
 </div>
 
 {% for t in site.data.2018-melbourne.speakers.times %}
-{% unless t.hide %}
+{% if t.heading %}
+----
+<div class="container cfpsection" id="{{t.id}}" class="no-top-heading" style="padding-top: 60px;">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h1 class="text-center">{{ t.time }} - {{ t.heading }}</h1>
+      <div class="text-center">{{ t.blurb }}</div>
+    </div>
+  </div>
+</div>      
+{% endif %}
+{% unless t.hide or t.heading %}
 
   <div class="container cfpsection" id="{{t.id}}">
     <div class="row" style="margin-top: 60px;">

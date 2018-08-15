@@ -2,7 +2,14 @@
   "show-level": false,
   "times": [
     {
-      "time": "Monday 27 Aug 8am",
+      "time": "Day 1",
+      "heading": "Talks",
+      "id": "talks",
+      "blurb": "Monday 27 August 2018",
+      "location": "<a href='https://goo.gl/maps/bZ13aL7EVm32'>RMIT - Building 80</a>"
+    },
+    {
+      "time": "8am",
       "name": "<hr />",
       "id": "t-0800",
       "title": "Registration",
@@ -244,7 +251,14 @@
       "break": true
     },
     {
-      "time": "Tuesday 28 Aug  9am",
+      "time": "Day 2",
+      "heading": "Unconference",
+      "id": "unconference",
+      "blurb": "Tuesday 28 August 2018",
+      "location": "<a href='https://goo.gl/maps/bZ13aL7EVm32'>RMIT - Building 80</a>"
+    },
+    {
+      "time": "9am",
       "id": "day-two-registration",
       "name": "<hr />",
       "title": "Registration",
