@@ -266,7 +266,7 @@
       "name": "Lyndon Maydwell",
       "title": "WORKSHOP - CRASHKELL",
       "twitter": "ConSord",
-      "bio": "Lyndon is a huge jerk. Check out his <a href='https://www.linkedin.com/in/lyndon-maydwell-01455723/'>Linkedin</a> if you don't believe me. He has run Haskell workshops for the past 5 years. This is the latest version.",
+      "bio": "Lyndon has run Haskell workshops for the past 5 years.",
       "abstract": "CRASHKELL - Learn Haskell by Crashing! <p/> We will work through a series of broken code-snippets, fixing them, and by doing-so learning what will be used for the next exercises. In this fashion, we will build knowledge and have fun! <p/> We will start out with simple printing and strings, and by the end will be defining our own complex data-types and creating sophisticated algorithms!",
       "img": "/assets/img/2018-melbourne/lyndon_maydwell.jpg"
     },
