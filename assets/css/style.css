@@ -944,7 +944,7 @@ table.agenda td {
     text-align: left;
     vertical-align: top;
 }
-table.agenda td:first-child {
+table.agenda.time td:first-child {
     text-align: right;
 }
 table.agenda td:nth-child(2) {
