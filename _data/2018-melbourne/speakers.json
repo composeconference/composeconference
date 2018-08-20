@@ -300,7 +300,7 @@
       "title": "WORKSHOP - Monix adventures",
       "twitter": "lukestephenson8",
       "bio": "Lead Developer at REA. 3 years commercial Scala experience.<p/>On the Melbourne Scala User Group committee.",
-      "abstract": "An introduction to Monix Task and Observable. Both are introduced through a series of problems which need to be solved using Monix APIs.  Tests are provided so participants can see progress and know the solution works. <p/> So far I've run the Task exercises internally at REA and 1 hour was sufficient for that.  I suspect another hour will cover the Observable exercises (which I'm still working on).  https://github.com/lukestephenson/monix-adventures",
+      "abstract": "An introduction to Monix Task and Observable. Both are introduced through a series of problems which need to be solved using Monix APIs.  Tests are provided so participants can see progress and know the solution works. <p/> So far I've run the Task exercises internally at REA and 1 hour was sufficient for that.  I suspect another hour will cover the Observable exercises (which I'm still working on).  <a href='https://github.com/lukestephenson/monix-adventures'>https://github.com/lukestephenson/monix-adventures</a><p/><h3>Prerequisites</h3>Sbt, intellij (or editor of choice)",
       "img": "/assets/img/2017-melbourne/luke_stephenson.jpg"
     }
   ]
