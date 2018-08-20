@@ -280,8 +280,8 @@
       "name": "Lyndon Maydwell",
       "title": "WORKSHOP - CRASHKELL",
       "twitter": "ConSord",
-      "bio": "Lyndon has run Haskell workshops for the past 5 years.",
-      "abstract": "The feedback from last-year's Haskell workshop was clear: \"Less Talking, More Typing!\". In response to this, I have reworked the content to... <p/> <ul> <li> Be instantly accessible via the web, with no setup required </li> <li> Have no lecture material, being composed entirely of exercises </li> <li> Progressively teach concepts without requiring jumping around</li> <li> Be completely broken! Every exercise will crash, requiring debugging</li> </ul> <p/> Skeptical? Come along and find out if this was a terrible idea!",
+      "bio": "Lyndon works at Silverpond as a project manager / architect / janitor and has run Haskell workshops for the past 5 years. Endorse him on <a href='https://www.linkedin.com/in/lyndon-maydwell-01455723/'>Linkedin!</a>",
+      "abstract": "The feedback from last-year's Haskell workshop was clear: \"Less Talking, More Typing!\". In response to this, I have reworked the content to... <p/> <ul> <li> Be instantly accessible via the web, with no setup required </li> <li> Have no lecture material, being composed entirely of exercises </li> <li> Progressively teach concepts without requiring jumping around</li> <li> Be completely broken! Every exercise will crash, requiring debugging</li> </ul> <p/> Skeptical? Come along and find out if this was a terrible idea!<br><br><strong>Note:</strong> This is an introductory workshop. Please bring a laptop with a modern web-browser.",
       "img": "/assets/img/2018-melbourne/lyndon_maydwell.jpg"
     },
     {
