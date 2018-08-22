@@ -133,7 +133,7 @@ permalink: /2018-melbourne/speakers/
           <td>3pm</td>
           <td>Unrecruiting</td>
           <td rowspan="2">Front-end development with Reflex<br/>(continued)	</td>
-          <td rowspan="3"><a href="#luke_stephenson">Monix Adventures</a></td>
+          <td rowspan="2"><a href="#luke_stephenson">Monix Adventures</a></td>
          </tr>
          <tr>
           <td>4pm</td>
