@@ -113,7 +113,7 @@ permalink: /2018-melbourne/speakers/
          </tr>
          <tr>
           <td>12pm</td>
-          <td class="break" colspan="3">Lunch</td>
+          <td class="break" colspan="3">Lunch - Not catered</td>
          </tr>
          <tr>
           <td>1pm</td>
@@ -127,7 +127,7 @@ permalink: /2018-melbourne/speakers/
          </tr>
          <tr>
           <td>2:30pm</td>
-          <td colspan="3" class="break">Catered afternoon tea</td>
+          <td colspan="3" class="break">Afternoon tea - Catered</td>
          </tr>
          <tr>
           <td>3pm</td>
