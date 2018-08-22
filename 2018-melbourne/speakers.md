@@ -18,11 +18,16 @@ permalink: /2018-melbourne/speakers/
     margin: 0 0;
   }
   .agenda .heading td {
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .key td {
     vertical-align: top;
     padding-width: 5px;
+  }
+  tr .break {
+    background-color: #eee;
+    text-align: center;
   }
 </style>
 
@@ -34,7 +39,6 @@ permalink: /2018-melbourne/speakers/
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
         <h1 class="text-center">Programme</h1>
-
         {% if site.data.2018-melbourne.speakers.show-level %}
         <div class="keybox">
           <table class="key agenda">
@@ -44,11 +48,10 @@ permalink: /2018-melbourne/speakers/
           </table>
         </div>
         {% endif %}
-
         <br/>
-
         <table class="agenda">
           {% for t in site.data.2018-melbourne.speakers.times %}
+            {% unless t.hide or t.hide_toc %}
             {% if t.heading %}
               <tr class="heading">
                 <td colspan="3">
@@ -57,8 +60,7 @@ permalink: /2018-melbourne/speakers/
                   <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }}
                 </td>
               </tr>
-            {% endif %}
-            {% unless t.hide or t.heading %}
+            {% else %}
               <tr class="time">
                 <td>{{t.time}}</td>
                 <td>{{t.name}}</td>
@@ -77,15 +79,76 @@ permalink: /2018-melbourne/speakers/
                  </td>
                 {% endif %}
               </tr>
+            {% endif %}
             {% endunless %}
           {% endfor %}
         </table>
-
-        <br />
-
       </div>
   </div>
+
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <table class="table table-bordered">
+         <thead>
+          <tr>
+           <th>&nbsp;</th>
+           <th>Room 1 - Hacking/sharing</th>
+           <th>Room 2 - Workshop</th>
+           <th>Room 3 - Workshops</th>
+          </tr>
+         </thead>
+         <tr>
+           <td scope="row">9am</td>
+           <td colspan="3" class="break">Registration, catered morning tea, & signup for workshops & activities</td>
+         </tr>
+         <tr>
+          <td>10am</td>
+          <td>Mentoring matchups</td>
+          <td rowspan="2"><a href="#david_laing">Front-end development with Reflex</a></td>
+          <td rowspan="2"><a href="#lyndon_maydwell">CRASHKELL</a></td>
+         </tr>
+         <tr>
+          <td>10:30am</td>
+          <td>Flappy Bird in Haskell group learning</td>
+         </tr>
+         <tr>
+          <td>12pm</td>
+          <td class="break" colspan="3">Lunch - Not catered</td>
+         </tr>
+         <tr>
+          <td>1pm</td>
+          <td>Lightning talks</td>
+          <td rowspan="2">Front-end development with Reflex<br/>(continued)</td>
+          <td rowspan="2"><a href="#rob_howard">Building a Small Compiler in JavaScript</a></td>
+         </tr>
+         <tr>
+          <td>1:30pm</td>
+          <td>My first paper: recursion schemes group learning. </td>
+         </tr>
+         <tr>
+          <td>2:30pm</td>
+          <td colspan="3" class="break">Afternoon tea - Catered</td>
+         </tr>
+         <tr>
+          <td>3pm</td>
+          <td>Unrecruiting</td>
+          <td rowspan="2">Front-end development with Reflex<br/>(continued)	</td>
+          <td rowspan="2"><a href="#luke_stephenson">Monix Adventures</a></td>
+         </tr>
+         <tr>
+          <td>4pm</td>
+         </tr>
+         <tr>
+          <td>5pm</td>
+          <td colspan="3" class="break">The End</td>
+         </tr>
+
+        </table>
+    </div>
+  </div>
 </div>
+
+
 
 {% for t in site.data.2018-melbourne.speakers.times %}
 {% if t.heading %}
