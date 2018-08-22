@@ -18,7 +18,8 @@ permalink: /2018-melbourne/speakers/
     margin: 0 0;
   }
   .agenda .heading td {
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   .key td {
     vertical-align: top;
@@ -82,7 +83,6 @@ permalink: /2018-melbourne/speakers/
             {% endunless %}
           {% endfor %}
         </table>
-        <br />
       </div>
   </div>
 
