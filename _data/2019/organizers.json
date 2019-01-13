@@ -1,0 +1,24 @@
+{
+  "organizers": [
+    {
+    	"name": "Gershom Bazerman",
+    	"bio": "Gershom is a Senior Software Developer at Awake Security.",
+    	"photo": "../photos/gb.png"
+    },
+    {
+    	"name": "Doug Beardsley",
+    	"bio": "Doug is a senior software engineer at Kadena.",
+    	"photo": "../photos/db.jpg"
+    },
+    {
+    	"name": "Kat Chuang",
+    	"bio": "Kat is a product designer at Soostone.",
+    	"photo": "../photos/kc.jpg"
+    },
+    {
+    	"name": "Ryan Trinkle",
+    	"bio": "Ryan is the CTO at Obsidian Systems.",
+    	"photo": "../photos/rt.jpg"
+    }
+  ]
+}
