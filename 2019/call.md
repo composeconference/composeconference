@@ -8,42 +8,18 @@ redirect_from:
 ---
 
 <div class="col-lg-4 col-md-4 col-sm-4 name">
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
-            <a class="haskell" href="https://www.haskell.org">
-            <img class="img-responsive" src="/assets/img/logos/haskell_color.png">
-            Haskell
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
-            <a class="fsharp" href="http://fsharp.org/">
-            <img class="img-responsive" src="/assets/img/logos/fsharp_color.png">
-            F#
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
-            <a class="ocaml" href="https://ocaml.org/">
-            <img class="img-responsive" src="/assets/img/logos/ocaml_color.png">
-            OCaml
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
-            <a class="sml" href="http://sml-family.org/">
-            <img class="img-responsive" src="/assets/img/logos/sml_color.png">
-            SML
-            </a>
-        </div>
-    </div>
 
-    <p><br />Submission Guidelines</p>
-    <span class="fa-stack fa-2x">
-      <i class="fa fa-square-o fa-stack-2x"></i>
-      <i class="fa fa-pencil fa-stack-1x"></i>
-    </span>
+  {% include languages-2019-nyc.html %}
+
+  <p><br />Submission Guidelines</p>
+  <span class="fa-stack fa-2x">
+    <i class="fa fa-square-o fa-stack-2x"></i>
+    <i class="fa fa-pencil fa-stack-1x"></i>
+  </span>
 </div>
 
 <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
-    <h2>C◦mp◦se :: Conference 2019</h2>
+    <h2>C◦mp◦se NYC 2019</h2>
     <h3>June 24-25, 2019</h3>
     <h3>New York City</h3>
     <div class="name-zig"></div>
