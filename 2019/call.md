@@ -34,7 +34,9 @@ redirect_from:
         <p>The due date for submissions is <b>April 23, 2019</b>. We will send out notice of acceptance by <b>April 30th</b>. We prefer that submissions be via the EasyChair website (<a href="https://easychair.org/conferences/?conf=compose2019">https://easychair.org/conferences/?conf=compose2019</a>). Please suggest a title, and describe the topic you intend to speak on. Talks can be either 30 or 45 minutes, please indicate how much time you would prefer to take. You may submit multiple talks if you have several ideas and are unsure which woould be the most likely to be accepted. Accepted talks will be asked to submit slides for review prior to the conference.</p>
 
         <p>Feel free to include any additional information on both your expertise and interesting elements of your topic that would be appropriate for inclusion in the public abstract. Furthermore, if your abstract doesn't feel "final"&mdash;don't worry! We'll work with you to polish it up.
-        If you want to discuss your presentation(s) before submitting, or to further nail down what you intend to speak on, please feel free to contact us at <a href="mailto:nyc-organizers@composeconference.org">nyc-organizers@composeconference.org</a>. We're happy to work with you, even if you are a new or inexperienced speaker, to help your talk be great.</p>
+        If you want to discuss your presentation(s) before submitting, or to further nail down what you intend to speak on, please feel free to contact us at <a href="mailto:nyc@composeconference.org">nyc@composeconference.org</a>. We're happy to work with you, even if you are a new or inexperienced speaker, to help your talk be great.</p>
+
+        <p>Companies interested in sponsoring Compose can find our sponsorship prospectus <a href="../prospectus.pdf">here</a>.</p>
     </div>
     <div class="col-md-1">
         <p></p>
