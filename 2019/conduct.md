@@ -1,7 +1,7 @@
 ---
-layout: 2017/page
+layout: 2019/page
 title: Policies
-permalink: /2017/conduct/
+permalink: /2019/conduct/
 ---
 
 ### Diversity Policy
