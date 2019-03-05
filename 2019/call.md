@@ -11,11 +11,6 @@ redirect_from:
 
   {% include languages-2019-nyc.html %}
 
-  <p><br />Submission Guidelines</p>
-  <span class="fa-stack fa-2x">
-    <i class="fa fa-square-o fa-stack-2x"></i>
-    <i class="fa fa-pencil fa-stack-1x"></i>
-  </span>
 </div>
 
 <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
@@ -31,7 +26,7 @@ redirect_from:
         <p><b>Theory made Practical</b> — Just because it’s locked away in papers doesn’t mean it’s hard! Accessible lectures on classic results and why they matter to us today. Such talks can include simply introducing the principles of a field of research so as to help the audience read up on it in the future; from abstract machines to program derivation to branch-and-bound algorithms, the sky’s the limit.</p>
         <p>Check out <a href="https://www.youtube.com/channel/UC0pEknZxL7Q1j0Ok8qImWdQ">the Compose YouTube channel</a> to see videos of talks we've had previously and get an idea of the kinds of topics we usually feature.</p>
         <p>We also welcome presentations for more formal tutorials. Tutorials should be aimed at a smaller audience of beginner-to-novice understanding, and ideally include hands-on exercises.</p>
-        <p>The due date for submissions is <b>April 23, 2019</b>. We will send out notice of acceptance by <b>April 30th</b>. We prefer that submissions be via the EasyChair website (<a href="https://easychair.org/conferences/?conf=compose2019">https://easychair.org/conferences/?conf=compose2019</a>). Please suggest a title, and describe the topic you intend to speak on. Talks can be either 30 or 45 minutes, please indicate how much time you would prefer to take. You may submit multiple talks if you have several ideas and are unsure which woould be the most likely to be accepted. Accepted talks will be asked to submit slides for review prior to the conference.</p>
+        <p>The due date for submissions is <b>April 23, 2019</b>. We will send out notice of acceptance by <b>April 30th</b>. We prefer that submissions be via the EasyChair website (<a href="https://easychair.org/conferences/?conf=compose2019">https://easychair.org/conferences/?conf=compose2019</a>). Please suggest a title, and describe the topic you intend to speak on. Talks can be either 30 or 45 minutes, please indicate how much time you would prefer to take. You may submit multiple talks if you have several ideas and are unsure which would be the most likely to be accepted. Accepted talks will be asked to submit slides for review prior to the conference.</p>
 
         <p>Feel free to include any additional information on both your expertise and interesting elements of your topic that would be appropriate for inclusion in the public abstract. Furthermore, if your abstract doesn't feel "final"&mdash;don't worry! We'll work with you to polish it up.
         If you want to discuss your presentation(s) before submitting, or to further nail down what you intend to speak on, please feel free to contact us at <a href="mailto:nyc@composeconference.org">nyc@composeconference.org</a>. We're happy to work with you, even if you are a new or inexperienced speaker, to help your talk be great.</p>
