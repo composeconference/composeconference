@@ -7,12 +7,12 @@
     },
     {
     	"name": "Doug Beardsley",
-    	"bio": "Doug is a senior software engineer at Kadena. He is one of the original co-organizers of NYHUG.",
+    	"bio": "He is a senior software engineer at Kadena. He is one of the original co-organizers of NYHUG.",
     	"photo": "../photos/db.jpg"
     },
     {
     	"name": "Kat Chuang",
-    	"bio": "Kat is a researcher at Soostone. She created this website and did much to organize the formation of the Compose Conference.",
+    	"bio": "Once upon a time, not too long ago, Kat studied software design and social support groups. While as a UX Designer working with high-fidelity, rapid prototyping techniquess, she heard about functional programming and was eager to learn more. Currently, Kat is a researcher at Soostone. She created this website and did much to organize the formation of the Compose Conference.",
     	"photo": "../photos/kc.jpg"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "Ashish Agarwal",
-      "bio": "Ashish is involved with the OCaml and ReasonML community.",
+      "bio": "Ashish is the Founder & CEO of Solvuu. He is also the organizer of the OCaml NYC Meetup and initiated the [ocaml.org](ocaml.org) website.",
       "photo": "../photos/aa.jpg"
     },
   ]
