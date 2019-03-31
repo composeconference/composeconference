@@ -1,39 +1,39 @@
 {
   "organizers": [
     {
-    	"name": "Gershom Bazerman",
-    	"bio": "Gershom is a Senior Software Developer at Awake Security. He helped form the New York Haskell Meetup (NYHUG).",
-    	"photo": "../photos/gb.jpg"
+      "name": "Gershom Bazerman",
+      "bio": "",
+      "photo": "../photos/gb.jpg"
     },
     {
-    	"name": "Doug Beardsley",
-    	"bio": "He is a senior software engineer at Kadena. He is one of the original co-organizers of NYHUG.",
-    	"photo": "../photos/db.jpg"
+      "name": "Doug Beardsley",
+      "bio": "",
+      "photo": "../photos/db.jpg"
     },
     {
-    	"name": "Kat Chuang",
-    	"bio": "Once upon a time, not too long ago, Kat studied software design and social support groups. While as a UX Designer working with high-fidelity, rapid prototyping techniquess, she heard about functional programming and was eager to learn more. Currently, Kat is a researcher at Soostone. She created this website and did much to organize the formation of the Compose Conference.",
-    	"photo": "../photos/kc.jpg"
+      "name": "Kat Chuang",
+      "bio": "",
+      "photo": "../photos/kc.jpg"
     },
     {
-    	"name": "Ryan Trinkle",
-    	"bio": "Ryan is the CTO at Obsidian Systems. He is one of the original co-organizers of NYHUG.",
-    	"photo": "../photos/rt.jpg"
+      "name": "Ryan Trinkle",
+      "bio": "",
+      "photo": "../photos/rt.jpg"
+    },
+    {
+      "name": "Ashish Agarwal",
+      "bio": "",
+      "photo": "../photos/aa.jpg"
     },
     {
       "name": "Anastasia Bez",
-      "bio": "Anastasia works at Kadena. She went to Fordham and was instrumental in getting the venue for this year.",
+      "bio": "",
       "photo": "../photos/ab.jpg"
     },
     {
       "name": "Chelsea Betancourt",
-      "bio": "Chelsea works at Obsidian Systems. She helped with much of the organization for this conference this year.",
+      "bio": "",
       "photo": "../photos/square.png"
-    },
-    {
-      "name": "Ashish Agarwal",
-      "bio": "Ashish is the Founder & CEO of Solvuu. He is also the organizer of the OCaml NYC Meetup and initiated the [ocaml.org](ocaml.org) website.",
-      "photo": "../photos/aa.jpg"
     },
   ]
 }

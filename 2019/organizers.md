@@ -6,18 +6,18 @@ permalink: /2019/organizers/
 
 
 <div id="organizers">
-	<div class="container">
-		<div class="row">
+    <div class="container">
+        <div class="row">
 {% for person in site.data.2019.organizers.organizers %}
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-		<img src="{{ person.photo }}" class="img-responsive img-rounded" />
-		<h2>{{ person.name }}</h2>
-		<div style="min-height:180px;">
-		<p>
-		{{ person.bio | markdownify }}
-		</p>
-		</div>
-	</div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <img src="{{ person.photo }}" class="img-responsive img-rounded" />
+        <h2>{{ person.name }}</h2>
+        <div style="min-height:10px;">
+        <p>
+        {{ person.bio | markdownify }}
+        </p>
+        </div>
+    </div>
 {% endfor %}
 </div><!--/row -->
 </div><!--/container -->
