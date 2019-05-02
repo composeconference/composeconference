@@ -1,0 +1,253 @@
+{
+  "speakers": [
+    {
+      "name": "Donya Quick",
+      "title": "KEYNOTE: Making Algorithmic Music",
+      "abstract":
+        "Euterpea is a library for representing and creating music in the Haskell programming language. Euterpea models music as a polymorphic tree, which makes it easy to algorithmically create and manipulate musical structures at different levels of detail. This talk will introduce how to use the library to create music and will cover some basic techniques that are used in algorithmic and automated music composition. Finally, we will explore the application of these techniques to modeling jazz improvisation in a functional style, allowing for the creation of infinite improvisations that can be generated in real time.",
+      "start_time": "2019-06-24 09:00:00",
+      "end_time": "2019-06-24 10:00:00"
+    },
+    {
+      "name": "Kenny Foner",
+      "title": "Functors of the World, Unite!",
+      "abstract": "<p>To save myself from hubris, I use static types.
+To save myself from tedium, I use type inference.</p>
+
+<p>Statically typed languages like Haskell would be unusably verbose if we had to
+write down the type for each piece of a program. Luckily, we don't have to: the
+compiler happily infers the types we don't annotate. Usually, we don't need to
+think about how it does this; we can play by an intuition that it thinks about
+types like we do... until it thinks something we didn't expect.</p>
+
+<p>By understanding more deeply how type inference works, we can more easily debug
+otherwise-unintuitive type errors, and further, clarify our thinking to avoid
+surprises in the first place. Frustratingly, many treatments of type inference
+are at one of two extremes: either abstract deduction rules written on paper, or
+complex code from the guts of a mature programming language. As I see it,
+neither of these are optimal for developing our intution while we program.</p>
+
+<p>Let's learn to see inference how the compiler sees it, by creating a typechecker
+for our own small programming language. A twist: we'll melt away the incidental
+complexity of syntax manipulation by representing our types and terms as
+explicit fixed points of functors. We'll build our typechecker by first making a
+simple, generic library for *structural unification* of traversable data types,
+then by instantiating it with the terms and typing rules of our particular
+language. In the process, we'll see how these abstractions allow us to concisely
+implement type inference for all sorts of terms, types, and type system
+features. Inference need not be abstruse or complicated—with a dash of
+functorality, it can be fun!</p>",
+      "start_time": "2019-06-24 10:15:00",
+      "end_time": "2019-06-24 11:00:00"
+    },
+    {
+      "name": "Phillip Carter",
+      "title": "The anatomy of the F# tools for Visual Studio",
+      "abstract":
+        "F# is a first-class language in Visual Studio with an array of features that make people more productive. But how is the tooling built? In this talk, you'll learn just how much goes into programming language tooling, and how we do it with F# at Microsoft. By the end of the talk, you should have an idea of how to design pieces of a compiler so that accurate tooling can be built, how constraints of a language affect tooling, and some of the challenges tooling developers face.",
+      "start_time": "2019-06-24 11:00:00",
+      "end_time": "2019-06-24 11:30:00"
+    },
+    {
+      "name": "Sebastien Mondet",
+      "title": "Genspio: Generating Shell Phrases In OCaml",
+      "abstract":
+        "<p>Genspio is a typed EDSL to generate shell scripts from OCaml. The idea is to build values of type <code>'a Genspio.EDSL.t</code> with the combinators in the <code>Genspio.EDSL</code> module, and compile them to POSIX shell scripts (or one-liners) with functions from the <code>Genspio.Compile</code> module.</p>
+
+<p>The project provides two compilers. The standard compiler generates strict but complex POSIX shell expressions, which can be even treated as one-liners. The second compiler, generates much slower but simpler scripts targeting a subset of POSIX which aims at being portable to older and buggy interpreters which are still found in the wild. In addition, a few generic optimizations have been implemented, and the API gives access to a generic AST visitor (using standard OCaml objects).</p>
+
+<p>The most interesting parts of the implementation of the project are actually its testing infrastructure and its documenation.</p>
+
+<p>The tests aim at evaluating the portability of the generated code by running an extensive test suite with various shells and on various systems (including by providing infrastructure to try older operating systems or other architectures with Qemu)</p>.",
+      "start_time": "2019-06-24 11:30:00",
+      "end_time": "2019-06-24 12:00:00"
+
+    },
+    {
+      "name": "Justin Le",
+      "title": "Applicative Regular Expressions using the Free Alternative",
+      "abstract":
+        "Free Structures -- including Free Monoids and Free Monads -- are a great example of a tool from mathematics that have been shown to be very useful as concepts in Haskell. Free structures of all sorts give you powerful tools in program composition, implementation, and safety guarantees. This talk shows how the implementation of a ubiquitous tool in programming, the Regular Expression, becomes almost trivial to implement when using an often-overlooked free structure, the Free Alternative. Through this accessible example, we explore the specific benefits of choosing to use a free structure for our implementation over other potential methods, and take a look into the philosophy of what makes free structures (of all types) such a powerful tool for programming.
+",
+      "start_time": "2019-06-24 12:45:00",
+      "end_time": "2019-06-24 13:30:00"
+
+    },
+    {
+      "name": "Gaetano Checinski",
+      "title": "Buckaroo SAT - Solving a partially revealed SAT problem for Package Management",
+      "abstract":
+        "<a href='https://github.com/LoopPerfect/buckaroo '>Buckaroo</a> is a fully decentralized package manager built on Git. Unlike most package managers, Buckaroo considers any Git repository as a package and every commit, branch and tag as a version. This design has many advantages, but it also leads to new and interesting challenges. Since the dependency graph is only revealed by fetching data from Git, <a href='https://en.wikipedia.org/wiki/Boolean_satisfiability_problem'>the SAT problem</a> is not fully known in advance. For large repositories, with many commits, this is an enormous search-space with a high cost of exploration. This talk explains the core logic in Buckaroo: a custom asynchronous <a href='https://en.wikipedia.org/wiki/Conflict-driven_clause_learning'>CDCL</a> SAT solver written in F#.",
+      "start_time": "2019-06-24 13:30:00",
+      "end_time": "2019-06-24 14:00:00"
+
+    },
+    {
+      "name": "Richard Feldman",
+      "title": "From Rails to Elm and Haskell",
+      "abstract":
+        "<p>When I joined NoRedInk in 2013, we had a typical Ruby on Rails web application. In 2015 we introduced Elm, a pure functional programming language for building Web UIs, and it spread like wildfire to become our primary tool for front-end programming. In 2019 we have over 300,000 lines of Elm code powering the user interface our millions of users rely on.</p>
+
+<p>The positive experience we had with Elm led us to seek out a pure functional language to use on the back-end, and in 2017 we introduced Haskell to our stack. This talk discusses the reasons we tried these technologies, what we hoped to get out of them compared to what we got, what went well and what didn’t, and the strategies we used to adopt them incrementally inside a mission-critical code base.</p>
+
+<p>Come find out what this production transition to a purely functional stack was like!</p>",
+      "start_time": "2019-06-24 14:00:00",
+      "end_time": "2019-06-24 14:30:00"
+
+    },
+    {
+      "name": "Samuel Gélineau",
+      "title": "Stuck macros: deterministically interleaving macro-expansion and typechecking",
+      "abstract":
+        "A new breed of functional programming languages is emerging: strongly-typed macro languages, such as Hackett and Typer. Those languages feature both macros, type inference, and most importantly, the combination of the two: macros which can interrogate the type inference system in order to decide which code to generate. Both languages propose to do so by interleaving macro-expansion and type-checking, but doing so naively leads to a non-deterministic outcome: the same program may be accepted by one version of the compiler and rejected by another! In this talk, I will explain what causes this non-determinism, and how allowing macros to get \"stuck\" could solve the problem.",
+      "start_time": "2019-06-24 14:45:00",
+      "end_time": "2019-06-24 15:30:00"
+
+    },
+    {
+      "name": "Vaibhav Sagar",
+      "title": "Yes, IHaskell Can Do That!",
+      "abstract":
+        "<p>IHaskell is a Haskell kernel for the Jupyter notebook project. As one of its most enthusiastic users, nothing frustrates me more than someone asking, \"but why?\". My second biggest frustration is when people ask, \"so what?\"</p>
+
+<p>This presentation is my attempt to answer both those questions once and for all. I'll demonstrate the various ways in which IHaskell makes my life better, and the many ways in which other people are using it.</p>
+
+<p>My hope is that after this presentation you will have a full understanding of what IHaskell can (or can't) do, an appreciation for how it fits into the Haskell ecosystem, and potentially be inspired to contribute!</p>",
+      "start_time": "2019-06-24 15:30:00",
+      "end_time": "2019-06-24 16:00:00"
+
+    },
+    {
+      "name": "Fintan Halpenny",
+      "title": "Bowl Full of Lentils",
+      "abstract":
+        "<p>Copy-paste is a ubiquitous tool in a programmer's box of shortcuts. Sometimes we just don't care that we're repeating ourselves because we need this thing fast. This is even more so when it comes to configurations. We are all guilty of taking an existing configuration file, copying its content and changing a few values. JSON and YAML do not have enough expressive power to avoid this effectively. But what if I told you there was something that does have this power? What if I told you we could DRY up our configuration files and practice functional programming at the same time? What will you choose the red pill or the blue pill?</p>
+
+<p>In this talk we will introduce ourselves to the configuration language, Dhall. We will discuss the importance of Dhall in the configuration language space. Dhall chooses a unique set of features such as being total, safe, strong & statically typed, and strongly normalising, giving us the expressive power that we deserve in our configuration language. We will examine how Dhall differs from its cousins JSON and YAML and what advantages it provides over these configuration languages.</p>
+
+<p>We will get a complete understanding of the language by examining its features under the lens of its native types and functions, from Text and Naturals to Records and Unions. With a grounding in the types that we can work with in Dhall, we will go through a configuration file that is geared for tuning a (mock) machine learning model, seeing how painful it is to copy and paste these in JSON, and making it all-so-much-better by using Dhall instead.</p>
+
+<p>We will alleviate the pain of configurations even more by introducing the dhall-bhat library. We will take a tour of the library and get familiar with the functional concepts it has to offer. We will look at such concepts as Functors, Applicatives, and Monads. We will also look at types that we commonly come across, such as Either, State, and Reader. We will then look through the previous example of a machine learning configuration and apply some functional techniques to get an even DRYer implementation.</p>
+
+<p>Attendees are recommended to have some familiarity with the functional concepts mentioned above, but are not required.</p>",
+      "start_time": "2019-06-24 16:00:00",
+      "end_time": "2019-06-24 16:30:00"
+
+    },
+
+
+
+    {
+      "name": "David Spivak",
+      "title": "KEYNOTE: Compositional Graphical Logic",
+      "abstract":
+        "Graphical logic is an idea with roots in work by C.S. Peirce, though his system was not compositional. In this talk, I will discuss graphical regular and geometric logic, both fully compositional, as well as some applications, e.g. in knowledge representation.",
+      "start_time": "2019-06-25 09:00:00",
+      "end_time": "2019-06-25 10:00:00"
+    },
+    {
+      "name": "Aditya Siram",
+      "title": "A Taste Of ATS",
+      "abstract":
+        "<p>ATS is one of the most exciting and advanced low level systems programming languages around. It's a statically-typed, fully functional no-GC ML exactly as fast as C with ADTs at the value, type, kind *and* proof level, statically verified pointer arithmetic, refinement types, linear types, dependent types and theorem proving!</p>
+
+<p>Just one problem, ATS has two modes, hard and super-hard, the tool support and ecosystem are non-existent and the ergonomics are post apocalyptic. *But* it has amazing and pragmatic ideas that should inspire the next great systems programming language. Join me for a whirlwind, warts-and-all tour of ATS's types, proofs and low level memory manipulation all with grounded, relatable but challenging examples.</p>
+
+<p>No experience with ATS is needed, only an appreciation for types, functional programming and systems programming. Just sit back, relax and enjoy!</p>",
+      "start_time": "2019-06-25 10:15:00",
+      "end_time": "2019-06-25 11:00:00"
+    },
+    {
+      "name": "Ward Wheeler",
+      "title": "Phylogenetic Software in Haskell",
+      "abstract":
+        "Our research group at the American Museum of Natural History is using Haskell to implement combinatorial search strategies on phylogenetic graphs. These graphs represent the evolutionary history of a variety of comparative biological phenomena including evolutionary trees of anatomy, DNA sequences, and the evolution of human populations, culture, and language. We present some of our work in data analysis and graph manipulations in the light of the benefits and challenges working in the Haskell ecosystem.",
+      "start_time": "2019-06-25 11:00:00",
+      "end_time": "2019-06-25 11:30:00"
+    },
+    {
+      "name": "Igor Trindade Oliveira",
+      "title": "Type Driven Secure Enclave Development using Idris",
+      "abstract":
+        "<p>From fintechs to static web sites, companies host their code in the cloud. However, when computation involving data with sensitive information is outsourced to a cloud vendor, data privacy and security is a matter of grave concern to the data-owner. Secure enclaves came to solve the secure remote computation problem by leveraging trusted hardware in the remote computer.</p>
+
+<p>Idris Language, dependent types support, allows types to be predicated on values that makes it possible to impose arbitrarily specific type constraints on functions, resulting in increased confidence about their runtime behavior.</p>
+
+<p>This talk will demonstrate how to run dependent type code in the Intel SGX enclave using Idris and proving that the code is safe.</p>",
+      "start_time": "2019-06-25 11:30:00",
+      "end_time": "2019-06-25 12:00:00"
+    },
+    {
+      "name": "David Christiansen",
+      "title": "Bidirectional Type Checking",
+      "abstract":
+        "When implementing a type checker, one must answer two questions: _how_ to compare types for sameness, be it a subsumption check for subtyping, a unification algorithm for type inference, or normalization for dependent types, and _when_ to check for sameness. The way most type systems are written provides little guidance on this question. One solution to the problem is _bidirectional type checking_, in which the typing judgment is split into two modes, one that checks an expression against a given type, and one that concocts a type for an expression. Bidirectional type checking tends to require a relatively low burden of annotations, it scales to powerful type systems, and it tends to do a good job associating type errors with source locations. I'll discuss the history of bidirectional type checking, show how to bidirectionalize known type systems, and walk through some implementations.",
+      "start_time": "2019-06-25 12:45:00",
+      "end_time": "2019-06-25 13:30:00"
+    },
+    {
+      "name": "Chris Smith",
+      "title": "Teaching the intersection of mathematics and functional programming",
+      "abstract":
+        "<p>Programmers are drawn to functional programming because of the natural fit with algebraic reasoning, but both algebra and computational thinking are also urgent concerns of K-12 schools and teachers. Algebra is recognized as the gateway to science and engineering, while computational thinking is seen as a new kind of literacy. Functional programming can join these fields together. It offers new relevance for algebra as a language to communicate ideas and express creativity. Algebra, on the other hand, unites a dizzying array of educational tools and activities with a universal language for working with information, decomposition, abstraction, and modeling - the fundamental ideas of computational thinking.</p>
+
+<p>This presentation will share the experience of the CodeWorld project, through which hundreds of students aged 10 to 15 across the United States have learned early algebra through functional programming. This highlights how functional programming is not just a useful tool for the technology industry, but a fruitful vantage point for uniting fields of knowledge and developing young minds.</p>",
+      "start_time": "2019-06-25 13:30:00",
+      "end_time": "2019-06-25 14:00:00"
+    },
+    {
+      "name": "Brandon Kase",
+      "title": "Fast Accumulation on Streams",
+      "abstract":
+        "<p>How can we take advantage of parallelism when combining a large amount of data streaming in over time? Come see how we can refine a naive parallel scan into one that scales up to any throughput, simultaneously minimizing latency and space usage, as long as our “combine” obeys a few algebraic laws.</p>
+
+<p>While developing Coda (a cryptocurrency protocol), we came across an interesting problem that uncovered a much more general and potentially widely applicable problem: Taking advantage of parallelism when combining a large amount of data streaming in over time. For Coda, this combine operation involves the recursive composition of zk-SNARK transaction proofs, but when we abstract away the details, what we're left with is a simple \"parallel scan\".</p>
+
+<p>After providing enough background on zk-SNARKs to introduce the problem, we’ll clearly state our requirements and optimize our naive solution in a few passes. We'll derive a tree-like data structure that scales up to any throughput optimally while simultaneously minimizing latency and space usage.</p>",
+      "start_time": "2019-06-25 14:00:00",
+      "end_time": "2019-06-25 14:30:00"
+    },
+    {
+      "name": "James Koppel",
+      "title": "The Best Refactoring You’ve Never Heard Of",
+      "abstract":
+        "<p>Every problem can be solved by many designs. Often the relation between two designs is that one is a transformation of another. When we understand how to mechanically transform designs, we can more easily explore the design space, and effortlessly identify the tradeoffs.
+
+<p>So, what do these design changes have in common?
+
+<ul>
+<li>Letting a search procedure take an arbitrary filter function, instead of a fixed set of options</li>
+<li>Changing a program using blocking I/O to non-blocking I/O with an event loop</li>
+<li>Letting a user stop in the middle of an action — and resume it after a server reboot</li>
+</ul>
+
+<p>Answer: They’re all instances of a transformation called “defunctionalization” or its inverse, “refunctionalization.” Come learn how it works, and learn to recognize when a proposed design change is just an instance of this general technique. In doing so, you’ll learn how the tradeoffs between designs can be boiled down into a single slogan: refunctionalized is more open, defunctionalized is more inspectable. As a plus, you’ll also learn how defunctionalization is the oldest technique to compile functional languages. ",
+      "start_time": "2019-06-25 14:45:00",
+      "end_time": "2019-06-25 15:30:00"
+    },
+    {
+      "name": "Allister Beharry",
+      "title": "Using Dependent Types in an F# DSL for Linear Algebra",
+      "abstract":
+        "<p>Linear systems are essential to scientific modelling and computing and vector spaces are one of the core abstractions in modern machine learning. Matrices are computational devices for calculating linear transformations from one vector space to the next and matrix algebra and calculus represent the kinds of operations that can be performed on linear systems.</p>
+
+<p>Type systems for linear algebra in existing scientific and ML software libraries across all major languages usually provide a single base multi-dimensional array type that represents a vector or matrix or tensor of any shape and dimensions (e.g. a NumPy array or Torch tensor.) Range checks on array types occur at run-time as do checks determining if for instance two arrays are conformable for matrix multiplication. This means that invalid matrix algebra or calculus operations can only be detected at run-time.</p>
+
+<p>Since the rank and dimensions of a vector, matrix or higher-order tensor are elements of the natural numbers + zero, a matrix or tensor type which depends on the number and size of each dimension could be used to lift many of these checks to the type level and move detection of linear algebra errors from run-time to compile-time.</p>",
+      "start_time": "2019-06-25 15:30:00",
+      "end_time": "2019-06-25 16:00:00"
+    },
+    {
+      "name": "Diego Balseiro",
+      "title": "Bridge Haskell and ReasonML in Production",
+      "abstract":
+        "<p>The different tools and technologies that we often use when developing software add complexity to our systems. To continue to build ways to test and to build reliable applications we believe in the connection between backend and frontend. One of the challenges that we face in web development is that we are often writing both in different languages and type systems.</p>
+
+<p>We need to continue to work on testing to make sure our applications are reliable and do not break when the API changes. We believe that a bridge can help us have a secure connection across the systems with a code generation tool that allows us to use the same types on both sides of the application.</p>
+
+<p>We will show a real-life case, using Haskell as a backend language, how we can get ReasonML (OCaml) types and JSON serialization/deserialization almost for free using Generics and how we can make sure our serialization is correct with automatic golden tests generation.</p>",
+      "start_time": "2019-06-25 16:00:00",
+      "end_time": "2019-06-25 16:30:00"
+    },
+  ]
+}
