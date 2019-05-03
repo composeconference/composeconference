@@ -147,7 +147,7 @@ functorality, it can be fun!</p>",
     },
     {
       "name": "Aditya Siram",
-      "title": "A Taste Of ATS",
+      "title": "A Tase Of ATS",
       "abstract":
         "<p>ATS is one of the most exciting and advanced low level systems programming languages around. It's a statically-typed, fully functional no-GC ML exactly as fast as C with ADTs at the value, type, kind *and* proof level, statically verified pointer arithmetic, refinement types, linear types, dependent types and theorem proving!</p>
 
