@@ -52,13 +52,11 @@ functorality, it can be fun!</p>",
       "name": "Sebastien Mondet",
       "title": "Genspio: Generating Shell Phrases In OCaml",
       "abstract":
-        "<p>Genspio is a typed EDSL to generate shell scripts from OCaml. The idea is to build values of type <code>'a Genspio.EDSL.t</code> with the combinators in the <code>Genspio.EDSL</code> module, and compile them to POSIX shell scripts (or one-liners) with functions from the <code>Genspio.Compile</code> module.</p>
-
-<p>The project provides two compilers. The standard compiler generates strict but complex POSIX shell expressions, which can be even treated as one-liners. The second compiler, generates much slower but simpler scripts targeting a subset of POSIX which aims at being portable to older and buggy interpreters which are still found in the wild. In addition, a few generic optimizations have been implemented, and the API gives access to a generic AST visitor (using standard OCaml objects).</p>
-
-<p>The most interesting parts of the implementation of the project are actually its testing infrastructure and its documenation.</p>
-
-<p>The tests aim at evaluating the portability of the generated code by running an extensive test suite with various shells and on various systems (including by providing infrastructure to try older operating systems or other architectures with Qemu)</p>.",
+        "<p><a href='https://smondet.gitlab.io/genspio-doc/'>Genspio</a> is a typed EDSL based on GADTs to generate shell scripts from OCaml.  We provide two compilers. The standard compiler generates strict but complex POSIX shell expressions, which can be even treated as one-liners. The second compiler, generates much slower but simpler scripts targeting a subset of POSIX which aims at being portable to older and buggy interpreters which are still found in the wild. In addition, a few generic optimizations have been implemented, and the API gives access to a generic AST visitor (using standard OCaml objects).  The most interesting parts of the implementation of the project are actually its testing infrastructure and its documenation.</p>
+        
+<p>The tests aim at evaluating the portability of the generated code by running an extensive test suite with various shells and on various systems (including by providing infrastructure to try older operating systems or other architectures with Qemu). They also include larger proof-of-concept examples which create 100% generated Github repositories for useful tools which do not depend on OCaml at all, see <a href='https://github.com/smondet/multi-git'>multi-git</a> (scripts for dealing with a few git repositories), and <a href='https://github.com/smondet/cosc'>cosc</a> (script to manage long-running processes using a hidden GNU-screen session).</p>
+        
+<p>The documentation effort has also been extensive. In addition API and examples, it includes a browser-based experimentation <a href='https://smondet.gitlab.io/genspio-doc/demo/genspio.0.0.2/index.html'>environment</a>; to try and modify the documented <a href='https://smondet.gitlab.io/genspio-doc/genspio.0.0.2/small-examples.html'>examples</a>, see type-errors, and inspect or even download the compilation outputs. This sub-project is based on the <code>Tyxml</code> and <code>react</code> OCaml libraries, builds with <code>js_of_ocaml</code>, and includes a full OCaml REPL running in a \"Web-worker.\" </p>",
       "start_time": "2019-06-24 11:30:00",
       "end_time": "2019-06-24 12:00:00"
 
