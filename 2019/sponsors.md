@@ -14,12 +14,36 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <h3>Silver Sponsors</h3>
   </div>
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <div class="panel panel-default">
           <div class="panel-heading">Jane Street</div>
-          <div class="panel-body centered">
+          <div class="panel-body centered" style="height: 120px;">
               <a href="https://www.janestreet.com/" target="_blank" >
               <img src="/assets/img/logos/jane_st.jpeg" class="img-responsive" alt="Jane Street">
+                  <br>
+              </a>
+          </div>
+      </div>
+      <p></p>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="panel panel-default">
+          <div class="panel-heading">Obsidian Systems</div>
+          <div class="panel-body centered" style="height: 120px;">
+              <a href="https://obsidian.systems/" target="_blank" >
+              <img src="/assets/img/logos/ObsidianSystemsLogo.svg" class="img-responsive" alt="Obsidian Systems">
+                  <br>
+              </a>
+          </div>
+      </div>
+      <p></p>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+      <div class="panel panel-default">
+          <div class="panel-heading">Soostone</div>
+          <div class="panel-body centered" style="height: 120px;">
+              <a href="http://soostone.com/" target="_blank" >
+              <img src="/assets/img/logos/SooStone.jpg" class="img-responsive" alt="Soostone">
                   <br>
               </a>
           </div>
