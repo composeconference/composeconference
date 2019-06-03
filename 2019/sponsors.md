@@ -14,7 +14,7 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <h3>Silver Sponsors</h3>
   </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
           <div class="panel-heading">Jane Street</div>
           <div class="panel-body centered" style="height: 120px;">
@@ -26,7 +26,7 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
       </div>
       <p></p>
   </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
           <div class="panel-heading">Obsidian Systems</div>
           <div class="panel-body centered" style="height: 120px;">
@@ -38,13 +38,25 @@ To find out how to be a sponsor, <!--please take a look at [this page](prospectu
       </div>
       <p></p>
   </div>
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+</div>
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
       <div class="panel panel-default">
           <div class="panel-heading">Soostone</div>
           <div class="panel-body centered" style="height: 120px;">
               <a href="http://soostone.com/" target="_blank" >
               <img src="/assets/img/logos/SooStone.jpg" class="img-responsive" alt="Soostone">
-                  <br>
+              </a>
+          </div>
+      </div>
+      <p></p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <div class="panel panel-default">
+          <div class="panel-heading">Tocqueville Group</div>
+          <div class="panel-body centered" style="height: 120px;">
+              <a href="https://tqgroup.io/" target="_blank" >
+              <img src="/assets/img/logos/TQ-Logo.svg" class="img-responsive" alt="Tocqueville Group">
               </a>
           </div>
       </div>
