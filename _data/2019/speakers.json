@@ -53,9 +53,9 @@ functorality, it can be fun!</p>",
       "title": "Genspio: Generating Shell Phrases In OCaml",
       "abstract":
         "<p><a href='https://smondet.gitlab.io/genspio-doc/'>Genspio</a> is a typed EDSL based on GADTs to generate shell scripts from OCaml.  We provide two compilers. The standard compiler generates strict but complex POSIX shell expressions, which can be even treated as one-liners. The second compiler, generates much slower but simpler scripts targeting a subset of POSIX which aims at being portable to older and buggy interpreters which are still found in the wild. In addition, a few generic optimizations have been implemented, and the API gives access to a generic AST visitor (using standard OCaml objects).  The most interesting parts of the implementation of the project are actually its testing infrastructure and its documenation.</p>
-        
+
 <p>The tests aim at evaluating the portability of the generated code by running an extensive test suite with various shells and on various systems (including by providing infrastructure to try older operating systems or other architectures with Qemu). They also include larger proof-of-concept examples which create 100% generated Github repositories for useful tools which do not depend on OCaml at all, see <a href='https://github.com/smondet/multi-git'>multi-git</a> (scripts for dealing with a few git repositories), and <a href='https://github.com/smondet/cosc'>cosc</a> (script to manage long-running processes using a hidden GNU-screen session).</p>
-        
+
 <p>The documentation effort has also been extensive. In addition API and examples, it includes a browser-based experimentation <a href='https://smondet.gitlab.io/genspio-doc/demo/genspio.0.0.2/index.html'>environment</a>; to try and modify the documented <a href='https://smondet.gitlab.io/genspio-doc/genspio.0.0.2/small-examples.html'>examples</a>, see type-errors, and inspect or even download the compilation outputs. This sub-project is based on the <code>Tyxml</code> and <code>react</code> OCaml libraries, builds with <code>js_of_ocaml</code>, and includes a full OCaml REPL running in a \"Web-worker.\" </p>",
       "start_time": "2019-06-24 11:30:00",
       "end_time": "2019-06-24 12:00:00"
@@ -72,10 +72,10 @@ functorality, it can be fun!</p>",
 
     },
     {
-      "name": "Gaetano Checinski",
-      "title": "Buckaroo SAT - Solving a partially revealed SAT problem for Package Management",
+      "name": "Jeff Ciesielski",
+      "title": "Deploying Haskell in a Python Microservice Environment: Also Robots",
       "abstract":
-        "<a href='https://github.com/LoopPerfect/buckaroo '>Buckaroo</a> is a fully decentralized package manager built on Git. Unlike most package managers, Buckaroo considers any Git repository as a package and every commit, branch and tag as a version. This design has many advantages, but it also leads to new and interesting challenges. Since the dependency graph is only revealed by fetching data from Git, <a href='https://en.wikipedia.org/wiki/Boolean_satisfiability_problem'>the SAT problem</a> is not fully known in advance. For large repositories, with many commits, this is an enormous search-space with a high cost of exploration. This talk explains the core logic in Buckaroo: a custom asynchronous <a href='https://en.wikipedia.org/wiki/Conflict-driven_clause_learning'>CDCL</a> SAT solver written in F#.",
+        "After struggling with global variables, mismatched types, and being constantly afraid to change any code for fear of runtime errors, our team decided to move a core piece of our robotics infrastructure from Python to a type safe language. After developing proofs of concept in Rust, OCaml, Crystal, Scala, and Go (and even getting close to a production candidate in Nim) an enterprising member of our team wrote a prototype in Haskell and the results were outstanding. With its emphasis on type safety, the elimination of global state, and an established library ecosystem, Haskell has been a great fit for our team. That said, our rollout wasn’t without hiccups! Once deployed we learned about space leaks and what lazy evaluation really means for continuously running software.",
       "start_time": "2019-06-24 13:30:00",
       "end_time": "2019-06-24 14:00:00"
 
