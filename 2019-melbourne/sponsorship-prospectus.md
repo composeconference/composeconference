@@ -1,6 +1,6 @@
 ---
-layout: 2018-melbourne/melbourne
-title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
+layout: 2019-melbourne/melbourne
+title: "C&#9702;mp&#9702;se :: Melbourne - 2019 Sponsorship-Prospectus"
 ---
 
 <style type="text/css">
@@ -28,7 +28,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
 
 <div class="container">
 
-  <h1 class="centered">Melbourne 2018 Sponsorship Prospectus</h1>
+  <h1 class="centered">Melbourne 2019 Sponsorship Prospectus</h1>
   <br />
 
   <div class="row">
@@ -36,7 +36,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
         <br />
         <br />
         <p>
-          <a href="/assets/img/2018-melbourne/compose-melbourne-2018-sponsorship-prospectus.pdf" target="_blank">Download PDF</a>
+          <a href="/assets/img/2019-melbourne/compose-melbourne-2019-sponsorship-prospectus.pdf" target="_blank">Download PDF</a>
         </p>
         <br />
         <br />
@@ -71,12 +71,12 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
         <p>
           Take advantage of this opportunity to show you are strongly
           engaged with the Melbourne functional programming
-          community by sponsoring Compose :: Melbourne 2018!
+          community by sponsoring Compose :: Melbourne 2019!
         </p>
         <br><br>
         <p><strong>Details:</strong></p>
         <ul>
-          <li>There are 1 Tier One, 2 Tier Two, 4 Tier Three sponsorship slots.</li>
+          <li>There are 1 Diamond, 3 Platinum, 5 Gold sponsorship slots.</li>
           <li>Banners must be provided by the sponsor.</li>
           <li>Logos must be provided by the sponsor.</li>
           <li>Logos will be on: printed material, formal slides, and the website composeconference.org, as specified by the tier structure.</li>
@@ -100,7 +100,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
   <div class="row">
     <div class="col-sm-6">
       <div class="tier">
-        <h3>Tier 1 Sponsor - $10,000</h3>
+        <h3>Diamond Sponsor - $6,000</h3>
         <ul>
           <li>6 tickets</li>
           <li>Acknowledgement on the first day</li>
@@ -115,13 +115,12 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
 
     <div class="col-sm-6">
       <div class="tier">
-        <h3>Tier 2 Sponsor - $5,000</h3>
+        <h3>Platinum Sponsor - $3,000</h3>
         <ul>
           <li> 4 tickets</li>
           <li>Acknowledgement on the first day</li>
           <li>Banners at the front of the stage and in communal areas</li>
           <li>Logo on website, banner, and conference materials</li>
-          <li>Swag for attendee bags</li>
         </ul>
       </div>
     </div>
@@ -130,21 +129,20 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsorship-Prospectus"
   <div class="row">
     <div class="col-sm-6">
       <div class="tier">
-        <h3>Tier 3 Sponsor - $2,000</h3>
+        <h3>Gold Sponsor - $1,000</h3>
         <ul>
           <li>3 tickets</li>
           <li>Acknowledgement on the first day</li>
           <li>Logo on website, banner, and conference materials</li>
-          <li>Swag for attendee bags</li>
         </ul>
       </div>
     </div>
 
     <div class="col-sm-6">
       <div class="tier">
-        <h3>Tier 4 Sponsor - $1,000</h3>
+        <h3>Silver Sponsor - In-kind</h3>
         <ul>
-          <li>2 tickets</li>
+          <li>A number of tickets, upon agreement.</li>
           <li>Acknowledgement on the first day</li>
           <li>Logo on website, and banner</li>
         </ul>

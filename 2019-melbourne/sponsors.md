@@ -1,6 +1,6 @@
 ---
-layout: 2018-melbourne/melbourne
-title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
+layout: 2019-melbourne/melbourne
+title: "C&#9702;mp&#9702;se :: Melbourne - 2019 Sponsors"
 ---
 
 <style type="text/css">
@@ -14,7 +14,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
 
 <div class="container">
 
-  <h1 class="centered">Melbourne 2018 Sponsors</h1>
+  <h1 class="centered">Melbourne 2019 Sponsors</h1>
   <br />
 
   <div class="row">
@@ -27,7 +27,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
       </p>
       <p>
         To find out how to be a sponsor, please take a look at our
-        <a href="/2018-melbourne/sponsorship-prospectus/">sponsorship information</a>.
+        <a href="/2019-melbourne/sponsorship-prospectus/">sponsorship information</a>.
       </p>
       <!-- <h3> More details coming soon... </h3> -->
     </div>
@@ -37,7 +37,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2018 Sponsors"
   <!-- Manually select only the tiers we have sponsors for -->
   {% for tier in (1..5) %}
   <div class="row">
-    {% for sponsor in site.data.2018-melbourne.sponsors.sponsors %}
+    {% for sponsor in site.data.2019-melbourne.sponsors.sponsors %}
         {% if sponsor.tier == tier %}
           {% if sponsor.tier <= 2 %}
           <div class="col-sm-12">
