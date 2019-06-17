@@ -13,7 +13,7 @@ Register for C◦mp◦se :: Conference 2019 tickets at [Eventbrite](https://www.
 
 <table class="table table-bordered" style="background: #fff">
     <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
-    <tr><td>8:30am - 9:00am</td><td>Registration</td></tr>
+    <tr><td>8:30am - 9:00am</td><td>Registration & Breakfast</td></tr>
 
 {% assign sorted = (site.data.2019.speakers.speakers | sort: 'start_time') %}
 
@@ -44,6 +44,7 @@ Register for C◦mp◦se :: Conference 2019 tickets at [Eventbrite](https://www.
 
 <table class="table table-bordered" style="background: #fff">
     <tr class="active"><th width="200">Time</th><th>Talk</th></tr>
+    <tr><td>8:30am - 9:00am</td><td>Registration & Breakfast</td></tr>
 
 {% for speaker in sorted %}
   {% if speaker.start_time >= '2019-06-24 18:00:00 -0500' %}

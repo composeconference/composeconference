@@ -62,6 +62,11 @@ functorality, it can be fun!</p>",
 
     },
     {
+      "title": "Lunch",
+      "start_time": "2019-06-24 12:00:00",
+      "end_time": "2019-06-24 12:45:00"
+    },
+    {
       "name": "Justin Le",
       "title": "Applicative Regular Expressions using the Free Alternative",
       "abstract":
@@ -174,6 +179,11 @@ functorality, it can be fun!</p>",
 <p>This talk will demonstrate how to run dependent type code in the Intel SGX enclave using Idris and proving that the code is safe.</p>",
       "start_time": "2019-06-25 11:30:00",
       "end_time": "2019-06-25 12:00:00"
+    },
+    {
+      "title": "Lunch",
+      "start_time": "2019-06-25 12:00:00",
+      "end_time": "2019-06-25 12:45:00"
     },
     {
       "name": "David Christiansen",
