@@ -35,9 +35,6 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2019 Sponsorship-Prospectus"
     <div class="col-sm-offset-2 col-sm-8 center">
         <br />
         <br />
-        <p>
-          <a href="/assets/img/2019-melbourne/compose-melbourne-2019-sponsorship-prospectus.pdf" target="_blank">Download PDF</a>
-        </p>
         <br />
         <br />
         To enquire about sponsorship process, please contact us at
@@ -108,7 +105,6 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2019 Sponsorship-Prospectus"
           <li>Branding at the start of recorded videos</li>
           <li>Banners at the front of the stage and in communal areas</li>
           <li>Logo on slide at start of sessions, central position<br> on website, banner, and conference materials</li>
-          <li>Swag for attendee bags</li>
         </ul>
       </div>
     </div>
@@ -145,6 +141,7 @@ title: "C&#9702;mp&#9702;se :: Melbourne - 2019 Sponsorship-Prospectus"
           <li>A number of tickets, upon agreement.</li>
           <li>Acknowledgement on the first day</li>
           <li>Logo on website, and banner</li>
+          <li><a src="mailto:sponsors@mfpai.org.au" target="_blank">Talk to us</a> to make up a plan together</li>
         </ul>
       </div>
     </div>

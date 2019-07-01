@@ -1,7 +1,7 @@
 ---
-layout: 2018-melbourne/melbourne
-title: C◦mp◦se 2018 Speakers
-permalink: /2018-melbourne/speakers/
+layout: 2019-melbourne/melbourne
+title: Melbourne C◦mp◦se 2019 Speakers
+permalink: /2019-melbourne/speakers/
 ---
 
 <style type="text/css">
@@ -36,121 +36,121 @@ permalink: /2018-melbourne/speakers/
 <br />
 
 <div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-        <h1 class="text-center">Programme</h1>
-        {% if site.data.2018-melbourne.speakers.show-level %}
-        <div class="keybox">
-          <table class="key agenda">
-            <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
-            <tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr>
-            <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
-          </table>
-        </div>
-        {% endif %}
-        <br/>
-        <table class="agenda">
-          {% for t in site.data.2018-melbourne.speakers.times %}
-            {% unless t.hide or t.hide_toc %}
-            {% if t.heading %}
-              <tr class="heading">
-                <td colspan="3">
-                  <h2><a href="#{{t.id}}">{{ t.time }} - {{ t.heading }}</a></h2>
-                  {{ t.blurb }}
-                  <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }}
-                </td>
-              </tr>
-            {% else %}
-              <tr class="time">
-                <td>{{t.time}}</td>
-                <td>{{t.name}}</td>
-                <td>
-                  <a href="#{{t.id}}">{{t.title}}</a>
-                  {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
-                  {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
-                </td>
-                {% if site.data.2018-melbourne.speakers.show-level %}
-                 <td>
-                   <nobr>
-                   {% if t.level >= 1 %} &#x1f535; {% endif %} 
-                   {% if t.level >= 2 %} &#x1f535; {% endif %} 
-                   {% if t.level >= 3 %} &#x1f535; {% endif %} 
-                   </nobr>
-                 </td>
-                {% endif %}
-              </tr>
-            {% endif %}
-            {% endunless %}
-          {% endfor %}
-        </table>
-      </div>
-  </div>
+<!--   <div class="row"> -->
+<!--     <div class="col-lg-10 col-lg-offset-1"> -->
+<!--         <h1 class="text-center">Programme</h1> -->
+<!--         {% if site.data.2019-melbourne.speakers.show-level %} -->
+<!--         <div class="keybox"> -->
+<!--           <table class="key agenda"> -->
+<!--             <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr> -->
+<!--             <tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr> -->
+<!--             <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr> -->
+<!--           </table> -->
+<!--         </div> -->
+<!--         {% endif %} -->
+<!--         <br/> -->
+<!--         <table class="agenda"> -->
+<!--           {% for t in site.data.2019-melbourne.speakers.times %} -->
+<!--             {% unless t.hide or t.hide_toc %} -->
+<!--             {% if t.heading %} -->
+<!--               <tr class="heading"> -->
+<!--                 <td colspan="3"> -->
+<!--                   <h2><a href="#{{t.id}}">{{ t.time }} - {{ t.heading }}</a></h2> -->
+<!--                   {{ t.blurb }} -->
+<!--                   <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }} -->
+<!--                 </td> -->
+<!--               </tr> -->
+<!--             {% else %} -->
+<!--               <tr class="time"> -->
+<!--                 <td>{{t.time}}</td> -->
+<!--                 <td>{{t.name}}</td> -->
+<!--                 <td> -->
+<!--                   <a href="#{{t.id}}">{{t.title}}</a> -->
+<!--                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %} -->
+<!--                   {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %} -->
+<!--                 </td> -->
+<!--                 {% if site.data.2019-melbourne.speakers.show-level %} -->
+<!--                  <td> -->
+<!--                    <nobr> -->
+<!--                    {% if t.level >= 1 %} &#x1f535; {% endif %}  -->
+<!--                    {% if t.level >= 2 %} &#x1f535; {% endif %}  -->
+<!--                    {% if t.level >= 3 %} &#x1f535; {% endif %}  -->
+<!--                    </nobr> -->
+<!--                  </td> -->
+<!--                 {% endif %} -->
+<!--               </tr> -->
+<!--             {% endif %} -->
+<!--             {% endunless %} -->
+<!--           {% endfor %} -->
+<!--         </table> -->
+<!--       </div> -->
+<!--   </div> -->
 
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-        <table class="table table-bordered">
-         <thead>
-          <tr>
-           <th>&nbsp;</th>
-           <th>Room 1 - Hacking/sharing</th>
-           <th>Room 2 - Workshop</th>
-           <th>Room 3 - Workshops</th>
-          </tr>
-         </thead>
-         <tr>
-           <td scope="row">9am</td>
-           <td colspan="3" class="break">Registration, catered morning tea, & signup for workshops & activities</td>
-         </tr>
-         <tr>
-          <td>10am</td>
-          <td>Mentoring matchups</td>
-          <td rowspan="2"><a href="#david_laing">Front-end development with Reflex</a></td>
-          <td rowspan="2"><a href="#lyndon_maydwell">CRASHKELL</a></td>
-         </tr>
-         <tr>
-          <td>10:30am</td>
-          <td>Flappy Bird in Haskell group learning</td>
-         </tr>
-         <tr>
-          <td>12pm</td>
-          <td class="break" colspan="3">Lunch - Not catered</td>
-         </tr>
-         <tr>
-          <td>1pm</td>
-          <td>Lightning talks</td>
-          <td rowspan="2">Front-end development with Reflex<br/>(continued)</td>
-          <td rowspan="2"><a href="#rob_howard">Building a Small Compiler in JavaScript</a></td>
-         </tr>
-         <tr>
-          <td>1:30pm</td>
-          <td>My first paper: recursion schemes group learning. </td>
-         </tr>
-         <tr>
-          <td>2:30pm</td>
-          <td colspan="3" class="break">Afternoon tea - Catered</td>
-         </tr>
-         <tr>
-          <td>3pm</td>
-          <td>Unrecruiting</td>
-          <td rowspan="2">Front-end development with Reflex<br/>(continued)	</td>
-          <td rowspan="2"><a href="#luke_stephenson">Monix Adventures</a></td>
-         </tr>
-         <tr>
-          <td>4pm</td>
-         </tr>
-         <tr>
-          <td>5pm</td>
-          <td colspan="3" class="break">The End</td>
-         </tr>
+<!--   <div class="row"> -->
+<!--     <div class="col-lg-10 col-lg-offset-1"> -->
+<!--         <table class="table table-bordered"> -->
+<!--          <thead> -->
+<!--           <tr> -->
+<!--            <th>&nbsp;</th> -->
+<!--            <th>Room 1 - Hacking/sharing</th> -->
+<!--            <th>Room 2 - Workshop</th> -->
+<!--            <th>Room 3 - Workshops</th> -->
+<!--           </tr> -->
+<!--          </thead> -->
+<!--          <tr> -->
+<!--            <td scope="row">9am</td> -->
+<!--            <td colspan="3" class="break">Registration, catered morning tea, & signup for workshops & activities</td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>10am</td> -->
+<!--           <td>Mentoring matchups</td> -->
+<!--           <td rowspan="2"><a href="#david_laing">Front-end development with Reflex</a></td> -->
+<!--           <td rowspan="2"><a href="#lyndon_maydwell">CRASHKELL</a></td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>10:30am</td> -->
+<!--           <td>Flappy Bird in Haskell group learning</td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>12pm</td> -->
+<!--           <td class="break" colspan="3">Lunch - Not catered</td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>1pm</td> -->
+<!--           <td>Lightning talks</td> -->
+<!--           <td rowspan="2">Front-end development with Reflex<br/>(continued)</td> -->
+<!--           <td rowspan="2"><a href="#rob_howard">Building a Small Compiler in JavaScript</a></td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>1:30pm</td> -->
+<!--           <td>My first paper: recursion schemes group learning. </td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>2:30pm</td> -->
+<!--           <td colspan="3" class="break">Afternoon tea - Catered</td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>3pm</td> -->
+<!--           <td>Unrecruiting</td> -->
+<!--           <td rowspan="2">Front-end development with Reflex<br/>(continued)	</td> -->
+<!--           <td rowspan="2"><a href="#luke_stephenson">Monix Adventures</a></td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>4pm</td> -->
+<!--          </tr> -->
+<!--          <tr> -->
+<!--           <td>5pm</td> -->
+<!--           <td colspan="3" class="break">The End</td> -->
+<!--          </tr> -->
 
-        </table>
-    </div>
-  </div>
-</div>
+<!--         </table> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </div> -->
 
 
 
-{% for t in site.data.2018-melbourne.speakers.times %}
+{% for t in site.data.2019-melbourne.speakers.times %}
 {% if t.heading %}
 ----
 <div class="container cfpsection" id="{{t.id}}" class="no-top-heading" style="padding-top: 60px;">
@@ -204,5 +204,5 @@ permalink: /2018-melbourne/speakers/
 ---
 
 <div class="container">
-Register for C◦mp◦se :: Conference 2018 tickets at <a href="https://www.eventbrite.com.au/e/compose-melbourne-2018-tickets-46002911948">Eventbrite</a>
+Register for Melbourne :: C◦mp◦se :: Conference 2019 tickets at <a href="https://www.eventbrite.com.au/e/2019-mini-melbourne-compose-conference-tickets-61752774210">Eventbrite</a>
 </div>
