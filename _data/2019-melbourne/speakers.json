@@ -122,13 +122,24 @@
     },
 
     {
-      "time": "Afternoon",
+      "time": "12:30-17:00",
+      "heading": "Hang Out and Hack Room",
+      "id": "hand-out-and-hack",
+      "blurb":
+	"Our Hang Out and Hack room will include: \"office hours\" (people can request help on particular topics, or offer to help others); lightning talks, free discussion and of course &mdash; hanging out and hacking&hellip; Bring your laptop!",
+      "location": "TBC"
+    },
+
+    {
+      "time": "13:30~15:30",
       "heading": "Unconference",
       "id": "unconference",
-      "blurb": "",
+      "blurb":
+	"The unconference is like open-mic for hackers. It's open for anyone to do a talk, just add your name to the list near the registration desk on the day of the conference.",
       "location": "<a href='https://goo.gl/maps/bZ13aL7EVm32'>RMIT - Building 80</a>"
     },
-  ]
+
+]
 }
 
 _storeaway = [
