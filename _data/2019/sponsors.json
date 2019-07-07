@@ -1,0 +1,32 @@
+{
+    "silver": [
+        {"name": "Jane Street",
+         "url": "https://www.janestreet.com/",
+         "logo": "/assets/img/logos/jane_st.jpeg"
+        },
+        {"name": "Obsidian Systems",
+         "url": "https://obsidian.systems/",
+         "logo": "/assets/img/logos/ObsidianSystemsLogo.svg"
+        },
+        {"name": "Soostone",
+         "url": "http://soostone.com/",
+         "logo": "/assets/img/logos/SooStone.jpg"
+        },
+        {"name": "Tocqueville Group",
+         "url": "https://tqgroup.io/",
+         "logo": "/assets/img/logos/TQ-Logo.svg"
+        },
+    ],
+
+    "bronze": [
+        {"name": "Awake Security",
+         "url": "https://awakesecurity.com/",
+         "logo": "/assets/img/logos/awake-security-blue.svg",
+         "style": "padding-top: 20px; padding-bottom: 20px; width: 40%;"
+        },
+        {"name": "Galois",
+         "url": "https://galois.com/",
+         "logo": "/assets/img/logos/galois.jpg"
+        },
+    ],
+}
