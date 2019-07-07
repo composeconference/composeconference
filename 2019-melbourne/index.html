@@ -233,11 +233,12 @@ title: Melbourne 2019
 </div>
 <div id="portfoliowrap">
 	<div class="container">
-		<div class="row">
+		<div cass="row">
 			<div class="col-md-4 col-sm-4 unconfblock">
 				<h4> News! </h4>
 				<p style="font-size:13px">
-					Latest news and announcements!
+				        Coming soon...
+				        <!-- Latest news and announcements! -->
 					<!-- TODO: Add a news page for all posts. -->
 				</p>
 			</div>
@@ -247,7 +248,7 @@ title: Melbourne 2019
 					<table style="margin: auto; width: 100%;">
 						{% for post in site.posts limit:5 %}
 							{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-							{% capture range %}{{'2018-01-01 00:00:00 +1000' | date: '%s'}}{% endcapture %}
+							{% capture range %}{{'2019-01-01 00:00:00 +1000' | date: '%s'}}{% endcapture %}
 							{% if posttime > range %}
 							<tr>
 								<td style=" text-align: left;">
@@ -390,8 +391,8 @@ title: Melbourne 2019
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
 				<p class="history">
 					C&#9702;mp&#9702;se is organized by the organizers of the
-					<a href="http://www.meetup.com/NY-Haskell/">New York Haskell Users Group</a>,
-					<a href="/2017/organizers/">namely: Doug Beardsley, Gershom Bazerman, Kat Chuang, Rick Minerich, and Ryan Trinkle.</a> <br/>
+					<a href="http://www.meetup.com/NY-Haskell/">New York Haskell Users Group</a> and:
+					<a href="/2019/organizers/">Gershom Bazerman, Doug Beardsley, Kat Chuang, Ryan Trinkle, Ashish Agarwal, Chelsea Betancourt, and Anastasia Bez.</a> <br/>
 				</p>
 				<p class="history">
 					We welcome more people wanting to get involved as functional
