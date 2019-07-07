@@ -1,0 +1,66 @@
+sponsors:
+  # Tier 1, Diamond:
+
+  # Tier 2, Platinum:
+
+  # - name:      'REA (Sponsor)'
+  #   link:      'https://www.realestate.com.au/'
+  #   link_text: 'realestate.com.au'
+  #   by_line:   'We are a multinational digital advertising company specialising in property.'
+  #   img:       '/assets/img/logos/rea.png'
+  #   tier:      2
+  #   tier_name: "Platinum"
+
+  # Tier 3, Gold:
+
+  # - name:      'Data 61 (Sponsor)'
+  #   link:      'https://data61.csiro.au/'
+  #   link_text: 'data61.csiro.au'
+  #   by_line:   "CSIRO's Data61: Australia's leading digital innovation network"
+  #   img:       '/assets/img/logos/DATA61-CSIRO_OnWhite.png'
+  #   tier:      3
+  #   tier_name: "Gold"
+
+  # - name:      'SEEK (Sponsor)'
+  #   link:      'http://www.seek.com.au/'
+  #   link_text: 'seek.com.au'
+  #   by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
+  #   img:       '/assets/img/logos/seek.png'
+  #   tier:      3
+  #   tier_name: "Gold"
+
+  # - name:      'YesLogic (Sponsor)'
+  #   link:      'http://www.yeslogic.com/'
+  #   link_text: 'YesLogic'
+  #   by_line:   'We develop powerful tools for the Web Age.'
+  #   img:       '/assets/img/logos/yeslogic-kerning-logo.png'
+  #   tier:      3
+  #   tier_name: "Gold"
+
+  # Tier 4, Silver:
+
+  # - name:      'Envato (Sponsor)'
+  #   link:      'http://envato.com/'
+  #   link_text: 'Envato'
+  #   by_line:   'We help people learn, develop and create for the Web.'
+  #   img:       '/assets/img/logos/envato-logo.png'
+  #   tier:
+  #   tier_name: "Silver"
+
+  # Tier 5, In Kind:
+
+  - name:      'Silverpond (Sponsor)'
+    link:      'http://silverpond.com.au/'
+    link_text: 'Silverpond'
+    by_line:   'Accelerating the adoption of AI.'
+    img:       '/assets/img/logos/silverpond_portrait_logo.jpg'
+    tier:      4
+    tier_name: "Silver"
+
+  - name:      'RMIT (Venue Sponsor)'
+    link:      'https://www.rmit.edu.au'
+    link_text: 'RMIT University'
+    by_line:   'RMIT is a global university of technology, design and enterprise.'
+    img:       '/assets/img/logos/RMIT.jpg'
+    tier:      4
+    tier_name: "Silver"

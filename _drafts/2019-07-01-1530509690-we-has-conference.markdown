@@ -1,0 +1,17 @@
+---
+layout: 2018-melbourne/news-post
+title:  "Melbourne Mini-Conference is On!"
+---
+
+![](/assets/img/2018-melbourne/einstein.png)
+
+Deja Vu! It's this time of the year again!
+
+INTERNAL NOTE: Announce whatever is ready:
+- Ticket sales!
+- Sponsorship opportunities!
+- Call for workshops for the Unconf/HOAH?
+
+Ideally, write here the same thing we're going to send to all local meetups and everyone else as a press release.
+
+![](/assets/img/2018-melbourne/cat.png)
