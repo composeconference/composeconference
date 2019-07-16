@@ -66,13 +66,13 @@
       "id": "brendan-zabarauskas",
       "name": "Brendan Zabarauskas",
       "img": "/assets/img/2019-melbourne/brendan_zabarauskas.jpg",
-      "title": "",
+      "title": "Lost in a Universe of Types: My Adventures in Programming Languages",
       "abstract":
-        "",
+        "Programming language design is kind of like world building. This is what  initially got me excited about it! In this talk I'll take you on journey,  showing how I originally became excited about programming languages as a  result of my artistic interests. I'll then cover why we are excited about  programming languages and dependent types at YesLogic, and share some of the  struggles I've had in applying academic research to industrial problems.",
       "home": "https://voyager3.tumblr.com/",
       "github": "brendanzab",
       "twitter": "brendanzab",
-        "level": 1,
+        "level": 2,
       "bio":
         "With a background in communication design, illustration, generative art, and open source software development, Brendan is fascinated by the intersection of art, design, mathematics and computer science. His current focus is on exploring how programming languages and type systems can be used as a tool for designing safer, more robust, and friendly software. This involves keeping abreast of past and present academic research and figuring out ways to integrate this into industrial applications. He currently works at YesLogic, building a dependently typed domain specific language for describing binary data formats.",
     },
