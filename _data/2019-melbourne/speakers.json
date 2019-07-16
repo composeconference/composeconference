@@ -1,5 +1,5 @@
 {
-  "show-level": false,
+  "show-level": true,
   "times": [
     {
       "time": "Morning",
@@ -37,7 +37,7 @@
       "twitter": "ambrosebs",
       "level": 1,
       "bio":
-      '"I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system."'
+      "\"I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system.\""
     },
     {
       "time": "10:00am",
@@ -96,7 +96,7 @@
       "twitter": "",
       "level": 3,
       "bio":
-        "Jack is a Haskell enthusiast, lapsed tall-ship sailor and member of the Queensland FP Lab. He has tutored functional programming at universities and for industrial programmers, and loves seeing the lightbulb go on above people's heads. Jack became frustrated trying to reason about imperative code in dynamic languages, decided that Haskell looked like a good tool to solve business problems and followed a path through Data61 to the QFPL's door.",
+        "Jack is a Haskell enthusiast, lapsed tall-ship sailor and member of the Queensland FP Lab. He has tutored functional programming at universities and for industrial programmers, and loves seeing the lightbulb go on above people's heads. Jack became frustrated trying to reason about imperative code in dynamic languages, decided that Haskell looked like a good tool to solve business problems and followed a path through Data61 to the QFPL's door."
     },
     {
       "time": "12:00pm",
@@ -109,7 +109,7 @@
       "home": "http://wils.online/",
       "github": "gwils",
       "twitter": "GeorgeTalksCode",
-      "level": 2,
+      "level": 3,
       "bio":
         "George Wilson is an enthusiastic functional programmer from Brisbane, Australia. He works on open source Haskell projects and educational material at the Queensland Functional Programming Lab inside Data61. George is also a member of the Haskell Core Libraries Committee and the Haskell.org Committee."
     },
