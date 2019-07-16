@@ -36,55 +36,55 @@ permalink: /2019-melbourne/speakers/
 <br />
 
 <div class="container">
-<!--   <div class="row"> -->
-<!--     <div class="col-lg-10 col-lg-offset-1"> -->
-<!--         <h1 class="text-center">Programme</h1> -->
-<!--         {% if site.data.2019-melbourne.speakers.show-level %} -->
-<!--         <div class="keybox"> -->
-<!--           <table class="key agenda"> -->
-<!--             <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr> -->
-<!--             <tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr> -->
-<!--             <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr> -->
-<!--           </table> -->
-<!--         </div> -->
-<!--         {% endif %} -->
-<!--         <br/> -->
-<!--         <table class="agenda"> -->
-<!--           {% for t in site.data.2019-melbourne.speakers.times %} -->
-<!--             {% unless t.hide or t.hide_toc %} -->
-<!--             {% if t.heading %} -->
-<!--               <tr class="heading"> -->
-<!--                 <td colspan="3"> -->
-<!--                   <h2><a href="#{{t.id}}">{{ t.time }} - {{ t.heading }}</a></h2> -->
-<!--                   {{ t.blurb }} -->
-<!--                   <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }} -->
-<!--                 </td> -->
-<!--               </tr> -->
-<!--             {% else %} -->
-<!--               <tr class="time"> -->
-<!--                 <td>{{t.time}}</td> -->
-<!--                 <td>{{t.name}}</td> -->
-<!--                 <td> -->
-<!--                   <a href="#{{t.id}}">{{t.title}}</a> -->
-<!--                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %} -->
-<!--                   {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %} -->
-<!--                 </td> -->
-<!--                 {% if site.data.2019-melbourne.speakers.show-level %} -->
-<!--                  <td> -->
-<!--                    <nobr> -->
-<!--                    {% if t.level >= 1 %} &#x1f535; {% endif %}  -->
-<!--                    {% if t.level >= 2 %} &#x1f535; {% endif %}  -->
-<!--                    {% if t.level >= 3 %} &#x1f535; {% endif %}  -->
-<!--                    </nobr> -->
-<!--                  </td> -->
-<!--                 {% endif %} -->
-<!--               </tr> -->
-<!--             {% endif %} -->
-<!--             {% endunless %} -->
-<!--           {% endfor %} -->
-<!--         </table> -->
-<!--       </div> -->
-<!--   </div> -->
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <h1 class="text-center">Programme</h1>
+        {% if site.data.2019-melbourne.speakers.show-level %}
+        <div class="keybox">
+          <table class="key agenda">
+            <tr><td>&#x1f535;&nbsp;</td> <td>Little assumed knowledge </td></tr>
+            <tr><td>&#x1f535;&#x1f535;&nbsp;</td> <td>Moderate assumed knowledge</td> </tr>
+            <tr><td>&#x1f535;&#x1f535;&#x1f535;&nbsp;</td> <td>Significant assumed knowledge </td></tr>
+          </table>
+        </div>
+        {% endif %}
+        <br/>
+        <table class="agenda">
+          {% for t in site.data.2019-melbourne.speakers.times %}
+            {% unless t.hide or t.hide_toc %}
+            {% if t.heading %}
+              <tr class="heading">
+                <td colspan="3">
+                  <h2><a href="#{{t.id}}">{{ t.time }} - {{ t.heading }}</a></h2>
+                  {{ t.blurb }}
+                  <i class="fa fa-map-marker fa fa-fw"></i>{{ t.location }}
+                </td>
+              </tr>
+            {% else %}
+              <tr class="time">
+                <td>{{t.time}}</td>
+                <td>{{t.name}}</td>
+                <td>
+                  <a href="#{{t.id}}">{{t.title}}</a>
+                  {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
+                  {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
+                </td>
+                {% if site.data.2019-melbourne.speakers.show-level %}
+                 <td>
+                   <nobr>
+                   {% if t.level >= 1 %} &#x1f535; {% endif %}
+                   {% if t.level >= 2 %} &#x1f535; {% endif %}
+                   {% if t.level >= 3 %} &#x1f535; {% endif %}
+                   </nobr>
+                 </td>
+                {% endif %}
+              </tr>
+            {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </table>
+      </div>
+  </div>
 
 <!--   <div class="row"> -->
 <!--     <div class="col-lg-10 col-lg-offset-1"> -->

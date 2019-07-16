@@ -1,5 +1,5 @@
 {
-  "show-level": false,
+  "show-level": true,
   "times": [
     {
       "time": "Morning",
@@ -37,7 +37,7 @@
       "twitter": "ambrosebs",
       "level": 1,
       "bio":
-      '"I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system."'
+      "\"I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system.\""
     },
     {
       "time": "10:00am",
@@ -51,13 +51,13 @@
       "id": "svetlana-marina",
       "name": "Svetlana Marina",
       "img": "/assets/img/2019-melbourne/svetlana_marina.jpg",
-      "title": "",
+      "title": "Day-to-Day Property Based Testing in Scala",
       "abstract":
-        "",
+        "Property-based testing is a popular testing concept, which came from the world of Functional Programming. QuickCheck in Haskell is an iconic framework, which introduced us to this idea. Today we can find testing libraries supporting PBT in any main-stream languages, including Scala, JavaScript, Ruby, Python, Java, etc. <br /><br /> We all like the idea of building high quality and robust code, covering all the possible and impossible edge cases. Maybe this is why many of us are getting hooked on the Property-based testing approach or at least we are not opposed to try it out.<br /><br /> It gives us an ability to run a single test case hundreds of times on a large range of data, covering edge cases we’ve never thought we had in the first place.<br /><br /> However, if you are like me and your day-to-day job is to create an API and save data into a database or maybe even send it over to another API, you also probably struggled to come up with a good application of this practice. It is easy and “very useful” to test that a reverse of a collection is still working. But, when it comes to if-else conditions, we find it hard to come up with the right property to test. <br /><br /> In this talk I would like to focus on a practical application of this concept, presenting some examples in ScalaCheck. I will start with a summary of what Property-based testing (PBT) framework equips you with and what should you expect from it. There will be basic examples demonstrating the power of PBT. But mostly, I will cover existing patterns and tips you can take to your normal life projects and use them to leverage this PBT tool.",
       "home": "https://svetixbot.github.io/me/",
       "github": "Svetixbot",
       "twitter": "svetixbot",
-      "level": 2,
+      "level": 1,
       "bio":
         "Svetlana is a Software Engineer at ThoughtWorks. She likes delivering software into production and making this a joyful process. She's is a polyglot and during her career she had a chance to work with quite a set of different languages. The most impactful of them for her was Scala, which introduced her to the world of functional programming. Since then, she always tried to adopt FP concepts on her projects, even if they were in the mainstream non-fp languages."
     },
@@ -66,13 +66,13 @@
       "id": "brendan-zabarauskas",
       "name": "Brendan Zabarauskas",
       "img": "/assets/img/2019-melbourne/brendan_zabarauskas.jpg",
-      "title": "",
+      "title": "Lost in a Universe of Types: My Adventures in Programming Languages",
       "abstract":
-        "",
+        "Programming language design is kind of like world building. This is what  initially got me excited about it! In this talk I'll take you on journey,  showing how I originally became excited about programming languages as a  result of my artistic interests. I'll then cover why we are excited about  programming languages and dependent types at YesLogic, and share some of the  struggles I've had in applying academic research to industrial problems.",
       "home": "https://voyager3.tumblr.com/",
       "github": "brendanzab",
       "twitter": "brendanzab",
-        "level": 1,
+        "level": 2,
       "bio":
         "With a background in communication design, illustration, generative art, and open source software development, Brendan is fascinated by the intersection of art, design, mathematics and computer science. His current focus is on exploring how programming languages and type systems can be used as a tool for designing safer, more robust, and friendly software. This involves keeping abreast of past and present academic research and figuring out ways to integrate this into industrial applications. He currently works at YesLogic, building a dependently typed domain specific language for describing binary data formats.",
     },
@@ -88,24 +88,24 @@
       "id": "jack-kelly",
       "name": "Jack Kelly",
       "img": "/assets/img/2019-melbourne/jack_kelly.jpg",
-      "title": "",
+      "title": "Reflex Outside the Browser",
       "abstract":
-        "",
+        "Functional Reactive Programming (FRP) is often introduced by discussing events and behaviors, and how to transform and mix them. But once you understand the primitives, what do you do with them? Where do the first events come from, and how do you wire these parts into a larger whole? <br /><br />FRP promises benefits in more domains than just user interfaces, so let's take a look at Reflex outside its most common habitat of web frontends. There's now a fairly up-to-date version of Reflex on Hackage, so we can play with it right away and leave GHCjs, Reflex-DOM, special build tools, and the custom nix frameworks for later. <br /><br />An FRP network of events and behaviors runs inside a library called a \"host\", which interfaces between the FRP network and the outside world. Using an interactive OpenGL program as our example, we'll explore how a slightly larger reactive program hangs together, and how it uses the host's features to do what it needs to do.",
       "home": "https://jackkelly.name/",
       "github": "https://git.sr.ht/~jack",
       "twitter": "",
-      "level": 2,
+      "level": 3,
       "bio":
-        "Jack is a Haskell enthusiast, lapsed tall-ship sailor and member of the Queensland FP Lab. He has tutored functional programming at universities and for industrial programmers, and loves seeing the lightbulb go on above people's heads. Jack became frustrated trying to reason about imperative code in dynamic languages, decided that Haskell looked like a good tool to solve business problems and followed a path through Data61 to the QFPL's door.",
+        "Jack is a Haskell enthusiast, lapsed tall-ship sailor and member of the Queensland FP Lab. He has tutored functional programming at universities and for industrial programmers, and loves seeing the lightbulb go on above people's heads. Jack became frustrated trying to reason about imperative code in dynamic languages, decided that Haskell looked like a good tool to solve business problems and followed a path through Data61 to the QFPL's door."
     },
     {
       "time": "12:00pm",
       "id": "george-wilson",
       "name": "George Wilson",
       "img": "/assets/img/2019-melbourne/george_wilson.jpg",
-      "title": "",
+      "title": "An Intuition for Propagators",
       "abstract":
-        "",
+        "The propagator model of computation developed by Radul and Sussman consists of stateful cells connected by independent stateless machines called propagators. These propagator networks are a helpful way to structure or think about computations, particularly those that are concurrent or distributed. <br /><br />This talk will give an intuition for what these propagator networks look like, why they work, and how we can use them to build programs. Efficient implementation will not be covered. <br /><br />The Haskell community has recently seen concurrency abstractions bearing similarities to propagators, such as the work on LVars by Kuper and Newton; and also projects directly influenced by propagators, such as Edward Kmett's recent work.",
       "home": "http://wils.online/",
       "github": "gwils",
       "twitter": "GeorgeTalksCode",
