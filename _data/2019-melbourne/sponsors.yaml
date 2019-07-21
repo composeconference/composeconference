@@ -3,6 +3,14 @@ sponsors:
 
   # Tier 2, Platinum:
 
+  - name:      'MYOB (Platinum Sponsor)'
+    link:      'https://www.myob.com/au/'
+    link_text: 'myob.com.au'
+    by_line:   'Great business software is just one part of the story.'
+    img:       '/assets/img/logos/MYOB+White+Background-tight.png'
+    tier:      2
+    tier_name: "Platinum"
+
   # - name:      'REA (Sponsor)'
   #   link:      'https://www.realestate.com.au/'
   #   link_text: 'realestate.com.au'
@@ -29,13 +37,13 @@ sponsors:
   #   tier:      3
   #   tier_name: "Gold"
 
-  # - name:      'YesLogic (Sponsor)'
-  #   link:      'http://www.yeslogic.com/'
-  #   link_text: 'YesLogic'
-  #   by_line:   'We develop powerful tools for the Web Age.'
-  #   img:       '/assets/img/logos/yeslogic-kerning-logo.png'
-  #   tier:      3
-  #   tier_name: "Gold"
+  - name:      'YesLogic (Gold Sponsor)'
+    link:      'http://www.yeslogic.com/'
+    link_text: 'YesLogic'
+    by_line:   'We develop powerful tools for the Web Age.'
+    img:       '/assets/img/logos/yeslogic-kerning-logo.png'
+    tier:      3
+    tier_name: "Gold"
 
   # Tier 4, Silver:
 
@@ -49,7 +57,7 @@ sponsors:
 
   # Tier 5, In Kind:
 
-  - name:      'Silverpond (Sponsor)'
+  - name:      'Silverpond (In-Kind Sponsor)'
     link:      'http://silverpond.com.au/'
     link_text: 'Silverpond'
     by_line:   'Accelerating the adoption of AI.'
