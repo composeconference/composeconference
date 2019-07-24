@@ -29,19 +29,20 @@ sponsors:
   #   tier:      3
   #   tier_name: "Gold"
 
-  # - name:      'SEEK (Sponsor)'
-  #   link:      'http://www.seek.com.au/'
-  #   link_text: 'seek.com.au'
-  #   by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
-  #   img:       '/assets/img/logos/seek.png'
-  #   tier:      3
-  #   tier_name: "Gold"
 
   - name:      'YesLogic (Gold Sponsor)'
     link:      'http://www.yeslogic.com/'
     link_text: 'YesLogic'
     by_line:   'We develop powerful tools for the Web Age.'
     img:       '/assets/img/logos/yeslogic-kerning-logo.png'
+    tier:      3
+    tier_name: "Gold"
+
+  - name:      'SEEK (Sponsor)'
+    link:      'http://www.seek.com.au/'
+    link_text: 'seek.com.au'
+    by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
+    img:       '/assets/img/logos/seek.png'
     tier:      3
     tier_name: "Gold"
 

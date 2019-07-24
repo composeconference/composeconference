@@ -9,7 +9,7 @@ At Melbourne::Compose we want everybody to feel equally valued: speakers and beg
 
 That's why we're announcing a financial assistance program with the goal of helping people attend Melbourne :: Compose who would otherwise be unable to or have great difficulty attending. 
 
-Also, because we would like for everyone to feel included in all our initiatives, we're announcing a draw among our ticket-holders, so a number of lucky composers can attend our speakers' dinner.
+Also, because we would like for everyone to feel included in all our initiatives, we're announcing a draw among our ticket-holders, so a number of lucky composers can attend our speakers' dinner on 1 September.
 
 ### Who will receive financial assistance?
 
