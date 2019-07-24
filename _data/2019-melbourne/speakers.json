@@ -1,6 +1,7 @@
 {
   "show-level": true,
-  "times":     {
+  "times": [
+    {
       "time": "Morning",
       "heading": "Talks",
       "id": "talks",
