@@ -20,7 +20,7 @@
       "name": "Ken Scambler",
       "id": "introduction",
       "title": "Introduction by the Committee",
-      "details": "Welcome to Melbourne :: Compose!",
+      "details": "Welcome to Melbourne :: Compose 2019!",
       "committee": true
     },
 
@@ -28,16 +28,16 @@
       "id": "ambrose_bonnaire-sergeant",
       "name": "Ambrose Bonnaire-Sergeant",
       "img": "/assets/img/2019-melbourne/ambrose_bonnaire-sergeant.jpg",
-      "title": "",
+      "title": "The Hidden Data Flow in Types",
       "abstract":
-        "",
+        "On the surface, function types simply describe inputs and outputs&mdash;indeed, that's how they're used in most type systems. But there's more to function types!<br /><br /> Fascinatingly, a function type can be transformed into a data flow graph that predicts the inner workings of any function that has that type. Using this graph, intricate dependencies between function inputs and outputs can be inferred without having to read code or documentation.<br /><br /> In this talk you will learn how to see function types in a different light, gaining clairvoyant powers to predict how their implementations behave.<br /><br /> We will cover how this insight enables the impressive type inference of <a href='https://flow.org/'>Flow</a> and <a href='https://www.cl.cam.ac.uk/~sd601/mlsub/'>MLsub</a>, and explore possible future applications to other languages like <a href='https://www.typescriptlang.org/'>TypeScript</a>, <a href='https://docs.racket-lang.org/ts-guide/'>Typed Racket</a>, and <a href='https://typedclojure.org/'>Typed Clojure</a>.",
       "time": "9:15am",
       "home": "https://ambrosebs.com",
       "github": "frenchy64",
       "twitter": "ambrosebs",
-      "level": 1,
+      "level": 2,
       "bio":
-      "\"I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system.\""
+      "I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system.<br /><br /><a href='https://ambrosebs.com/'>Home Page</a>"
     },
     {
       "time": "10:00am",
@@ -139,7 +139,7 @@
       "location": "<a href='https://goo.gl/maps/bZ13aL7EVm32'>RMIT - Building 80</a>"
     },
 
-]
+
 }
 
 _storeaway = [
