@@ -21,15 +21,6 @@ sponsors:
 
   # Tier 3, Gold:
 
-  # - name:      'Data 61 (Sponsor)'
-  #   link:      'https://data61.csiro.au/'
-  #   link_text: 'data61.csiro.au'
-  #   by_line:   "CSIRO's Data61: Australia's leading digital innovation network"
-  #   img:       '/assets/img/logos/DATA61-CSIRO_OnWhite.png'
-  #   tier:      3
-  #   tier_name: "Gold"
-
-
   - name:      'YesLogic (Gold Sponsor)'
     link:      'http://www.yeslogic.com/'
     link_text: 'YesLogic'
@@ -43,6 +34,14 @@ sponsors:
     link_text: 'seek.com.au'
     by_line:   "Australia's no. 1 jobs, employment, career and recruitment site."
     img:       '/assets/img/logos/seek.png'
+    tier:      3
+    tier_name: "Gold"
+
+  - name:      'Data 61 (Gold Sponsor)'
+    link:      'https://data61.csiro.au/'
+    link_text: 'data61.csiro.au'
+    by_line:   "CSIRO's Data61: Australia's leading digital innovation network"
+    img:       '/assets/img/logos/DATA61-CSIRO_OnWhite.png'
     tier:      3
     tier_name: "Gold"
 
