@@ -120,6 +120,34 @@
       "name": "<hr />",
       "break": true
     },
+    {
+      "time": "13:30-17:00",
+      "id": "ken-ben",
+      "name": "Ben Hutchison",
+      "name2": "Ken Scambler",
+      "img": "/assets/img/2019-melbourne/ben_hutchison.jpg",
+      "img2": "/assets/img/2019-melbourne/ken_scambler.jpg",
+      "title": "WORKSHOP - Getting started with Scala 3",
+      "abstract":
+        "Over the last 16 years, Scala has become one of the most widely used FP languages, and has had a profound influence on newer languages like Swift, Kotlin and recent versions of Java and C#. <br/><br/> It is also about to receive a dramatic overhaul! Scala 3, due to be released next year, adds, modifies and deletes dozens of features currently in Scala 2. These aim to simplify common workflows, discourage bad practices, encourage good practices, and in some cases, are bold innovations. The current beta version is not yet production-level stable, but the feature set is expected to largely be the same for general release. <br/> <br/> Let's learn it! <br/> <br/> Whether you're a grizzled Scala veteran or new to Scala & FP, this workshop will help you get going with Scala 3, get familiar with the features and how to use them.",
+      "level": 2,
+      "bio":
+        "Ben Hutchison is a software engineer of 20 years experience with a passion for the craft of programming. He works as a Software Architect at Seek in Melbourne. Ben founded and has co-organized the Melbourne Scala Meetup since 2009. He is a open-source contributor to the Scala core libraries and the Typelevel ecosystem.",
+      "bio2":
+        "Ken is a longtime advocate of functional programming, types & category theory, and a co-organiser of the Melbourne Scala Users Group. Based in Melbourne, he is currently a software architect at MYOB."
+    },
+    {
+      "time": "13:30-17:00",
+      "id": "lyndon-maydwell",
+      "name": "Lyndon Maydwell",
+      "img": "/assets/img/2019-melbourne/lyndon_maydwell.jpg",
+      "title": "WORKSHOP - Crashkell",
+      "abstract":
+        "As part of Melbourne :: Compose 2019 I'm running - for the second time - a short introductory Haskell workshop called 'Crashkell'. <br/><br/> Over the last few years I've run previous versions of the workshop, but based on past feedback… <br/><br/> 'Less Talking, More Typing!' <br/><br/> I reworked the content to…<br/><br/><ul> <li> Be instantly accessible via the web, with no setup required </li> <li> Have no lecture material, being composed entirely of exercises </li> <li> Progressively teach concepts without requiring jumping around </li> <li> Be completely broken! Every exercise will crash, requiring debugging </li> </ul><br/>Crashkell leverages Jupyter notebooks and the MyBinder platform to allow attendees to be up and running instantly. Jump directly into exercises with no section introductions and get immediate feedback inline, without the requirement to install any tools.<br/><br/>About the format of the workshop - The examples are broken by design. The flow of interaction is to run the exercise, look at the error, and work towards fixing the error while considering the meaning, and the motivation of the exercise. This is a great way to learn for a few reasons…<br/><br/> <ul><li> It prevents you from skipping through the code without reading </li><li> It teaches you how to interpret the languages error messages </li><li> It removes anxiety about breaking the code, since it starts broken </li><li> It facilitates discussion among groups of attendees </li><li> And finally, It forces the content author to consider the order of the introduction of concepts </li></ul><br/>I look forward to seeing you there!",
+      "level": 1,
+      "bio":
+        "Lyndon is currently head of engineering at Silverpond. Having joined the company 6 years ago, over this time he has been instrumental in transforming the agency from a handful of software and technology experts to the leading AI delivery specialists in Melbourne. A large part of this has been due to his commitment to a full-stack competency within Silverpond - providing not only the ability to crack the core of difficult problems requiring the application of cutting edge research, but also the buildout of instrumentation, integration, interfaces, deployment, and support required to take ideas to market. He has a strong interest in the analysis of building software quickly and correctly and as such has been a central figure in the functional-programming community - helping organise Melbourne's first non-academic conference in this field. This focus is tempered with the necessary pragmatism to work with clients on aggressive timelines to deliver in make-or-break scenarios. His diverse experience across search, ontologies, ISP tech, graph problems, distributed systems, web, and AI make it likely that he will have a useful contributing perspective on any software technology problem. Lyndon is also an amateur cellist and finds inspiration from musicality in the art of the expressive construction of beautiful programs."
+    },
 
     {
       "time": "12:30-17:00",
@@ -137,61 +165,7 @@
       "blurb":
 	"The unconference is like open-mic for hackers. It's open for anyone to do a talk, just add your name to the list near the registration desk on the day of the conference.",
       "location": "<a href='https://goo.gl/maps/bZ13aL7EVm32'>RMIT - Building 80</a>"
-    },
+    }
 ]
 
 }
-
-_storeaway = [
-    {
-      "hide_toc": true,
-      "time": "9am",
-      "id": "day-two-registration",
-      "name": "<hr />",
-      "title": "Registration",
-      "break": true
-    },
-    {
-      "hide_toc": true,
-      "time": "10am-12pm",
-      "id": "lyndon_maydwell",
-      "name": "Lyndon Maydwell",
-      "title": "WORKSHOP - CRASHKELL",
-      "twitter": "ConSord",
-      "bio": "Lyndon works at Silverpond as a project manager / architect / janitor and has run Haskell workshops for the past 5 years. Endorse him on <a href='https://www.linkedin.com/in/lyndon-maydwell-01455723/'>Linkedin!</a>",
-      "abstract": "The feedback from last-year's Haskell workshop was clear: \"Less Talking, More Typing!\". In response to this, I have reworked the content to... <p/> <ul> <li> Be instantly accessible via the web, with no setup required </li> <li> Have no lecture material, being composed entirely of exercises </li> <li> Progressively teach concepts without requiring jumping around</li> <li> Be completely broken! Every exercise will crash, requiring debugging</li> </ul> <p/> Skeptical? Come along and find out if this was a terrible idea!<br><br><strong>Note:</strong> This is an introductory workshop. Please bring a laptop with a modern web-browser.",
-      "img": "/assets/img/2019-melbourne/lyndon_maydwell.jpg"
-    },
-    {
-      "hide_toc": true,
-      "time": "10am-5pm",
-      "id": "david_laing",
-      "name": "David Laing",
-      "title": "WORKSHOP - Front-end development with Reflex",
-      "bio": "Dave is a programmer working at the Queensland Functional Programming Lab. <p/> He is mostly interested in programming language theory, functional reactive programming, Nix, session types, and various other bits and pieces of mathematics and theory associated with functional programming. <p/> He is also passionate about spreading all of this knowledge, mostly by giving talks and writing blog posts and other training material, but also via talking to people at conferences, in pubs, and during elevator rides.",
-      "abstract": "There has been a lot of excitement about Functional Reactive Programming (FRP). <p/> Most of it has been about distant relatives of the original idea, which are nowhere near as powerful or as useful. The `reflex` library -- and the companion `reflex-dom` library -- were created in order to use FRP to do front-end development using Haskell. This workshop will give you hands-on experience with these libraries. <p/> The workshop will show attendees a new way to manage state and time-dependent logic, with significant benefits over the standard approaches when it comes to abstraction, composition and correctness. It will also make the case that when these ideas are applied to front-end development, they lead to something beyond what is delivered by libraries like `react` and `redux`.",
-      "img": "/assets/img/2019-melbourne/david_laing.jpg"
-    },
-    {
-      "hide_toc": true,
-      "time": "1pm-2:30pm",
-      "id": "rob_howard",
-      "name": "Rob Howard",
-      "title": "WORKSHOP - Building a Small Compiler in JavaScript",
-      "twitter": "damncabbage",
-      "bio": "Hi! I'm Rob, and I'm a web developer who currently switches between Elixir, Ruby and TypeScript at work up in sunny Sydney. Having so far made a career from learning and mixing the nice parts from different programming languages, I love nothing better than to help programming communities to learn more from each other, and become more welcoming for newcomers.",
-      "abstract": "\"Compilers\" are usually-mysterious things that a lot of us actually use and rely on from day to day, eg. the JavaScript V8 compiler, the TypeScript compiler, or the Clang+LLVM compilers. Digging into how these work can be satisfying (like sleuthing a good puzzle); but some of the ways we implement them can appear in other forms, such as when validating user input, transforming big structures, or when separating side-effects from business logic. <p/> This workshop will comprise of a short talk that introduces the main parts of a compiler, followed by an at-your-own-pace tour through building a little one of your own. We'll start with a simple language that compiles to JavaScript. <p/> We'll be stepping through: <ul> <li>Tokenising (taking a string and turning it into a bunch of symbols),</li> <li>Token Parsing (taking these symbols and turning it into a representation of a program), and</li> <li>Code Generating (taking that representation and turning it into, in this case, JavaScript).</li> </ul> <p/> This workshop is for people who are already somewhat familiar with JavaScript (just the language itself, not any particular library or framework). <p/> To get going you only need this repository, a Terminal / Console, Node.js 8+, and a text editor of your choice. <p/> <h3>Prerequisites</h3> <ul> <li>Node.js 8+ (if you don't have it, then visit the Node.js download page, or use your package manager to install it, eg. Homebrew on macOS).</li> <li>The workshop repository at <a href='https://github.com/damncabbage/js-compiler-workshop'>https://github.com/damncabbage/js-compiler-workshop</a>. (Copies will be provided at the workshop as well.)</li> </ul> ",
-      "img": "/assets/img/2019-melbourne/rob_howard.jpg"
-    },
-    {
-      "hide_toc": true,
-      "time": "3pm-5pm",
-      "id": "luke_stephenson",
-      "name": "Luke Stephenson",
-      "title": "WORKSHOP - Monix adventures",
-      "twitter": "lukestephenson8",
-      "bio": "Lead Developer at REA. 3 years commercial Scala experience.<p/>On the Melbourne Scala User Group committee.",
-      "abstract": "An introduction to Monix Task and Observable. Both are introduced through a series of problems which need to be solved using Monix APIs.  Tests are provided so participants can see progress and know the solution works. <p/> So far I've run the Task exercises internally at REA and 1 hour was sufficient for that.  I suspect another hour will cover the Observable exercises (which I'm still working on).  <a href='https://github.com/lukestephenson/monix-adventures'>https://github.com/lukestephenson/monix-adventures</a><p/><h3>Prerequisites</h3>Sbt, intellij (or editor of choice)",
-      "img": "/assets/img/2017-melbourne/luke_stephenson.jpg"
-    }
-]

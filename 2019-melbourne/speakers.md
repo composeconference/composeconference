@@ -63,7 +63,7 @@ permalink: /2019-melbourne/speakers/
             {% else %}
               <tr class="time">
                 <td>{{t.time}}</td>
-                <td>{{t.name}}</td>
+                <td>{{t.name}}{% if t.name2 %}, {{t.name2}} {% endif %}</td>
                 <td>
                   <a href="#{{t.id}}">{{t.title}}</a>
                   {% if t.video %}<a href="{{ t.video }}">(Video)</a>{% endif %}
@@ -86,69 +86,6 @@ permalink: /2019-melbourne/speakers/
       </div>
   </div>
 
-<!--   <div class="row"> -->
-<!--     <div class="col-lg-10 col-lg-offset-1"> -->
-<!--         <table class="table table-bordered"> -->
-<!--          <thead> -->
-<!--           <tr> -->
-<!--            <th>&nbsp;</th> -->
-<!--            <th>Room 1 - Hacking/sharing</th> -->
-<!--            <th>Room 2 - Workshop</th> -->
-<!--            <th>Room 3 - Workshops</th> -->
-<!--           </tr> -->
-<!--          </thead> -->
-<!--          <tr> -->
-<!--            <td scope="row">9am</td> -->
-<!--            <td colspan="3" class="break">Registration, catered morning tea, & signup for workshops & activities</td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>10am</td> -->
-<!--           <td>Mentoring matchups</td> -->
-<!--           <td rowspan="2"><a href="#david_laing">Front-end development with Reflex</a></td> -->
-<!--           <td rowspan="2"><a href="#lyndon_maydwell">CRASHKELL</a></td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>10:30am</td> -->
-<!--           <td>Flappy Bird in Haskell group learning</td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>12pm</td> -->
-<!--           <td class="break" colspan="3">Lunch - Not catered</td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>1pm</td> -->
-<!--           <td>Lightning talks</td> -->
-<!--           <td rowspan="2">Front-end development with Reflex<br/>(continued)</td> -->
-<!--           <td rowspan="2"><a href="#rob_howard">Building a Small Compiler in JavaScript</a></td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>1:30pm</td> -->
-<!--           <td>My first paper: recursion schemes group learning. </td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>2:30pm</td> -->
-<!--           <td colspan="3" class="break">Afternoon tea - Catered</td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>3pm</td> -->
-<!--           <td>Unrecruiting</td> -->
-<!--           <td rowspan="2">Front-end development with Reflex<br/>(continued)	</td> -->
-<!--           <td rowspan="2"><a href="#luke_stephenson">Monix Adventures</a></td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>4pm</td> -->
-<!--          </tr> -->
-<!--          <tr> -->
-<!--           <td>5pm</td> -->
-<!--           <td colspan="3" class="break">The End</td> -->
-<!--          </tr> -->
-
-<!--         </table> -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </div> -->
-
-
 
 {% for t in site.data.2019-melbourne.speakers.times %}
 {% if t.heading %}
@@ -166,10 +103,15 @@ permalink: /2019-melbourne/speakers/
 
   <div class="container cfpsection" id="{{t.id}}">
     <div class="row" style="margin-top: 60px;">
+
       <div class="col-lg-4 col-md-4 col-sm-4 name">
-        <h2>{% unless t.break %}{{ t.name }}<br/>{% endunless %}{{t.time}}</h2>
+        <h2>{% unless t.break %}{{ t.name }}<br/>{{t.name2}}<br/>{% endunless %}{{t.time}}</h2>
         {% if t.img %} <img src="{{t.img}}" /> {% endif %}
+<br/>
+<br/>
+        {% if t.img2 %} <img src="{{t.img2}}" /> {% endif %}
       </div>
+
       <div class="col-lg-8 col-md-8 col-sm-8 name-desc">
         <div class="col-lg-10 col-md-10 col-sm-10">
           <h3 class="no-top-space">
@@ -187,10 +129,18 @@ permalink: /2019-melbourne/speakers/
               {% if t.slides %}<a href="{{ t.slides }}">(Slides)</a>{% endif %}
             </div>
           {% endif %}
+
           {% if t.bio %}
             <div class="bio">
               <h3> About {{t.name}} </h3>
               {{ t.bio }}
+            </div>
+          {% endif %}
+
+          {% if t.bio2 %}
+            <div class="bio">
+              <h3> About {{t.name2}} </h3>
+              {{ t.bio2 }}
             </div>
           {% endif %}
         </div>
@@ -204,5 +154,5 @@ permalink: /2019-melbourne/speakers/
 ---
 
 <div class="container">
-Register for Melbourne :: C◦mp◦se :: Conference 2019 tickets at <a href="https://www.eventbrite.com.au/e/2019-mini-melbourne-compose-conference-tickets-61752774210">Eventbrite</a>
+Register for Melbourne :: C◦mp◦se 2019 tickets at <a href="https://www.eventbrite.com.au/e/2019-mini-melbourne-compose-conference-tickets-61752774210">Eventbrite</a>
 </div>
