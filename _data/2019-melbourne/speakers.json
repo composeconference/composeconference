@@ -148,7 +148,22 @@
       "bio":
         "Lyndon is currently head of engineering at Silverpond. Having joined the company 6 years ago, over this time he has been instrumental in transforming the agency from a handful of software and technology experts to the leading AI delivery specialists in Melbourne. A large part of this has been due to his commitment to a full-stack competency within Silverpond - providing not only the ability to crack the core of difficult problems requiring the application of cutting edge research, but also the buildout of instrumentation, integration, interfaces, deployment, and support required to take ideas to market. He has a strong interest in the analysis of building software quickly and correctly and as such has been a central figure in the functional-programming community - helping organise Melbourne's first non-academic conference in this field. This focus is tempered with the necessary pragmatism to work with clients on aggressive timelines to deliver in make-or-break scenarios. His diverse experience across search, ontologies, ISP tech, graph problems, distributed systems, web, and AI make it likely that he will have a useful contributing perspective on any software technology problem. Lyndon is also an amateur cellist and finds inspiration from musicality in the art of the expressive construction of beautiful programs."
     },
-
+    {
+      "time": "13:30-17:00",
+      "id": "geoff-javier",
+      "name": "Geoff Huntley",
+      "name2": "Javier Candeira",
+      "img": "/assets/img/2019-melbourne/ghuntley.jpg",
+      "img2": "/assets/img/2019-melbourne/candeira.jpg",
+      "title": "WORKSHOP - Introduction to Nix and NixOS",
+      "abstract":
+        "The Nix/NixOS ecosystem is a new way of building software.<br/><br/> Nix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible. It provides atomic upgrades and rollbacks, side-by-side installation of multiple versions of a package, multi-user package management and easy setup of build environments. <br/><br /> NixOS is a Linux distribution with a unique approach to package and configuration management. Built on top of the Nix package manager, it is completely declarative, makes upgrading systems reliable, and has many other advantages. <br/><br/> This workshop introduces attendees to using, developing on, and developing for Nix and Nixos. <br /><br /> Some knowledge of unix-like command lines and some programming experience are required, but we'll assume no prior knowledge of Nix and NixOS themselves. <br /> <br /> Please bring your laptop with a recent copy of VirtualBox installed on it.",
+      "level": 2,
+      "bio":
+        "\"I’m Geoff, a principal developer advocate. A software engineer with a “Jack-of-All-Trades” background.<br /><br /> I deeply care about helping developers be successful with platforms or technology products that I deeply care about. As a Developer Advocate my role is to act as a bridge between organizational structures and the developer community.<br /><br /> On an average day ™ you’ll find me shipping features along side the engineering team, crafting code examples, curating communities, doctoring documentation, and acting as an internal advocate and feedback-getter.\"",
+      "bio2":
+        "Javier is a software developer living and working in Melbourne. He likes short bios.",
+    },
     {
       "time": "12:30-17:00",
       "heading": "Hang Out and Hack Room",
