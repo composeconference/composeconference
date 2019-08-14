@@ -158,11 +158,11 @@
       "title": "WORKSHOP - Introduction to Nix and NixOS",
       "abstract":
         "The Nix/NixOS ecosystem is a new way of building software.<br/><br/> Nix is a powerful package manager for Linux and other Unix systems that makes package management reliable and reproducible. It provides atomic upgrades and rollbacks, side-by-side installation of multiple versions of a package, multi-user package management and easy setup of build environments. <br/><br /> NixOS is a Linux distribution with a unique approach to package and configuration management. Built on top of the Nix package manager, it is completely declarative, makes upgrading systems reliable, and has many other advantages. <br/><br/> This workshop introduces attendees to using, developing on, and developing for Nix and Nixos. <br /><br /> Some knowledge of unix-like command lines and some programming experience are required, but we'll assume no prior knowledge of Nix and NixOS themselves. <br /> <br /> Please bring your laptop with a recent copy of VirtualBox installed on it.",
-      "level": 2,
+      "level": 1,
       "bio":
         "Geoff is a software engineer who over the years has sysadmin'ed Tru64, Solaris, AIX, FreeBSD, HP-UX, RedHat and Debian/Ubuntu boxes. The Queensland FP Lab folks introduced him to NixOS about a year ago and he's super glad that they did.",
       "bio2":
-        "Javier is a software developer living and working in Melbourne. He also likes short bios.",
+        "Javier is a software developer living and working in Melbourne. He likes short bios.",
     },
     {
       "time": "12:30-17:00",
