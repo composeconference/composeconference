@@ -11,13 +11,6 @@ sponsors:
     tier:      2
     tier_name: "Platinum"
 
-  # - name:      'REA (Sponsor)'
-  #   link:      'https://www.realestate.com.au/'
-  #   link_text: 'realestate.com.au'
-  #   by_line:   'We are a multinational digital advertising company specialising in property.'
-  #   img:       '/assets/img/logos/rea.png'
-  #   tier:      2
-  #   tier_name: "Platinum"
 
   # Tier 3, Gold:
 
@@ -42,6 +35,22 @@ sponsors:
     link_text: 'data61.csiro.au'
     by_line:   "CSIRO's Data61: Australia's leading digital innovation network"
     img:       '/assets/img/logos/DATA61-CSIRO_OnWhite.png'
+    tier:      3
+    tier_name: "Gold"
+
+  - name:      'Zendesk (Gold Sponsor)'
+    link:      'https://www.zendesk.com/'
+    link_text: 'zendesk.com'
+    by_line:   'The best customer experiences are built with Zendesk.'
+    img:       '/assets/img/logos/zendesk.png'
+    tier:      3
+    tier_name: "Gold"
+
+  - name:      'REA (Gold Sponsor)'
+    link:      'https://www.realestate.com.au/'
+    link_text: 'realestate.com.au'
+    by_line:   'We are a multinational digital advertising company specialising in property.'
+    img:       '/assets/img/logos/rea.png'
     tier:      3
     tier_name: "Gold"
 
