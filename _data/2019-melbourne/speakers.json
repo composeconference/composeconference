@@ -36,6 +36,7 @@
       "github": "frenchy64",
       "twitter": "ambrosebs",
       "level": 2,
+			"video": "https://www.youtube.com/watch?v=Uw8ayBv1j7Y&list=PLNoHgLVTxtaqqOMpvgwYS3TnKLQ_Ok1AJ&index=1",
       "bio":
       "I understand the world by identifying and teaching the essence of important ideas. With computers, I tend towards the design and implementation of programming languages. Recently, I dissertated on extending the Clojure programming language with a static type system.<br /><br /><a href='https://ambrosebs.com/'>Home Page</a>"
     },
@@ -58,6 +59,7 @@
       "github": "Svetixbot",
       "twitter": "svetixbot",
       "level": 1,
+			"video": "https://www.youtube.com/watch?v=8P-nkPNYYuo&list=PLNoHgLVTxtaqqOMpvgwYS3TnKLQ_Ok1AJ&index=2",
       "bio":
         "Svetlana is a Software Engineer at ThoughtWorks. She likes delivering software into production and making this a joyful process. She's is a polyglot and during her career she had a chance to work with quite a set of different languages. The most impactful of them for her was Scala, which introduced her to the world of functional programming. Since then, she always tried to adopt FP concepts on her projects, even if they were in the mainstream non-fp languages."
     },
@@ -73,6 +75,7 @@
       "github": "brendanzab",
       "twitter": "brendanzab",
         "level": 2,
+			"video": "https://www.youtube.com/watch?v=L9TubiWkBZ8&list=PLNoHgLVTxtaqqOMpvgwYS3TnKLQ_Ok1AJ&index=3",
       "bio":
         "With a background in communication design, illustration, generative art, and open source software development, Brendan is fascinated by the intersection of art, design, mathematics and computer science. His current focus is on exploring how programming languages and type systems can be used as a tool for designing safer, more robust, and friendly software. This involves keeping abreast of past and present academic research and figuring out ways to integrate this into industrial applications. He currently works at YesLogic, building a dependently typed domain specific language for describing binary data formats.",
     },
@@ -95,6 +98,7 @@
       "github": "https://git.sr.ht/~jack",
       "twitter": "",
       "level": 3,
+			"video": "https://www.youtube.com/watch?v=iik7yfB8BGo&list=PLNoHgLVTxtaqqOMpvgwYS3TnKLQ_Ok1AJ&index=4",
       "bio":
         "Jack is a Haskell enthusiast, lapsed tall-ship sailor and member of the Queensland FP Lab. He has tutored functional programming at universities and for industrial programmers, and loves seeing the lightbulb go on above people's heads. Jack became frustrated trying to reason about imperative code in dynamic languages, decided that Haskell looked like a good tool to solve business problems and followed a path through Data61 to the QFPL's door."
     },
@@ -110,6 +114,7 @@
       "github": "gwils",
       "twitter": "GeorgeTalksCode",
       "level": 3,
+			"video": "https://www.youtube.com/watch?v=nY1BCv3xn24&list=PLNoHgLVTxtaqqOMpvgwYS3TnKLQ_Ok1AJ&index=5",
       "bio":
         "George Wilson is an enthusiastic functional programmer from Brisbane, Australia. He works on open source Haskell projects and educational material at the Queensland Functional Programming Lab inside Data61. George is also a member of the Haskell Core Libraries Committee and the Haskell.org Committee."
     },
